@@ -1,0 +1,94 @@
+ Torquato\cite{Sigmund1997} 
+%%The energy factor defined as a ratio of the strain energy stored in
+%the design cell to the strain energy stored in the whole structure due
+%to work done by the stress difference results from the discontinuity at
+%the interface.
+
+Recently, based on the BESO method, a concurrent multiscale topology
+design method with  stress-based material orientation optimization is
+proposed to optimally design macrostructure, material microstructure and
+material orientation distribution simultaneously \cite{Yan2019}. Yan et
+al. \cite{Yan2020} proposed hybrid stress-strain method to determine the
+material orientation for simultaneous design problem. They hybrid
+stress-strain method is constructured by weighting the optimiality
+condition of the mean compliance, in the stress and strain form. The
+proposed method demostrates to deal with the shear weak and strong
+materials and method can be extended to deal with 3D problem. However,
+it is difficult to extend the analytical approach to complex loading
+conditions or other physical situations, Hence from the prespective of
+scalability, versatile orientation optimzation techniques using design
+sensitivity are preferable.
+
+CFAO: Bruyneeland \cite{Bruyneel2002} used sequential convex programming
+to composite structure when considering the material orientations and
+ply thickness simultaneously based on Methods of Moving Asymptotes
+(MMA). Jiang et.al. \cite{Jia2008} modified the original SIMP method to
+accommodate anisotropic behavior by including fiber angle as a design
+variable, and applied to FRC for minimum compliance. The method is
+commanly referred as solid orthotropic material penalization (SOMP).
+\cite{Lindgaard2011} gradient based optimization of the buckling load of
+laminate composite structures considering fiber angle deisng variables.
+The optimization formualtion are based on either linear or geomterically
+nonlinear analysis and formulated as mathematical programming problems
+solved using gradient based techniques.  In [4], a three-dimensional
+example was considered as a cantilever beam with a unit load applied at
+the free end. This approach performed 3D topology optimization by
+traversing sequentially to the orthogonal direction of a 3D structure
+resulting in different compliance for each direction, which can be
+useful for designers when considering the potential loading scenarios.
+However, for composite materials with a strong anisotropy, the optimal
+topology can be significantly different from the results obtained using
+this approach. It demonstrates handling 2D composite components and very
+low-resolution 3D problems, but the fiber orientation is still
+constrained to a plane.
+Level set methods offer a clear description of the design’s boundary
+while optimization. In this framework, \cite{Wang2004, Wang2015} are the
+adopted methods to design a structure that is composed of  phases of
+materials with level set functions.
+
+
+\subsubsection*{Sequentical}
+\cite{Chen2021} design procedure integrate TO, Fiber placement technique
+and CF4 to print high load-bearing FRC cantilever and three-point
+bending specimens and their mechanical performance was comparatively
+investigated. this study did not address the anisotropic behaviour of
+continuous fibre-reinforced composites during the topological
+optimisation, for potential further weight-saving.
+\subsubsection*{Simultaneous}
+\cite{Zhang2021} a TO framework for  hyperelastic structure with
+nonlinear and anisotropic fiber reinforcement under large deformation.
+the optimized distributiopn of fiber orientation is chosen from a srt of
+discrete orientation defined a priori, and several fiber orientation
+interploation schems are studied
+
+\subsection*{Spatially varying fiber fraction}
+CCF reinforced composites have been increasingly applied and
+investigated for additive manufacturing techniques. For instance,
+Sugiyama et al. \cite{Sugiyama2018} use CF4 techology to fabricate
+sandwich structures with honeycomb, rhomboid, rectangular and circular
+core shapes to study their mechanical properties under three-point
+bending. Pyl et al. \cite{Pyl2019} demostrated the placement of
+continuous constant fibres fraction to reduce stress concentrations
+around the hole is exploited in open-hole tests. The experiential
+demonstration shows that the reduction in the maximum value of stress
+concentration factor \cite{Malakhov2016} and increment in the stiffness
+\cite{Sugiyama2020} of the curvilinear geometrically discontinuous
+structure by considering the design of fiber orientation and fiber
+volume fraction simultaneously. However, it is more conducive to apply
+topology optimisation in the first stage for designing optimal
+engineering structures with specific aims such as light weight or
+stiffness maximisation, but current design studies have mostly neglected
+the topology optimisation stage and focused rather on fibre ply analysis
+of simple structures (i.e. bolt-jointed panels with simple geometries).
+Although there are theoretical exploitations for topology optimisation
+of continuous fibre composites, they lack manufacturing applications and
+experimental investigations. Hence, it is essential and vital to develop
+multidisciplinary design and analysis which integrates topology
+optimisation, carbon fibre reinforcement techniques and additive
+manufacturing of fibre-reinforced composite parts.ù
+
+
+Adopting similar orientation  variable  given in \cite{Nomura2015}, Lee
+et al.\cite{Lee2018} presented a topology optimizationmethod for the
+sequential three-step design of material layout and fibre orientation in
+functionally graded fibre-reinforced composite structures.
