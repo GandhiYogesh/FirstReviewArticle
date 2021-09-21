@@ -1,0 +1,167 @@
+\begin{thebibliography}{10}
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\expandafter\ifx\csname href\endcsname\relax
+  \def\href#1#2{#2} \def\path#1{#1}\fi
+
+\bibitem{Kokkinis2015}
+D.~Kokkinis, M.~Schaffner, A.~R. Studart, {Multimaterial magnetically assisted
+  {3D} printing of composite materials}, Nat. Commun. 6 (2015) 1--10.
+\newblock \href {http://dx.doi.org/10.1038/ncomms9643}
+  {\path{doi:10.1038/ncomms9643}}.
+
+\bibitem{Berrocal2019}
+L.~Berrocal, R.~Fern{\'{a}}ndez, S.~Gonz{\'{a}}lez, A.~Peri{\~{n}}{\'{a}}n,
+  S.~Tudela, J.~Vilanova, L.~Rubio, J.~M. {Mart{\'{i}}n M{\'{a}}rquez},
+  J.~Guerrero, F.~Lasagni, {Topology optimization and additive manufacturing
+  for aerospace components}, Prog. Addit. Manuf. 4 (2019) 83--95.
+\newblock \href {http://dx.doi.org/10.1007/s40964-018-0061-3}
+  {\path{doi:10.1007/s40964-018-0061-3}}.
+
+\bibitem{Cramer2017}
+A.~D. Cramer, V.~J. Challis, A.~P. Roberts, {Physically Realizable
+  Three-Dimensional Bone Prosthesis Design With Interpolated Microstructures},
+  J. Biomech. Eng. 139.
+\newblock \href {http://dx.doi.org/10.1115/1.4035481}
+  {\path{doi:10.1115/1.4035481}}.
+
+\bibitem{Fleck2010}
+N.~A. Fleck, V.~S. Deshpande, M.~F. Ashby, {Micro-architectured materials:
+  past, present and future}, Proc. R. Soc. A Math. Phys. Eng. Sci. 466 (2010)
+  2495--2516.
+\newblock \href {http://dx.doi.org/10.1098/rspa.2010.0215}
+  {\path{doi:10.1098/rspa.2010.0215}}.
+
+\bibitem{Qiao2008}
+P.~Qiao, M.~Yang, F.~Bobaru, {Impact {Mechanics} and {High}-{Energy}
+  {Absorbing} {Materials}: {Review}}, J. Aerosp. Eng. 21 (2008) 235--248.
+\newblock \href {http://dx.doi.org/10.1061/(ASCE)0893-1321(2008)21:4(235)}
+  {\path{doi:10.1061/(ASCE)0893-1321(2008)21:4(235)}}.
+
+\bibitem{Maskery2017}
+I.~Maskery, A.~Hussey, A.~Panesar, A.~Aremu, C.~Tuck, I.~Ashcroft, R.~Hague,
+  {An investigation into reinforced and functionally graded lattice
+  structures}, J. Cell. Plast. 53 (2017) 151--165.
+\newblock \href {http://dx.doi.org/10.1177/0021955X16639035}
+  {\path{doi:10.1177/0021955X16639035}}.
+
+\bibitem{Aremu2017}
+A.~O. Aremu, J.~P.~J. Brennan-Craddock, A.~Panesar, I.~A. Ashcroft, R.~J.~M.
+  Hague, R.~D. Wildman, C.~Tuck, {A voxel-based method of constructing and
+  skinning conformal and functionally graded lattice structures suitable for
+  additive manufacturing}, Addit. Manuf. 13 (2017) 1--13.
+\newblock \href {http://dx.doi.org/10.1016/j.addma.2016.10.006}
+  {\path{doi:10.1016/j.addma.2016.10.006}}.
+
+\bibitem{Cheng2018}
+L.~Cheng, X.~Liang, E.~Belski, X.~Wang, J.~M. Sietins, S.~Ludwick, A.~To,
+  {Natural {Frequency} {Optimization} of {Variable}-{Density} {Additive}
+  {Manufactured} {Lattice} {Structure}: {Theory} and {Experimental}
+  {Validation}}, J. Manuf. Sci. Eng. 140.
+\newblock \href {http://dx.doi.org/10.1115/1.4040622}
+  {\path{doi:10.1115/1.4040622}}.
+
+\bibitem{Parandoush2017}
+P.~Parandoush, D.~Lin, {A review on additive manufacturing of polymer-fiber
+  composites} (dec 2017).
+\newblock \href {http://dx.doi.org/10.1016/j.compstruct.2017.08.088}
+  {\path{doi:10.1016/j.compstruct.2017.08.088}}.
+
+\bibitem{Sano2018}
+Y.~Sano, R.~Matsuzaki, M.~Ueda, A.~Todoroki, Y.~Hirano, {{3D} printing of
+  discontinuous and continuous fibre composites using stereolithography},
+  Addit. Manuf. 24 (2018) 521--527.
+\newblock \href {http://dx.doi.org/10.1016/j.addma.2018.10.033}
+  {\path{doi:10.1016/j.addma.2018.10.033}}.
+
+\bibitem{Plocher2019}
+J.~Plocher, A.~Panesar, {Review on design and structural optimisation in
+  additive manufacturing: {Towards} next-generation lightweight structures},
+  Mater. \& Des. 183 (2019) 108164.
+\newblock \href {http://dx.doi.org/10.1016/j.matdes.2019.108164}
+  {\path{doi:10.1016/j.matdes.2019.108164}}.
+
+\bibitem{Bendsoee1988}
+M.~P. Bends{\o}e, N.~Kikuchi, {Generating optimal topologies in structural
+  design using a homogenization method}, Comput. Methods Appl. Mech. Eng. 71
+  (1988) 197--224.
+\newblock \href {http://dx.doi.org/10.1016/0045-7825(88)90086-2}
+  {\path{doi:10.1016/0045-7825(88)90086-2}}.
+
+\bibitem{Bendsoee1989}
+M.~P. Bends{\o}e, {Optimal shape design as a material distribution problem},
+  Struct. Optim. 1 (1989) 193--202.
+\newblock \href {http://dx.doi.org/10.1007/BF01650949}
+  {\path{doi:10.1007/BF01650949}}.
+
+\bibitem{Rozvany1992}
+G.~I.~N. Rozvany, M.~Zhou, T.~Birker, {Generalized shape optimization without
+  homogenization}, Struct. Optim. 4 (1992) 250--252.
+\newblock \href {http://dx.doi.org/10.1007/BF01742754}
+  {\path{doi:10.1007/BF01742754}}.
+
+\bibitem{Wang2003}
+M.~Y. Wang, X.~Wang, D.~Guo, {A level set method for structural topology
+  optimization}, Comput. Methods Appl. Mech. Eng. 192 (2003) 227--246.
+\newblock \href {http://dx.doi.org/10.1016/S0045-7825(02)00559-5}
+  {\path{doi:10.1016/S0045-7825(02)00559-5}}.
+
+\bibitem{Allaire2004}
+G.~Allaire, F.~Jouve, A.-M. Toader, {Structural optimization using sensitivity
+  analysis and a level-set method}, J. Comput. Phys. 194 (2004) 363--393.
+\newblock \href {http://dx.doi.org/10.1016/j.jcp.2003.09.032}
+  {\path{doi:10.1016/j.jcp.2003.09.032}}.
+
+\bibitem{Xie1993}
+Y.~M. Xie, G.~P. Steven, {A simple evolutionary procedure for structural
+  optimization}, Comput. Struct. 49 (1993) 885--896.
+\newblock \href {http://dx.doi.org/10.1016/0045-7949(93)90035-C}
+  {\path{doi:10.1016/0045-7949(93)90035-C}}.
+
+\bibitem{Rozvany2009}
+G.~I.~N. Rozvany, {A critical review of established methods of structural
+  topology optimization}, Struct. Multidiscip. Optim. 37 (2009) 217--237.
+\newblock \href {http://dx.doi.org/10.1007/s00158-007-0217-0}
+  {\path{doi:10.1007/s00158-007-0217-0}}.
+
+\bibitem{VanDijk2013}
+N.~P. {Van Dijk}, K.~Maute, M.~Langelaar, F.~{Van Keulen}, {Level-set methods
+  for structural topology optimization: {A} review}, Struct. Multidiscip.
+  Optim. 48 (2013) 437--472.
+\newblock \href {http://dx.doi.org/10.1007/s00158-013-0912-y}
+  {\path{doi:10.1007/s00158-013-0912-y}}.
+
+\bibitem{Deaton2014}
+J.~D. Deaton, R.~V. Grandhi, {A survey of structural and multidisciplinary
+  continuum topology optimization: {Post} 2000}, Struct. Multidiscip. Optim. 49
+  (2014) 1--38.
+\newblock \href {http://dx.doi.org/10.1007/s00158-013-0956-z}
+  {\path{doi:10.1007/s00158-013-0956-z}}.
+
+\bibitem{Liu2000}
+J.~S. Liu, G.~T. Parks, P.~J. Clarkson, {Metamorphic {Development}: {A} new
+  topology optimization method for continuum structures}, Struct. Multidiscip.
+  Optim. 20 (2000) 288--300.
+\newblock \href {http://dx.doi.org/10.1007/s001580050159}
+  {\path{doi:10.1007/s001580050159}}.
+
+\bibitem{Liu2017}
+C.~Liu, Z.~Du, W.~Zhang, Y.~Zhu, X.~Guo, {Additive {Manufacturing}-{Oriented}
+  {Design} of {Graded} {Lattice} {Structures} {Through} {Explicit} {Topology}
+  {Optimization}}, J. Appl. Mech. 84.
+\newblock \href {http://dx.doi.org/10.1115/1.4036941}
+  {\path{doi:10.1115/1.4036941}}.
+
+\bibitem{Li2019}
+H.~Li, Z.~Luo, M.~Xiao, L.~Gao, J.~Gao, {A new multiscale topology optimization
+  method for multiphase composite structures of frequency response with level
+  sets}, Comput. Methods Appl. Mech. Eng. 356 (2019) 116--144.
+\newblock \href {http://dx.doi.org/10.1016/j.cma.2019.07.020}
+  {\path{doi:10.1016/j.cma.2019.07.020}}.
+
+\bibitem{bendsoee2013book}
+M.~P. Bendsoe, O.~Sigmund, {Topology optimization: theory, methods, and
+  applications}, Springer Science \& Business Media, 2013.
+
+\end{thebibliography}

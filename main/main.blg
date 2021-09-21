@@ -1,0 +1,50 @@
+This is BibTeX, Version 0.99d (TeX Live 2019/Debian)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: main.aux
+The style file: elsarticle-num.bst
+Database file #1: library.bib
+Warning--I didn't find a database entry for ""
+Warning--I didn't find a database entry for "Novotny2019"
+Warning--I didn't find a database entry for "Novotny2019a"
+You've used 24 entries,
+            2937 wiz_defined-function locations,
+            863 strings with 10246 characters,
+and the built_in function-call counts, 7591 in all, are:
+= -- 778
+> -- 288
+< -- 0
++ -- 112
+- -- 88
+* -- 621
+:= -- 1086
+add.period$ -- 47
+call.type$ -- 24
+change.case$ -- 23
+chr.to.int$ -- 0
+cite$ -- 24
+duplicate$ -- 183
+empty$ -- 749
+format.name$ -- 110
+if$ -- 1883
+int.to.chr$ -- 0
+int.to.str$ -- 24
+missing$ -- 24
+newline$ -- 103
+num.names$ -- 24
+pop$ -- 107
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 455
+stack$ -- 0
+substring$ -- 441
+swap$ -- 66
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 61
+width$ -- 26
+write$ -- 243
+(There were 3 warnings)

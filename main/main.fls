@@ -278,6 +278,8 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmtt8.tfm
 INPUT /usr/share/texlive/texmf-dist/tex/latex/txfonts/ot1txss.fd
 INPUT /usr/share/texlive/texmf-dist/tex/latex/txfonts/ot1txss.fd
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/txfonts/txss.tfm
+INPUT ./../Sections/Introduction.tex
+INPUT ./../Sections/Introduction.tex
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/txfonts/txr.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/txfonts/rtxptmr.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/txfonts/rtxr.tfm
@@ -296,6 +298,8 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/txfonts/rtxss.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/txfonts/txr.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/txfonts/rtxptmr.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/txfonts/rtxr.tfm
+INPUT /mnt/c/Users/ygandhi1/TechanicalReporting/FirstReviewArticle/main/main.bbl
+INPUT /mnt/c/Users/ygandhi1/TechanicalReporting/FirstReviewArticle/main/main.bbl
 INPUT /mnt/c/Users/ygandhi1/TechanicalReporting/FirstReviewArticle/main/main.aux
 INPUT /mnt/c/Users/ygandhi1/TechanicalReporting/FirstReviewArticle/main/main.out
 INPUT /mnt/c/Users/ygandhi1/TechanicalReporting/FirstReviewArticle/main/main.out
