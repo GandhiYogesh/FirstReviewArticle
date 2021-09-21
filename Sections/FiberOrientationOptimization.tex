@@ -1,23 +1,6 @@
-\section{Introduction}
-CF4 technology allows fabrication of FRC material with the continuous
-spatial in-plane variation of fiber angle and fiber volume fraction,
-thus expanding design space as opposed to variable \cite{Ghiasi2009} and
-constant stiffness laminate \cite{Ghiasi2009}. Moreover, CF4 technology
-can achieve out-of-plane variation of fiber angle due to the
-fiber-reinforced composite's self-supporting characteristics. Numerous
-studies have shown that fiber orientation optimization can significantly
-tailor structural performance such as stress
-concentration\cite{Sugiyama2020}, stiffness \cite{Malakhov2016},
-load-bearing capacity, buckling load, and the natural frequency
-\cite{Zhang2011}. Therefore, the design of the FRC structures requires
-optimization methods that reflect design freedom offered by CF4
-technologies, including constraints, to thoroughly exploit the
-anisotropic properties of FRC material \ cite{Xu2018}. Amidst the
-ingredients of the optimization method for FRC structures with fiber
-parameterization schemes and optimization algorithms have notable
-influences on the quality of the solution.
 
-\subsection{Paramterization schemes for fiber orientation}
+
+\section{Paramterization schemes for fiber orientation}
 The parameterization scheme implements a numerical description of fiber
 orientation patterns and defines variables for the optimization. It
 should ensure spatial continuity of fiber angle so that CF4 technology
@@ -25,7 +8,7 @@ can produce the structure, and it should also provide enough design
 freedom so that optimization algorithm can consider more candidate
 designs.
 
-\subsubsection*{Continuous Parameterization}
+\subsection*{Continuous Parameterization}
 The straightforward parametrization of fiber orientation design uses the
 angle itself as the design variable. The design variable is then the
 continuous and independent parameter at design points, for instance, at
@@ -53,20 +36,20 @@ challenging. Xia and Shi \cite{Xia2017}
 An alternative is employing curvilinear parameterization schemes that define
 fiber paths as the graphs of analytical function, which guarantee continuity of
 fiber angle and have a small number of design variables \cite{Bruyneel2013,
-Lemaire2015, Hao2018}.  Nevertheless, the restrictive design search space will
+    Lemaire2015, Hao2018}.  Nevertheless, the restrictive design search space will
 limit the tailorability of the fiber path, thus deteriorates the optimization
 problem's stability \cite{Ghiasi2010} and quality of the optimized solution.
 Adjectenly, the parameterization schemes can follow equidistant iso-contours of
 a level set function to represent curvilinear fiber paths \cite{Brampton2015,
-Papapetrou2020}, thus naturally ensuring fiber continuity and being often
+    Papapetrou2020}, thus naturally ensuring fiber continuity and being often
 parallel to the neighboring fiber paths. Furthermore, the optimization result
 becomes highly dependent on the initial configuration, and local solutions often
 appear \cite{Tian2021}.
-\subsubsection*{Discrete Paramterization}
+\subsection*{Discrete Paramterization}
 The counter approach reduces the design search space to avoid multiple local
 minima issues where the optimized solution is highly sensitive to the initial
 fiber configuration. Thus,  Stegmann and  Lund \cite{Stegmann2005,
-Lindgaard2011} stretched the design search space by choosing discrete fiber
+    Lindgaard2011} stretched the design search space by choosing discrete fiber
 orientation candidates, define apriori, which parameterized the design space
 into the discrete material candidates. These transversely isotropic material
 models are defined for different fiber orientations for the same isotropic
@@ -84,7 +67,7 @@ orientation optimization drawn in \cite{Kiyono2017}. Contrarily to CFAO, it does
 not cover design problems for continuously varying orientation distributions.
 Thus, it permits a limited scope to fully exploit the potential of modern
 technology's continuously varying orientation in composites. \cite{ArianNik2012,
-Malakhov2016, Sugiyama2020}. Secondly, these methods fail to address the fiber
+    Malakhov2016, Sugiyama2020}. Secondly, these methods fail to address the fiber
 convergence even against the significant penalization factor; hence, their
 benefit relies on an optimization algorithm to circumvent impractical mixtures
 of fiber angles. Third, the discrete parameterization scheme should further
@@ -110,8 +93,8 @@ change the orientations with a change in topology, potentially causing
 LOSS.
 
 
-\subsection*{Optimization Algorithm}
-\subsubsection*{Analytical approaches}
+\section*{Optimization Algorithm}
+\subsection*{Analytical approaches}
 Analytical methods determined early studies of optimal fibre orientation
 that dates back to the pioneering work of Pedersen on strain-based
 method \cite{Pedersen1989, Pedersen1990, Pedersen1991} and followed by
@@ -138,7 +121,7 @@ research on material orientation optimization for fibre reinforced
 composite materials. These methods' shortcomings were due to the
 assumption of constant stress or strain fields that was removed by the
 energy-based method introduced by Luo and Gea \cite{Diaz1992,
-Cheng1994}. The proposed hybrid framework estimates the strain fields'
+    Cheng1994}. The proposed hybrid framework estimates the strain fields'
 and stress fields' dependency on fibre orientation by introducing an
 approximate energy factor. Their research showed that an energy-based
 method produces numerically more optimal solutions to stress-based and
@@ -155,7 +138,7 @@ and its surrounding resolves stress discontinuity caused at the
 interface. By introducing the concept of energy factor, Luo et al.
 evaluated additional stress and strain field.
 
-\subsubsection*{Gradient-based approaches}
+\subsection*{Gradient-based approaches}
 \cite{Lindgaard2011} gradient based optimization of the  buckling load of
 laminate composite structures considering fiber angle deisng variables. The
 optimization formualtion are based on either linear or geomterically nonlinear
@@ -175,8 +158,8 @@ is used for the computation of initial design.
 
 formulated cascadic multilevel optimization problem,
 where there results from coarse level serves as an initial design for finer
-level. 
-\subsubsection*{Heurstic-based approaches}
+level.
+\subsection*{Heurstic-based approaches}
 Another outlook on approaching the LOSS problem is using an optimization
 solver better at global searching ability, such as the genetic algorithm
 \cite{Wang2020} and simulated annealing algorithm \cite{Hasancebi2010}.
@@ -189,4 +172,3 @@ constraints. As a result, gradient-based solver i.e. Method of Moving
 Asymptotes (MMA) \cite{Svanberg1987} set the framework for the TO
 problem and has been pushed significantly to avoid the LOSS
 \cite{Shen2020}.
- 

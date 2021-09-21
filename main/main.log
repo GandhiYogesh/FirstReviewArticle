@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.9.21)  21 SEP 2021 17:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.9.21)  21 SEP 2021 17:24
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -865,7 +865,7 @@ Package natbib Warning: Citation `Novotny2019' on page 1 undefined on input line
 
 Package natbib Warning: Citation `Novotny2019a' on page 1 undefined on input line 5.
 
-)
+
 Overfull \hbox (1.90001pt too wide) has occurred while \output is active
 [] 
  []
@@ -873,42 +873,46 @@ Overfull \hbox (1.90001pt too wide) has occurred while \output is active
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.10 
-      [1
+l.6 ...on of fiber-reinforced composite materials}
+                                                   [1
 
 
-] (/mnt/c/Users/ygandhi1/TechanicalReporting/FirstReviewArticle/main/main.bblpdfTeX warning (ext4): destination with the same identifier (name{page.2}) has been already used, duplicate ignored
+]) (./../Sections/FiberOrientationOptimization.texpdfTeX warning (ext4): destination with the same identifier (name{page.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.127 
-       [2])
+l.75 
+      [2]) [3] (/mnt/c/Users/ygandhi1/TechanicalReporting/FirstReviewArticle/main/main.bbl
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [4]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+)
 
 Package natbib Warning: There were undefined citations.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 43.
-[3
-
-]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 43.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 40.
+[5]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 40.
  (/mnt/c/Users/ygandhi1/TechanicalReporting/FirstReviewArticle/main/main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 43.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 43.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 40.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 40.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 7BC8208568B4C4431E8834C734C278FD;148.
+(rerunfilecheck)             Checksum: BB1BCEF771D4D70A8BBB2BEF6D8E49A3;228.
  ) 
 Here is how much of TeX's memory you used:
- 10579 strings out of 481239
- 160996 string characters out of 5920377
- 450509 words of memory out of 5000000
- 25545 multiletter control sequences out of 15000+600000
- 570969 words of font info for 117 fonts, out of 8000000 for 9000
+ 10742 strings out of 481239
+ 163778 string characters out of 5920377
+ 458101 words of memory out of 5000000
+ 25660 multiletter control sequences out of 15000+600000
+ 571209 words of font info for 118 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 43i,9n,42p,2644b,552s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtcxr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on /mnt/c/Users/ygandhi1/TechanicalReporting/FirstReviewArticle/main/main.pdf (5 pages, 81946 bytes).
+ 43i,9n,42p,2644b,600s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtcxr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on /mnt/c/Users/ygandhi1/TechanicalReporting/FirstReviewArticle/main/main.pdf (7 pages, 106279 bytes).
 PDF statistics:
- 182 PDF objects out of 1000 (max. 8388607)
- 165 compressed objects within 2 object streams
- 42 named destinations out of 1000 (max. 500000)
- 25 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 370 PDF objects out of 1000 (max. 8388607)
+ 348 compressed objects within 4 object streams
+ 87 named destinations out of 1000 (max. 500000)
+ 33 words of extra memory for PDF output out of 10000 (max. 10000000)
 

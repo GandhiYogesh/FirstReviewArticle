@@ -164,4 +164,255 @@ H.~Li, Z.~Luo, M.~Xiao, L.~Gao, J.~Gao, {A new multiscale topology optimization
 M.~P. Bendsoe, O.~Sigmund, {Topology optimization: theory, methods, and
   applications}, Springer Science \& Business Media, 2013.
 
+\bibitem{Ghiasi2009}
+H.~Ghiasi, D.~Pasini, L.~Lessard, {Optimum stacking sequence design of
+  composite materials {Part} {I}: {Constant} stiffness design}, Compos. Struct.
+  90 (2009) 1--11.
+\newblock \href {http://dx.doi.org/10.1016/j.compstruct.2009.01.006}
+  {\path{doi:10.1016/j.compstruct.2009.01.006}}.
+
+\bibitem{Sugiyama2020}
+K.~Sugiyama, R.~Matsuzaki, A.~V. Malakhov, A.~N. Polilov, M.~Ueda, A.~Todoroki,
+  Y.~Hirano, {{3D} printing of optimized composites with variable fiber volume
+  fraction and stiffness using continuous fiber}, Compos. Sci. Technol. 186
+  (2020) 107905.
+\newblock \href {http://dx.doi.org/10.1016/j.compscitech.2019.107905}
+  {\path{doi:10.1016/j.compscitech.2019.107905}}.
+
+\bibitem{Malakhov2016}
+A.~V. Malakhov, A.~N. Polilov, {Design of composite structures reinforced
+  curvilinear fibres using {FEM}}, Compos. Part A Appl. Sci. Manuf. 87 (2016)
+  23--28.
+\newblock \href {http://dx.doi.org/10.1016/j.compositesa.2016.04.005}
+  {\path{doi:10.1016/j.compositesa.2016.04.005}}.
+
+\bibitem{Zhang2011}
+J.~Zhang, W.-H. Zhang, J.-H. Zhu, {An extended stress-based method for
+  orientation angle optimization of laminated composite structures}, Acta Mech.
+  Sin. 27 (2011) 977--985.
+\newblock \href {http://dx.doi.org/10.1007/s10409-011-0506-0}
+  {\path{doi:10.1007/s10409-011-0506-0}}.
+
+\bibitem{Xu2018}
+Y.~Xu, J.~Zhu, Z.~Wu, Y.~Cao, Y.~Zhao, W.~Zhang, {A review on the design of
+  laminated composite structures: constant and variable stiffness design and
+  topology optimization}, Adv. Compos. Hybrid Mater. 1 (2018) 460--477.
+\newblock \href {http://dx.doi.org/10.1007/s42114-018-0032-7}
+  {\path{doi:10.1007/s42114-018-0032-7}}.
+
+\bibitem{Stegmann2005}
+J.~Stegmann, E.~Lund, {Discrete material optimization of general composite
+  shell structures}, Int. J. Numer. Methods Eng. 62~(14) (2005) 2009--2027.
+\newblock \href {http://dx.doi.org/https://doi.org/10.1002/nme.1259}
+  {\path{doi:https://doi.org/10.1002/nme.1259}}.
+
+\bibitem{Zowe1997}
+J.~Zowe, M.~Kocvara, M.~P. Bends{\o}e, {Free material optimization via
+  mathematical programming}, Math. Program. 79 (1997) 445--466.
+\newblock \href {http://dx.doi.org/10.1007/BF02614328}
+  {\path{doi:10.1007/BF02614328}}.
+
+\bibitem{BenTal1999}
+A.~Ben-Tal, M.~Kocvara, A.~Nemirovski, J.~Zowe, {Free Material Design via
+  Semidefinite Programming: The Multiload Case with Contact Conditions}, {SIAM}
+  J. Optim. 9 (1999) 813--832.
+\newblock \href {http://dx.doi.org/10.1137/s1052623497327994}
+  {\path{doi:10.1137/s1052623497327994}}.
+
+\bibitem{Xia2017}
+Q.~Xia, T.~Shi, {Optimization of composite structures with continuous spatial
+  variation of fiber angle through Shepard interpolation}, Compos. Struct. 182
+  (2017) 273--282.
+\newblock \href {http://dx.doi.org/10.1016/j.compstruct.2017.09.052}
+  {\path{doi:10.1016/j.compstruct.2017.09.052}}.
+
+\bibitem{Bruyneel2013}
+M.~Bruyneel, S.~Zein, {A modified Fast Marching Method for defining fiber
+  placement trajectories over meshes}, Comput. \& Struct. 125 (2013) 45--52.
+\newblock \href {http://dx.doi.org/10.1016/j.compstruc.2013.04.015}
+  {\path{doi:10.1016/j.compstruc.2013.04.015}}.
+
+\bibitem{Lemaire2015}
+E.~Lemaire, S.~Zein, M.~Bruyneel, {Optimization of composite structures with
+  curved fiber trajectories}, Compos. Struct. 131 (2015) 895--904.
+\newblock \href {http://dx.doi.org/10.1016/j.compstruct.2015.06.040}
+  {\path{doi:10.1016/j.compstruct.2015.06.040}}.
+
+\bibitem{Hao2018}
+P.~Hao, C.~Liu, X.~Liu, X.~Yuan, B.~Wang, G.~Li, M.~Dong, L.~Chen,
+  {Isogeometric analysis and design of variable-stiffness aircraft panels with
+  multiple cutouts by level set method}, Compos. Struct. 206 (2018) 888--902.
+\newblock \href {http://dx.doi.org/10.1016/j.compstruct.2018.08.086}
+  {\path{doi:10.1016/j.compstruct.2018.08.086}}.
+
+\bibitem{Ghiasi2010}
+H.~Ghiasi, K.~Fayazbakhsh, D.~Pasini, L.~Lessard, {Optimum stacking sequence
+  design of composite materials {Part} {II}: {Variable} stiffness design},
+  Compos. Struct. 93 (2010) 1--13.
+\newblock \href {http://dx.doi.org/10.1016/j.compstruct.2010.06.001}
+  {\path{doi:10.1016/j.compstruct.2010.06.001}}.
+
+\bibitem{Brampton2015}
+C.~J. Brampton, K.~C. Wu, H.~A. Kim, {New optimization method for steered fiber
+  composites using the level set method}, Struct. Multidiscip. Optim. 52 (2015)
+  493--505.
+\newblock \href {http://dx.doi.org/10.1007/s00158-015-1256-6}
+  {\path{doi:10.1007/s00158-015-1256-6}}.
+
+\bibitem{Papapetrou2020}
+V.~S. Papapetrou, C.~Patel, A.~Y. Tamijani, {Stiffness-based optimization
+  framework for the topology and fiber paths of continuous fiber composites},
+  Compos. Part B Eng. 183 (2020) 107681.
+\newblock \href {http://dx.doi.org/10.1016/j.compositesb.2019.107681}
+  {\path{doi:10.1016/j.compositesb.2019.107681}}.
+
+\bibitem{Tian2021}
+Y.~Tian, S.~Pu, T.~Shi, Q.~Xia, {A parametric divergence-free vector field
+  method for the optimization of composite structures with curvilinear fibers},
+  Comput. Methods Appl. Mech. Eng. 373 (2021) 113574.
+\newblock \href {http://dx.doi.org/10.1016/j.cma.2020.113574}
+  {\path{doi:10.1016/j.cma.2020.113574}}.
+
+\bibitem{Lindgaard2011}
+E.~Lindgaard, E.~Lund, {Optimization formulations for the maximum nonlinear
+  buckling load of composite structures}, Struct. Multidiscip. Optim. 43 (2011)
+  631--646.
+\newblock \href {http://dx.doi.org/10.1007/s00158-010-0593-8}
+  {\path{doi:10.1007/s00158-010-0593-8}}.
+
+\bibitem{Bendsoee1999}
+M.~P. Bends{\o}e, O.~Sigmund, {Material interpolation schemes in topology
+  optimization}, Arch. Appl. Mech. 69 (1999) 635--654.
+\newblock \href {http://dx.doi.org/10.1007/s004190050248}
+  {\path{doi:10.1007/s004190050248}}.
+
+\bibitem{Yin2001}
+L.~Yin, G.~K. Ananthasuresh, {Topology optimization of compliant mechanisms
+  with multiple materials using a peak function material interpolation scheme},
+  Struct. Multidiscip. Optim. 23 (2001) 49--62.
+\newblock \href {http://dx.doi.org/10.1007/s00158-001-0165-z}
+  {\path{doi:10.1007/s00158-001-0165-z}}.
+
+\bibitem{Bruyneel2011}
+M.~Bruyneel, {{SFP}—a new parameterization based on shape functions for
+  optimal material selection: application to conventional composite plies},
+  Struct. Multidiscip. Optim. 43 (2011) 17--27.
+\newblock \href {http://dx.doi.org/10.1007/s00158-010-0548-0}
+  {\path{doi:10.1007/s00158-010-0548-0}}.
+
+\bibitem{Gao2012}
+T.~Gao, W.~Zhang, P.~Duysinx, {A bi-value coding parameterization scheme for
+  the discrete optimal orientation design of the composite laminate}, Int. J.
+  Numer. Methods Eng. 91 (2012) 98--114.
+\newblock \href {http://dx.doi.org/https://doi.org/10.1002/nme.4270}
+  {\path{doi:https://doi.org/10.1002/nme.4270}}.
+
+\bibitem{Kiyono2017}
+C.~Y. Kiyono, E.~C.~N. Silva, J.~N. Reddy, {A novel fiber optimization method
+  based on normal distribution function with continuously varying fiber path},
+  Compos. Struct. 160 (2017) 503--515.
+\newblock \href {http://dx.doi.org/10.1016/j.compstruct.2016.10.064}
+  {\path{doi:10.1016/j.compstruct.2016.10.064}}.
+
+\bibitem{ArianNik2012}
+M.~{Arian Nik}, K.~Fayazbakhsh, D.~Pasini, L.~Lessard, {Surrogate-based
+  multi-objective optimization of a composite laminate with curvilinear
+  fibers}, Compos. Struct. 94 (2012) 2306--2313.
+\newblock \href {http://dx.doi.org/10.1016/j.compstruct.2012.03.021}
+  {\path{doi:10.1016/j.compstruct.2012.03.021}}.
+
+\bibitem{Salas2018}
+R.~A. Salas, F.~J. Ram{\'{i}}rez-Gil, W.~Montealegre-Rubio, E.~C.~N. Silva,
+  J.~N. Reddy, {Optimized dynamic design of laminated piezocomposite
+  multi-entry actuators considering fiber orientation}, Comput. Methods Appl.
+  Mech. Eng. 335 (2018) 223--254.
+\newblock \href {http://dx.doi.org/10.1016/j.cma.2018.02.011}
+  {\path{doi:10.1016/j.cma.2018.02.011}}.
+
+\bibitem{Nomura2015}
+T.~Nomura, E.~M. Dede, J.~Lee, S.~Yamasaki, T.~Matsumori, A.~Kawamoto,
+  N.~Kikuchi, {General topology optimization method with continuous and
+  discrete orientation design using isoparametric projection}, Int. J. Numer.
+  Methods Eng. 101 (2015) 571--605.
+\newblock \href {http://dx.doi.org/https://doi.org/10.1002/nme.4799}
+  {\path{doi:https://doi.org/10.1002/nme.4799}}.
+
+\bibitem{Pedersen1989}
+P.~Pedersen, {On optimal orientation of orthotropic materials}, Struct. Optim.
+  1 (1989) 101--106.
+\newblock \href {http://dx.doi.org/10.1007/BF01637666}
+  {\path{doi:10.1007/BF01637666}}.
+
+\bibitem{Pedersen1990}
+P.~Pedersen, {Bounds on elastic energy in solids of orthotropic materials},
+  Struct. Optim. 2 (1990) 55--63.
+\newblock \href {http://dx.doi.org/10.1007/BF01743521}
+  {\path{doi:10.1007/BF01743521}}.
+
+\bibitem{Pedersen1991}
+P.~Pedersen, {On thickness and orientational design with orthotropic
+  materials}, Struct. Optim. 3 (1991) 69--78.
+\newblock \href {http://dx.doi.org/10.1007/BF01743275}
+  {\path{doi:10.1007/BF01743275}}.
+
+\bibitem{Gea2004}
+H.~C. Gea, J.~H. Luo, {On the stress-based and strain-based methods for
+  predicting optimal orientation of orthotropic materials}, Struct.
+  Multidiscip. Optim. 26 (2004) 229--234.
+\newblock \href {http://dx.doi.org/10.1007/s00158-003-0348-x}
+  {\path{doi:10.1007/s00158-003-0348-x}}.
+
+\bibitem{Diaz1992}
+A.~R. D{\'{i}}az, M.~P. Bends{\o}e, {Shape optimization of structures for
+  multiple loading conditions using a homogenization method}, Struct Optim. 4
+  (1992) 17--22.
+\newblock \href {http://dx.doi.org/10.1007/BF01894077}
+  {\path{doi:10.1007/BF01894077}}.
+
+\bibitem{Cheng1994}
+H.~C. Cheng, N.~Kikuchi, Z.~D. Ma, {An improved approach for determining the
+  optimal orientation of orthotropic material}, Struct. Optim. 8 (1994)
+  101--112.
+\newblock \href {http://dx.doi.org/10.1007/BF01743305}
+  {\path{doi:10.1007/BF01743305}}.
+
+\bibitem{Xia2018}
+Q.~Xia, T.~Shi, {A cascadic multilevel optimization algorithm for the design of
+  composite structures with curvilinear fiber based on Shepard interpolation},
+  Compos. Struct. 188 (2018) 209--219.
+\newblock \href {http://dx.doi.org/10.1016/j.compstruct.2018.01.013}
+  {\path{doi:10.1016/j.compstruct.2018.01.013}}.
+
+\bibitem{Wang2020}
+Z.~Wang, A.~Sobey, {A comparative review between {Genetic} {Algorithm} use in
+  composite optimisation and the state-of-the-art in evolutionary computation},
+  Compos. Struct. 233.
+\newblock \href {http://dx.doi.org/10.1016/j.compstruct.2019.111739}
+  {\path{doi:10.1016/j.compstruct.2019.111739}}.
+
+\bibitem{Hasancebi2010}
+O.~Hasan{\c{c}}ebi, S.~{\c{C}}arbas, M.~P. Saka, {Improving the performance of
+  simulated annealing in structural optimization}, Struct. Multidiscip. Optim.
+  41 (2010) 189--203.
+\newblock \href {http://dx.doi.org/10.1007/s00158-009-0418-9}
+  {\path{doi:10.1007/s00158-009-0418-9}}.
+
+\bibitem{Sigmund2011}
+O.~Sigmund, {On the usefulness of non-gradient approaches in topology
+  optimization}, Struct. Multidiscip. Optim. 43 (2011) 589--596.
+\newblock \href {http://dx.doi.org/10.1007/s00158-011-0638-7}
+  {\path{doi:10.1007/s00158-011-0638-7}}.
+
+\bibitem{Svanberg1987}
+K.~Svanberg, {The method of moving asymptotes—a new method for structural
+  optimization}, Int. J. Numer. Methods Eng. 24 (1987) 359--373.
+\newblock \href {http://dx.doi.org/10.1002/nme.1620240207}
+  {\path{doi:10.1002/nme.1620240207}}.
+
+\bibitem{Shen2020}
+Y.~Shen, D.~Branscomb, {Orientation optimization in anisotropic materials using
+  gradient descent method}, Compos. Struct. 234 (2020) 111680.
+\newblock \href {http://dx.doi.org/10.1016/j.compstruct.2019.111680}
+  {\path{doi:10.1016/j.compstruct.2019.111680}}.
+
 \end{thebibliography}
