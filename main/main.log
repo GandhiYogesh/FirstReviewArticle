@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.9.21)  21 SEP 2021 16:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.9.21)  21 SEP 2021 17:06
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -880,7 +880,7 @@ l.10
 ] (/mnt/c/Users/ygandhi1/TechanicalReporting/FirstReviewArticle/main/main.bblpdfTeX warning (ext4): destination with the same identifier (name{page.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.148 
+l.127 
        [2])
 
 Package natbib Warning: There were undefined citations.
@@ -899,13 +899,13 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 Here is how much of TeX's memory you used:
  10579 strings out of 481239
  160996 string characters out of 5920377
- 452509 words of memory out of 5000000
+ 450509 words of memory out of 5000000
  25545 multiletter control sequences out of 15000+600000
  570969 words of font info for 117 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 43i,9n,42p,2644b,564s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 43i,9n,42p,2644b,552s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtcxr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on /mnt/c/Users/ygandhi1/TechanicalReporting/FirstReviewArticle/main/main.pdf (5 pages, 81564 bytes).
+Output written on /mnt/c/Users/ygandhi1/TechanicalReporting/FirstReviewArticle/main/main.pdf (5 pages, 81946 bytes).
 PDF statistics:
  182 PDF objects out of 1000 (max. 8388607)
  165 compressed objects within 2 object streams
