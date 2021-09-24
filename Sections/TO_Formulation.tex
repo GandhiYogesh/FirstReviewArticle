@@ -1,0 +1,86 @@
+\section{New articles}
+Shen et. al.\cite{Shen2020} proposes normalized gradient by maximum algorithm to update material orientation of anisotropic material using gradient descent method.  believe that the gradient descent method is well suited for optimal orientation of fiber due its simplicity and robustness. The first order derivative of compliance with respect to material orientation can be explicitly calculated in closed form. The only unknow coefficient in gradient descent method is the step length can guarantee a global descent direction which converge to a minimum, if chosen wisely.
+Strain-based method was developed based on the assumption that strain field is constant. Reuschel \cite{Reuschel1999} developed Computer Aided Internal Optimization (CAIO) to align fiber orientation in principle stress direction so as to reduce the internal shear stress which was found to be weakness of FRCs. Brampton \cite{Brampton2015} combined Luo and Gea's work \cite{Luo1998} with level-set method to gererate the optimized fiber orientation with continuous fiber path.
+
+\subsection{Formulation and optimization algorithm}
+The compliance is expressed in global form:
+\begin{equation}
+    c = \textbf{u}^{T}\mathbb{K}\textbf{u}
+\end{equation}
+Take partial derivative of the global equilibrium equation with respect to the material orientation of the $i^{th}$ element:
+\begin{equation}
+    \frac{\partial c}{\partial \theta_{i}} = \textbf{u}^{T}\frac{\partial \mathbb{K}}{\partial \theta_{i}}\textbf{u}
+\end{equation}
+Considering the quadrilateral element under plane stress conditon, the stiffness matrix formulation is given by
+\begin{equation}
+    \mathbb{K}_{i} = \sum\omega(\eta,\zeta)\mathbb{B}_{i}(\eta,\zeta)^{T}\mathbf{T}_{i}^{T}\mathbf{D}\mathbf{T}_{i}\mathbb{B}_{i}(\eta,\zeta)|\mathbb{J}_{i}(\eta,\zeta)|
+\end{equation}
+where four integration points are $\eta=\pm\frac{1}{\sqrt{3}}, \zeta=\pm\frac{1}{\sqrt{3}}$, $\mathbb{D}$ is the stress/strain matrix, $\mathbb{T}_{i}$ is the transformation matrix for the $i^{th}$ element and $\omega(\eta, \zeta)$ is the weight factor.
+\begin{equation*}
+    \mathbb{D} =
+    \begin{bmatrix}
+        \frac{E_{11}}{1-\nu_{12}\nu_{21}}         & \frac{\nu_{12}E_{11}}{1-\nu_{12}\nu_{21}} & 0      \\
+        \frac{\nu_{12}E_{11}}{1-\nu_{12}\nu_{21}} & \frac{E_{11}}{1-\nu_{12}\nu_{21}}         & 0      \\
+        0                                         & 0                                         & G_{12}
+    \end{bmatrix}
+\end{equation*}
+\begin{equation*}
+    \mathbb{T}=
+    \begin{bmatrix}
+        \cos^2\theta_{i}               & \sin^2\theta_{i}              & \sin\theta_{i}\cos\theta_{i}      \\
+        \sin^2\theta_{i}               & \cos^2\theta_{i}              & -\sin\theta_{i}\cos\theta_{i}     \\
+        -2\cos\theta_{i}\sin\theta_{i} & 2\cos\theta_{i}\sin\theta_{i} & \cos^2\theta_{i}-\sin^2\theta_{i}
+    \end{bmatrix}
+\end{equation*}
+Taking partial derivative of stiffness matrix with respect to $\theta_{i}$ yields:
+\begin{equation}
+    \begin{aligned}
+        \frac{\partial \mathbb{K}_{i}}{\partial \theta_{i}} & = \sum\mathbb{B}_{i}(\eta,\zeta)^{T}(\frac{\partial \mathbf{T}_{i}^T}{\partial \theta_{i}}\mathbf{D}\mathbf{T}_{i}+ \\ &\mathbf{T}_{i}^{T}\mathbf{D}\frac{\partial \mathbb{T}_{i}}{\partial \theta_{i}})\mathbb{B}_{i}(\eta,\zeta)|\mathbb{J}_{i}(\eta,\zeta)|
+    \end{aligned}
+\end{equation}
+The $1^{st}$ order partial derivative of the stiffness with respect to material orientation can be explicitly expressed as a function of transformation matrix and its $1^{st}$ order derivative.
+
+The $2^{nd}$ order derivative of compliance is given as the following:
+\begin{equation}
+    \begin{aligned}
+        \frac{\partial^{2} c}{\partial\theta_{i}\partial \theta_{j}} = & \textbf{u}^{T}\frac{\partial \mathbb{K}}{\partial \theta_{j}}\mathbb{K}^{-1}\frac{\partial \mathbb{K}}{\partial \theta_{i}}\textbf{u} - \\ & \textbf{u}^{T}\frac{\partial^{2} \mathbb{K}}{\partial \theta_{i}\theta_{j}}\textbf{u}+\textbf{u}^{T}\frac{\partial \mathbb{K}}{\partial \theta_{i}}\mathbb{K}^{-1}\frac{\partial \mathbb{K}}{\partial \theta_{j}}\textbf{u}
+    \end{aligned}
+\end{equation}
+
+Desai et al. \cite{Desai2021} : Gradient based numerical techniques were adopted for optimizing the topology and fiber orientation concurrently (\cite{Bruyneel2002}\cite{Setoodeh2005}). The optimization approach proposed in \cite{Nomura2015} offer continuous and discrete sets of angles. It improves local minimum issue inherent to CFAO because th evolving design is independent of previous iteration design
+Zhou et al. \cite{Zhou2018} : Structural products with complex geometeries are usually assemblies of components with relative simple geometries This mainly because producing multiple components with simple geometeries are often less expensive than producing a single product with complex geometeries, even with th additional cost of assembly. A multi-components structural product is to design and optimize its overall geometery first, and then decompose it to refine part boundaries and joint configuration. Such practise, known as two-step approach, ir likely to yield suboptimal solution with respect to overall structural performance and/or manufacturing and assembly costs, since the optimal decomposition obtained in the second step is largely dependent on the optimal overall geomtery obtained in the first step.
+Acoording to the types of the prescibed design domain, topology optimization can be classified inot discrete (truss/beam) approaches, pioneered by Dorn\cite{Dorn1964}, and continuu (pixel/voxel) approaches, pioneered by Bends{\o}e and Kikuchi \cite{Bendsoee1988}. Acoording to the types of optimization algorithm utilized, topology optimization can be classified into gradient methods and genetic algorithm. Recently, non-gradient methods received serious critique \cite{Sigmund2011} from the topology optimization community regarding its applicability in continuum structure problems. It is due, mainly, to its lack of sensititives and the associated computational inefficiency. However, gradient methods are inapplicable to the problems that have non-differentiable objectives and constraints, for instance, as in case for the manufacturability objectives in the multi-components topology optimization.
+
+A ground topology such that a node represent a structure element and, an edge represent a joint element. A given combination of structure element and joint can be interpreted as unique topology graph
+
+
+\subsection*{Material density field}
+In a prescibed, fixed design domain $\Omega$, a characterisitic function $\chi$ is defined to descirbe the material domain $\Omega_{d}$ to be optimized:
+\begin{equation}\label{characterisitic function}
+    \chi(\mathbf{x})=
+    \begin{cases}
+        0, & \forall \mathbf{x} \in \Omega\backslash\Omega_{d} \\
+        1, & \forall \mathbf{x} \in \Omega_{d}
+    \end{cases}
+\end{equation}
+
+where $\mathbf{x}$ stands for a design point in $\Omega \  \text{and} \ \chi(\mathbf{x})$ is defined by a scalar function $\phi$ and the Heaviside function $H$ such that:
+\begin{equation}\label{characterisitic function}
+    \chi(\mathbf{x})=H(\phi(\mathbf{x})) =
+    \begin{cases}
+        0, & \forall \mathbf{x} \in \Omega\backslash\Omega_{d} \\
+        1, & \forall \mathbf{x} \in \Omega_{d}
+    \end{cases}
+\end{equation}
+To eliminate checkerboard patterns therefore generating mesh-independent results, the Helmholtz PDE filter is introduced to regularize $\phi$:
+\begin{equation}\label{PDE filter}
+    -R_{\phi}^{2}\nabla^{2}\tilde{\phi} + \tilde{\phi}=\phi
+\end{equation}
+where $R_{\phi}$ is the filter radius, and $\tilde{\phi}$ is the filtered field. Then the density field $\rho$ can be defined by an additional smoothed Heaviside function $\tilde{H}$:
+\begin{equation}\label{density field}
+    \rho = \tilde{H}(\tilde{\phi})
+\end{equation}
+After the series of regularization from $\phi \ \text{to} \ \rho $, the resulting density field is bounded between $0 \ \text{and} \ 1$.
+
+\subsection*{Material orientation vector field}
+The Cartesian representation of continuous angles proposed in \cite{Nomura2015}, the original material orientation vector field $\nu^{k} = (\xi^{k}, \eta^{k})$ bounded by a box constraint $v^{k} \in \left[-1,1\right]^{\Omega}x\left[-1,1\right]^{\Omega}$ if first regularized by Helmholtz PDE filter \ref{PDE filter}. Then, the (unbounded) $\tilde{\nu}^{k}$ is projected back to the original box constraint with smoothed Heaviside function $\tilde{H}$. The regularized orientation vector field $\bar{\nu}^{k}$ in a box domain is then projected to a circular domain through an isoparametric projection $\mathbf{N}^{c}$. The transformation from a box domain to a circular domain eliminates the need of the quadratic constraint for each design point, and ensures singularity-free numerical analysis.

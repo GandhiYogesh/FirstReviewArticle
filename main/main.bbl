@@ -415,4 +415,50 @@ Y.~Shen, D.~Branscomb, {Orientation optimization in anisotropic materials using
 \newblock \href {http://dx.doi.org/10.1016/j.compstruct.2019.111680}
   {\path{doi:10.1016/j.compstruct.2019.111680}}.
 
+\bibitem{Reuschel1999}
+D.~Reuschel, C.~Mattheck, {Three-dimensional fibre optimisation with computer
+  aided internal optimisation}, Aeronaut. J. 103~(1027) (1999) 415--420.
+\newblock \href {http://dx.doi.org/10.1017/S0001924000027962}
+  {\path{doi:10.1017/S0001924000027962}}.
+
+\bibitem{Luo1998}
+J.~H. Luo, H.~C. Gea, {Optimal bead orientation of {3D} shell/plate
+  structures}, Finite Elem. Anal. Des. 31 (1998) 55--71.
+\newblock \href {http://dx.doi.org/10.1016/S0168-874X(98)00048-1}
+  {\path{doi:10.1016/S0168-874X(98)00048-1}}.
+
+\bibitem{Desai2021}
+A.~Desai, M.~Mogra, S.~Sridhara, K.~Kumar, G.~Sesha, G.~K. Ananthasuresh,
+  {Topological-derivative-based design of stiff fiber-reinforced structures
+  with optimally oriented continuous fibers}, Struct. Multidiscip. Optim.
+  63~(2) (2021) 703--720.
+\newblock \href {http://dx.doi.org/10.1007/s00158-020-02721-1}
+  {\path{doi:10.1007/s00158-020-02721-1}}.
+
+\bibitem{Bruyneel2002}
+M.~Bruyneel, C.~Fleury, {Composite structures optimization using sequential
+  convex programming}, Adv. Eng. Softw. 33 (2002) 697--711.
+\newblock \href {http://dx.doi.org/10.1016/S0965-9978(02)00053-4}
+  {\path{doi:10.1016/S0965-9978(02)00053-4}}.
+
+\bibitem{Setoodeh2005}
+S.~Setoodeh, M.~M. Abdalla, Z.~G{\"{u}}rdal, {Combined topology and fiber path
+  design of composite layers using cellular automata}, Struct. Multidiscip.
+  Optim. 30 (2005) 413--421.
+\newblock \href {http://dx.doi.org/10.1007/s00158-005-0528-y}
+  {\path{doi:10.1007/s00158-005-0528-y}}.
+
+\bibitem{Zhou2018}
+Y.~Zhou, T.~Nomura, K.~Saitou,
+  \href{https://doi.org/10.1016/j.cma.2018.07.039}{{Multi-component topology
+  and material orientation design of composite structures (MTO-C)}}, Comput.
+  Methods Appl. Mech. Eng. 342 (2018) 438--457.
+\newblock \href {http://dx.doi.org/10.1016/j.cma.2018.07.039}
+  {\path{doi:10.1016/j.cma.2018.07.039}}.
+\newline\urlprefix\url{https://doi.org/10.1016/j.cma.2018.07.039}
+
+\bibitem{Dorn1964}
+W.~DORN, Automatic design of optimal structures, J. de Mecanique 3 (1964)
+  25--52.
+
 \end{thebibliography}

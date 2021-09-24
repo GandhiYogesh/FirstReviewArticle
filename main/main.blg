@@ -6,45 +6,45 @@ Database file #1: library.bib
 Warning--I didn't find a database entry for ""
 Warning--I didn't find a database entry for "Novotny2019"
 Warning--I didn't find a database entry for "Novotny2019a"
-You've used 61 entries,
+You've used 68 entries,
             2937 wiz_defined-function locations,
-            1131 strings with 17812 characters,
-and the built_in function-call counts, 19399 in all, are:
-= -- 2050
-> -- 652
+            1189 strings with 19191 characters,
+and the built_in function-call counts, 21640 in all, are:
+= -- 2292
+> -- 716
 < -- 0
-+ -- 258
-- -- 197
-* -- 1611
-:= -- 2711
-add.period$ -- 121
-call.type$ -- 61
-change.case$ -- 60
++ -- 284
+- -- 216
+* -- 1803
+:= -- 3017
+add.period$ -- 134
+call.type$ -- 68
+change.case$ -- 67
 chr.to.int$ -- 0
-cite$ -- 61
-duplicate$ -- 471
-empty$ -- 1940
-format.name$ -- 250
-if$ -- 4833
+cite$ -- 68
+duplicate$ -- 528
+empty$ -- 2171
+format.name$ -- 275
+if$ -- 5396
 int.to.chr$ -- 0
-int.to.str$ -- 61
-missing$ -- 61
-newline$ -- 251
-num.names$ -- 61
-pop$ -- 249
+int.to.str$ -- 68
+missing$ -- 68
+newline$ -- 279
+num.names$ -- 68
+pop$ -- 278
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 1159
+skip$ -- 1288
 stack$ -- 0
-substring$ -- 1262
-swap$ -- 176
+substring$ -- 1421
+swap$ -- 196
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 166
-width$ -- 63
-write$ -- 613
+while$ -- 186
+width$ -- 70
+write$ -- 682
 (There were 3 warnings)
