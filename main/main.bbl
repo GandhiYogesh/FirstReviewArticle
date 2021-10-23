@@ -259,13 +259,6 @@ C.~J. Brampton, K.~C. Wu, H.~A. Kim, {New optimization method for steered fiber
 \newblock \href {http://dx.doi.org/10.1007/s00158-015-1256-6}
   {\path{doi:10.1007/s00158-015-1256-6}}.
 
-\bibitem{Papapetrou2020}
-V.~S. Papapetrou, C.~Patel, A.~Y. Tamijani, {Stiffness-based optimization
-  framework for the topology and fiber paths of continuous fiber composites},
-  Compos. Part B Eng. 183 (2020) 107681.
-\newblock \href {http://dx.doi.org/10.1016/j.compositesb.2019.107681}
-  {\path{doi:10.1016/j.compositesb.2019.107681}}.
-
 \bibitem{Tian2021}
 Y.~Tian, S.~Pu, T.~Shi, Q.~Xia, {A parametric divergence-free vector field
   method for the optimization of composite structures with curvilinear fibers},
@@ -449,17 +442,83 @@ S.~Setoodeh, M.~M. Abdalla, Z.~G{\"{u}}rdal, {Combined topology and fiber path
   {\path{doi:10.1007/s00158-005-0528-y}}.
 
 \bibitem{Zhou2018}
-Y.~Zhou, T.~Nomura, K.~Saitou, {Multi-component topology and material
-  orientation design of composite structures (MTO-C)}, Comput. Methods Appl.
-  Mech. Eng. 342 (2018) 438--457.
+Y.~Zhou, T.~Nomura, K.~Saitou,
+  \href{https://doi.org/10.1016/j.cma.2018.07.039}{{Multi-component topology
+  and material orientation design of composite structures (MTO-C)}}, Comput.
+  Methods Appl. Mech. Eng. 342 (2018) 438--457.
 \newblock \href {http://dx.doi.org/10.1016/j.cma.2018.07.039}
   {\path{doi:10.1016/j.cma.2018.07.039}}.
+\newline\urlprefix\url{https://doi.org/10.1016/j.cma.2018.07.039}
 
 \bibitem{Liu2014}
 T.~Liu, S.~Wang, B.~Li, L.~Gao, {A level-set-based topology and shape
   optimization method for continuum structure under geometric constraints},
-  Struct. Multidiscip. Optim. 50 (2014) 253--273.
+  Struct. Multidiscip. Optim. 50~(2) (2014) 253--273.
 \newblock \href {http://dx.doi.org/10.1007/s00158-014-1045-7}
   {\path{doi:10.1007/s00158-014-1045-7}}.
+
+\bibitem{Ferreira2019}
+I.~Ferreira, M.~Machado, F.~Alves, A.~Torres~Marques, A review on fibre
+  reinforced composite printing via {FFF}, Rapid Prototyping Journal 25 (2019)
+  972--988.
+\newblock \href {http://dx.doi.org/10.1108/RPJ-01-2019-0004}
+  {\path{doi:10.1108/RPJ-01-2019-0004}}.
+
+\bibitem{Papapetrou2020}
+V.~S. Papapetrou, C.~Patel, A.~Y. Tamijani, {Stiffness-based optimization
+  framework for the topology and fiber paths of continuous fiber composites},
+  Compos. Part B Eng. 183 (2020) 107681.
+\newblock \href {http://dx.doi.org/10.1016/j.compositesb.2019.107681}
+  {\path{doi:10.1016/j.compositesb.2019.107681}}.
+
+\bibitem{Chen2021}
+Y.~Chen, L.~Ye, {Topological design for {3D}-printing of carbon fibre
+  reinforced composite structural parts}, Compos. Sci. Technol. 204 (2021)
+  108644.
+\newblock \href {http://dx.doi.org/10.1016/j.compscitech.2020.108644}
+  {\path{doi:10.1016/j.compscitech.2020.108644}}.
+
+\bibitem{Schmidt2020}
+M.~P. Schmidt, L.~Couret, C.~Gout, C.~B. Pedersen, {Structural topology
+  optimization with smoothly varying fiber orientations}, Struct. Multidiscip.
+  Optim. 62 (2020) 3105--3126.
+\newblock \href {http://dx.doi.org/10.1007/s00158-020-02657-6}
+  {\path{doi:10.1007/s00158-020-02657-6}}.
+
+\bibitem{Kubalak2020}
+J.~R. Kubalak, A.~L. Wicks, C.~B. Williams, Investigation of parameter spaces
+  for topology optimization with three-dimensional orientation fields for
+  multi-axis additive manufacturing, Journal of Mechanical Design 143.
+\newblock \href {http://dx.doi.org/10.1115/1.4048117}
+  {\path{doi:10.1115/1.4048117}}.
+
+\bibitem{Fedulov2021}
+B.~Fedulov, A.~Fedorenko, A.~Khaziev, F.~Antonov, Optimization of parts
+  manufactured using continuous fiber three-dimensional printing technology,
+  Composites Part B: Engineering 227 (2021) 109406.
+\newblock \href {http://dx.doi.org/10.1016/j.compositesb.2021.109406}
+  {\path{doi:10.1016/j.compositesb.2021.109406}}.
+
+\bibitem{Riche1993}
+R.~L. Riche, R.~T. Haftka, Optimization of laminate stacking sequence for
+  buckling load maximization by genetic algorithm, AIAA J. 31 (1993) 951--956.
+\newblock \href {http://dx.doi.org/https://doi.org/10.2514/3.11710}
+  {\path{doi:https://doi.org/10.2514/3.11710}}.
+
+\bibitem{Nagender1996}
+S.~Nagendra, D.~Jestin, Z.~Gürdal, R.~Haftka, L.~Watson, Improved genetic
+  algorithm for the design of stiffened composite panels, Computers \&
+  Structures 58 (1996) 543--555.
+\newblock \href
+  {http://dx.doi.org/https://doi.org/10.1016/0045-7949(95)00160-I}
+  {\path{doi:https://doi.org/10.1016/0045-7949(95)00160-I}}.
+
+\bibitem{LiuandHaftka2000}
+B.~Liu, R.~T. Haftka, M.~A. Akgün, A.~Todoroki, Permutation genetic algorithm
+  for stacking sequence design of composite laminates, Computer Methods in
+  Applied Mechanics and Engineering 186 (2000) 357--372.
+\newblock \href
+  {http://dx.doi.org/https://doi.org/10.1016/S0045-7825(99)90391-2}
+  {\path{doi:https://doi.org/10.1016/S0045-7825(99)90391-2}}.
 
 \end{thebibliography}

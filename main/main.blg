@@ -1,5 +1,5 @@
-This is BibTeX, Version 0.99d (TeX Live 2019/Debian)
-Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+This is BibTeX, Version 0.99d (TeX Live 2017/Debian)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: main.aux
 The style file: elsarticle-num.bst
 Database file #1: library.bib
@@ -7,45 +7,45 @@ Warning--I didn't find a database entry for ""
 Warning--I didn't find a database entry for "Novotny2019"
 Warning--I didn't find a database entry for "Novotny2019a"
 Warning--I didn't find a database entry for "Dorn1964"
-You've used 68 entries,
+You've used 76 entries,
             2937 wiz_defined-function locations,
-            1189 strings with 19279 characters,
-and the built_in function-call counts, 21714 in all, are:
-= -- 2300
-> -- 725
+            1250 strings with 21225 characters,
+and the built_in function-call counts, 24294 in all, are:
+= -- 2564
+> -- 817
 < -- 0
-+ -- 287
-- -- 219
-* -- 1813
-:= -- 3027
-add.period$ -- 135
-call.type$ -- 68
-change.case$ -- 67
++ -- 323
+- -- 247
+* -- 2035
+:= -- 3390
+add.period$ -- 151
+call.type$ -- 76
+change.case$ -- 75
 chr.to.int$ -- 0
-cite$ -- 68
-duplicate$ -- 527
-empty$ -- 2171
-format.name$ -- 279
-if$ -- 5407
+cite$ -- 76
+duplicate$ -- 591
+empty$ -- 2430
+format.name$ -- 315
+if$ -- 6057
 int.to.chr$ -- 0
-int.to.str$ -- 68
-missing$ -- 68
-newline$ -- 279
-num.names$ -- 68
-pop$ -- 277
+int.to.str$ -- 76
+missing$ -- 76
+newline$ -- 312
+num.names$ -- 76
+pop$ -- 310
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 1292
+skip$ -- 1443
 stack$ -- 0
-substring$ -- 1431
-swap$ -- 197
+substring$ -- 1586
+swap$ -- 221
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 187
-width$ -- 70
-write$ -- 683
+while$ -- 204
+width$ -- 78
+write$ -- 764
 (There were 4 warnings)
