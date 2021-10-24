@@ -449,16 +449,18 @@ S.~Setoodeh, M.~M. Abdalla, Z.~G{\"{u}}rdal, {Combined topology and fiber path
   {\path{doi:10.1007/s00158-005-0528-y}}.
 
 \bibitem{Zhou2018}
-Y.~Zhou, T.~Nomura, K.~Saitou, {Multi-component topology and material
-  orientation design of composite structures (MTO-C)}, Comput. Methods Appl.
-  Mech. Eng. 342 (2018) 438--457.
+Y.~Zhou, T.~Nomura, K.~Saitou,
+  \href{https://doi.org/10.1016/j.cma.2018.07.039}{{Multi-component topology
+  and material orientation design of composite structures (MTO-C)}}, Comput.
+  Methods Appl. Mech. Eng. 342 (2018) 438--457.
 \newblock \href {http://dx.doi.org/10.1016/j.cma.2018.07.039}
   {\path{doi:10.1016/j.cma.2018.07.039}}.
+\newline\urlprefix\url{https://doi.org/10.1016/j.cma.2018.07.039}
 
 \bibitem{Liu2014}
 T.~Liu, S.~Wang, B.~Li, L.~Gao, {A level-set-based topology and shape
   optimization method for continuum structure under geometric constraints},
-  Struct. Multidiscip. Optim. 50 (2014) 253--273.
+  Struct. Multidiscip. Optim. 50~(2) (2014) 253--273.
 \newblock \href {http://dx.doi.org/10.1007/s00158-014-1045-7}
   {\path{doi:10.1007/s00158-014-1045-7}}.
 
