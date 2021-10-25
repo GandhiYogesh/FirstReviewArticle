@@ -200,6 +200,26 @@ Y.~Xu, J.~Zhu, Z.~Wu, Y.~Cao, Y.~Zhao, W.~Zhang, {A review on the design of
 \newblock \href {http://dx.doi.org/10.1007/s42114-018-0032-7}
   {\path{doi:10.1007/s42114-018-0032-7}}.
 
+\bibitem{Xia2018}
+Q.~Xia, T.~Shi, {A cascadic multilevel optimization algorithm for the design of
+  composite structures with curvilinear fiber based on Shepard interpolation},
+  Compos. Struct. 188 (2018) 209--219.
+\newblock \href {http://dx.doi.org/10.1016/j.compstruct.2018.01.013}
+  {\path{doi:10.1016/j.compstruct.2018.01.013}}.
+
+\bibitem{Wang2020}
+Z.~Wang, A.~Sobey, {A comparative review between {Genetic} {Algorithm} use in
+  composite optimisation and the state-of-the-art in evolutionary computation},
+  Compos. Struct. 233.
+\newblock \href {http://dx.doi.org/10.1016/j.compstruct.2019.111739}
+  {\path{doi:10.1016/j.compstruct.2019.111739}}.
+
+\bibitem{Sigmund2011}
+O.~Sigmund, {On the usefulness of non-gradient approaches in topology
+  optimization}, Struct. Multidiscip. Optim. 43 (2011) 589--596.
+\newblock \href {http://dx.doi.org/10.1007/s00158-011-0638-7}
+  {\path{doi:10.1007/s00158-011-0638-7}}.
+
 \bibitem{Stegmann2005}
 J.~Stegmann, E.~Lund, {Discrete material optimization of general composite
   shell structures}, Int. J. Numer. Methods Eng. 62~(14) (2005) 2009--2027.
@@ -376,32 +396,12 @@ H.~C. Cheng, N.~Kikuchi, Z.~D. Ma, {An improved approach for determining the
 \newblock \href {http://dx.doi.org/10.1007/BF01743305}
   {\path{doi:10.1007/BF01743305}}.
 
-\bibitem{Xia2018}
-Q.~Xia, T.~Shi, {A cascadic multilevel optimization algorithm for the design of
-  composite structures with curvilinear fiber based on Shepard interpolation},
-  Compos. Struct. 188 (2018) 209--219.
-\newblock \href {http://dx.doi.org/10.1016/j.compstruct.2018.01.013}
-  {\path{doi:10.1016/j.compstruct.2018.01.013}}.
-
-\bibitem{Wang2020}
-Z.~Wang, A.~Sobey, {A comparative review between {Genetic} {Algorithm} use in
-  composite optimisation and the state-of-the-art in evolutionary computation},
-  Compos. Struct. 233.
-\newblock \href {http://dx.doi.org/10.1016/j.compstruct.2019.111739}
-  {\path{doi:10.1016/j.compstruct.2019.111739}}.
-
 \bibitem{Hasancebi2010}
 O.~Hasan{\c{c}}ebi, S.~{\c{C}}arbas, M.~P. Saka, {Improving the performance of
   simulated annealing in structural optimization}, Struct. Multidiscip. Optim.
   41 (2010) 189--203.
 \newblock \href {http://dx.doi.org/10.1007/s00158-009-0418-9}
   {\path{doi:10.1007/s00158-009-0418-9}}.
-
-\bibitem{Sigmund2011}
-O.~Sigmund, {On the usefulness of non-gradient approaches in topology
-  optimization}, Struct. Multidiscip. Optim. 43 (2011) 589--596.
-\newblock \href {http://dx.doi.org/10.1007/s00158-011-0638-7}
-  {\path{doi:10.1007/s00158-011-0638-7}}.
 
 \bibitem{Svanberg1987}
 K.~Svanberg, {The method of moving asymptotes—a new method for structural

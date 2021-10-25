@@ -1,0 +1,29 @@
+\section{Topology Optimization Formulation for continuum structure}
+\subsection{Discrete Topology Optimization} Topology optimization aims to obtain binary solutions representing optimal structural layouts. Therefore, the topology optimization problem is a binary problem representing the void and solid regions of the structure, respectively. The well-known discrete topology optimization method is the Bi-directional Evolutionary Structural Optimization (BESO). Interested readers find comprehensive reviews on the BESO methods in \cite{Munk2015, Xia2018}.  Another outlook on approaching the discrete problem is using a genetic algorithm \cite{Wang2020} that can find "global minimum" and allow handling a discrete variable, but this always sacrifices the computational cost. Furthermore, Sigmund \cite{Sigmund2011} questions the usefulness of non-gradient approaches in Topology Optimization. Finally, Sivapuram et al. combined the features of BESO and the sequential integer linear programming for discrete topology optimization \cite{Svanberg2006}.
+The discrete TopOpt uses binary design variables, one for each of the finite elements in the mesh of the structural domain. The design variable $1$ implies the finite element is filled with material, $0$ indicates void. Consider an objective function $\Phi(\rho, \mathrm{U}(\rho))$, constrained by $g_{i}\leq g_{i}^{*}.i\in[1,M]$, with $\rho$ being the design variables, where $N$ number of finite elements in mesh. The discrete variable optimization problem can be formulated as follows:
+\begin{equation}
+    \begin{aligned}
+        \min _{\rho}   & : \Phi(\rho, \mathrm{U}(\rho))                                                         \\
+        \text { s.t. } & : \sum_{e=1}^{N} v_{e} \rho_{e}=\mathbf{v}^{T} \mathbf{\rho} \leq V^{*}                \\
+                       & : g_{i}(\mathbf{\rho}, \mathbf{U}(\mathbf{\rho})) \leq g_{i}^{*}, \quad i=1, \ldots, M \\
+                       & : \rho_{e}=\left\{\begin{array}{l}
+            0(\text { void }) \\
+            1(\text { material })
+        \end{array}, e=1, \ldots, N\right.                     \\
+                       & : \mathbf{K}(\mathbf{\rho}) \mathbf{U}=\mathbf{F}
+    \end{aligned}
+\end{equation}
+where $\mathbf{K}$ and $\mathbf{U}$ is the assembled stiffness matrix and displacement vector corresponding to finite elements in the mesh.
+\subsection{Continuum Topology Optimization}
+Density-based topology optimization is a broadly received idea considered topology optimization of continuum structures by using continuous density design variables that transform the binary variable optimization problem into a density distribution problem. The design variable can take any value from 0 to 1 such that $\rho \in [0,1]$. Thus, in such methods \cite{Bendsoee1988,Bendsoee1989}, optimized solutions do not explicitly exhibit structural boundaries, which challenges solving problems where explicit boundary identification is essential, e.g., in design-dependent and multiphysics problems. The continuous variable optimization problem can be formulated as follows:
+\begin{equation}
+    \begin{aligned}
+        \min _{\rho}   & : \Phi(\rho, \mathrm{U}(\rho))                                                         \\
+        \text { s.t. } & : \sum_{e=1}^{N} v_{e} \rho_{e}=\mathbf{v}^{T} \mathbf{\rho} \leq V^{*}                \\
+                       & : g_{i}(\mathbf{\rho}, \mathbf{U}(\mathbf{\rho})) \leq g_{i}^{*}, \quad i=1, \ldots, M \\
+                       & : 0 \leq\rho_{min}\leq\rho\leq 1                                                       \\
+                       & : \mathbf{K}(\mathbf{\rho}) \mathbf{U}=\mathbf{F}
+    \end{aligned}
+\end{equation}
+\subsection{Topology Optimization of FRC}
+\paragraph{Formulation}
