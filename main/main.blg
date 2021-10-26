@@ -1,15 +1,17 @@
-This is BibTeX, Version 0.99d (TeX Live 2017/Debian)
-Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+This is BibTeX, Version 0.99d (TeX Live 2019/Debian)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: main.aux
 The style file: elsarticle-num.bst
 Database file #1: library.bib
 Warning--I didn't find a database entry for ""
 Warning--I didn't find a database entry for "Novotny2019"
 Warning--I didn't find a database entry for "Novotny2019a"
+Warning--I didn't find a database entry for "Munk2015"
+Warning--I didn't find a database entry for "Svanberg2006"
 Warning--I didn't find a database entry for "Dorn1964"
 You've used 68 entries,
             2937 wiz_defined-function locations,
-            1191 strings with 19333 characters,
+            1195 strings with 19373 characters,
 and the built_in function-call counts, 21750 in all, are:
 = -- 2304
 > -- 725
@@ -48,4 +50,4 @@ warning$ -- 0
 while$ -- 187
 width$ -- 70
 write$ -- 684
-(There were 4 warnings)
+(There were 6 warnings)
