@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2021.9.9)  23 OCT 2021 14:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2021.10.23)  24 OCT 2021 10:12
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1109,11 +1109,7 @@ Package: multibib 2008/12/10 v1.4 Multiple bibliographies for one document.
 \mb@biblabelwidth=\count304
 ) (/usr/share/texlive/texmf-dist/tex/latex/import/import.sty
 Package: import 2009/03/23  v 5.1
-)) (/home/yoshi/FirstReviewArticle/main/main.aux
-
-LaTeX Warning: Label `characterisitic function' multiply defined.
-
-)
+)) (/home/yoshi/FirstReviewArticle/main/main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 3.
@@ -1305,12 +1301,6 @@ Underfull \hbox (badness 4441) in paragraph at lines 2--3
 Missing character: There is no Ã in font txr!
 Missing character: There is no ¸ in font txr!
 
-Package natbib Warning: Citation `Novotny2019' on page 1 undefined on input line 5.
-
-
-Package natbib Warning: Citation `Novotny2019a' on page 1 undefined on input line 5.
-
-
 Overfull \hbox (1.90001pt too wide) has occurred while \output is active
 [] 
  []
@@ -1330,7 +1320,7 @@ l.74
 
 Package natbib Warning: Citation `Dorn1964' on page 4 undefined on input line 52.
 
-[4]) (/home/yoshi/FirstReviewArticle/main/Discussion.tex
+[4]) (/home/yoshi/FirstReviewArticle/main/./../Sections/Discussion.tex
 Missing character: There is no â in font txr!
 Missing character: There is no € in font txr!
 Missing character: There is no ” in font txr!
@@ -1352,13 +1342,13 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Missing character: There is no â in font txr!
 Missing character: There is no € in font txr!
 Missing character: There is no ” in font txr!
-Missing character: There is no Ã in font txr!
-Missing character: There is no ¼ in font txr!
-Missing character: There is no Ã in font txr!
-Missing character: There is no ¼ in font txr!
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
+Missing character: There is no Ã in font txr!
+Missing character: There is no ¼ in font txr!
+Missing character: There is no Ã in font txr!
+Missing character: There is no ¼ in font txr!
 )
 
 Package natbib Warning: There were undefined citations.
@@ -1371,24 +1361,20 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 22.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 22.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: FDAAA48755EF8A83ADE4A7C6647714B5;381.
-
-
-LaTeX Warning: There were multiply-defined labels.
-
  ) 
 Here is how much of TeX's memory you used:
- 18391 strings out of 492982
- 321296 string characters out of 6134897
- 411701 words of memory out of 5000000
- 21601 multiletter control sequences out of 15000+600000
+ 18397 strings out of 492982
+ 321431 string characters out of 6134895
+ 411694 words of memory out of 5000000
+ 21605 multiletter control sequences out of 15000+600000
  571835 words of font info for 120 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  39i,9n,40p,10409b,704s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtcxr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txex.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on /home/yoshi/FirstReviewArticle/main/main.pdf (9 pages, 132440 bytes).
+Output written on /home/yoshi/FirstReviewArticle/main/main.pdf (9 pages, 132405 bytes).
 PDF statistics:
- 479 PDF objects out of 1000 (max. 8388607)
- 452 compressed objects within 5 object streams
- 116 named destinations out of 1000 (max. 500000)
+ 487 PDF objects out of 1000 (max. 8388607)
+ 460 compressed objects within 5 object streams
+ 118 named destinations out of 1000 (max. 500000)
  49 words of extra memory for PDF output out of 10000 (max. 10000000)
 

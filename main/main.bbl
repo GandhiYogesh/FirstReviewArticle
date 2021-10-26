@@ -478,6 +478,21 @@ Y.~Chen, L.~Ye, {Topological design for {3D}-printing of carbon fibre
 \newblock \href {http://dx.doi.org/10.1016/j.compscitech.2020.108644}
   {\path{doi:10.1016/j.compscitech.2020.108644}}.
 
+\bibitem{Wang2021pp}
+T.~Wang, N.~Li, G.~Link, J.~Jelonnek, J.~Fleischer, J.~Dittus, D.~Kupzik,
+  Load-dependent path planning method for 3d printing of continuous fiber
+  reinforced plastics, Composites Part A: Applied Science and Manufacturing 140
+  (2021) 106181.
+\newblock \href {http://dx.doi.org/10.1016/j.compositesa.2020.106181}
+  {\path{doi:10.1016/j.compositesa.2020.106181}}.
+
+\bibitem{Liu2017pp}
+J.~Liu, H.~Yu, Concurrent deposition path planning and structural topology
+  optimization for additive manufacturing, Rapid Prototyping Journal 23 (2017)
+  930--942.
+\newblock \href {http://dx.doi.org/10.1108/RPJ-05-2016-0087}
+  {\path{doi:10.1108/RPJ-05-2016-0087}}.
+
 \bibitem{Schmidt2020}
 M.~P. Schmidt, L.~Couret, C.~Gout, C.~B. Pedersen, {Structural topology
   optimization with smoothly varying fiber orientations}, Struct. Multidiscip.

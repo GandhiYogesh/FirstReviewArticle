@@ -308,8 +308,8 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/txfonts/rtxptmri.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/txfonts/txr.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/txfonts/rtxptmr.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/txfonts/rtxr.tfm
-INPUT /home/yoshi/FirstReviewArticle/main/Discussion.tex
-INPUT /home/yoshi/FirstReviewArticle/main/Discussion.tex
+INPUT /home/yoshi/FirstReviewArticle/main/./../Sections/Discussion.tex
+INPUT /home/yoshi/FirstReviewArticle/main/./../Sections/Discussion.tex
 INPUT /home/yoshi/FirstReviewArticle/main/main.bbl
 INPUT /home/yoshi/FirstReviewArticle/main/main.bbl
 INPUT /home/yoshi/FirstReviewArticle/main/main.aux

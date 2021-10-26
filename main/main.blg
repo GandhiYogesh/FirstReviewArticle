@@ -4,48 +4,46 @@ The top-level auxiliary file: main.aux
 The style file: elsarticle-num.bst
 Database file #1: library.bib
 Warning--I didn't find a database entry for ""
-Warning--I didn't find a database entry for "Novotny2019"
-Warning--I didn't find a database entry for "Novotny2019a"
 Warning--I didn't find a database entry for "Dorn1964"
-You've used 76 entries,
+You've used 78 entries,
             2937 wiz_defined-function locations,
-            1250 strings with 21225 characters,
-and the built_in function-call counts, 24294 in all, are:
-= -- 2564
-> -- 817
+            1259 strings with 21677 characters,
+and the built_in function-call counts, 24971 in all, are:
+= -- 2631
+> -- 846
 < -- 0
-+ -- 323
-- -- 247
-* -- 2035
-:= -- 3390
-add.period$ -- 151
-call.type$ -- 76
-change.case$ -- 75
++ -- 334
+- -- 256
+* -- 2095
+:= -- 3487
+add.period$ -- 155
+call.type$ -- 78
+change.case$ -- 77
 chr.to.int$ -- 0
-cite$ -- 76
-duplicate$ -- 591
-empty$ -- 2430
-format.name$ -- 315
-if$ -- 6057
+cite$ -- 78
+duplicate$ -- 607
+empty$ -- 2495
+format.name$ -- 326
+if$ -- 6223
 int.to.chr$ -- 0
-int.to.str$ -- 76
-missing$ -- 76
-newline$ -- 312
-num.names$ -- 76
-pop$ -- 310
+int.to.str$ -- 78
+missing$ -- 78
+newline$ -- 320
+num.names$ -- 78
+pop$ -- 318
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 1443
+skip$ -- 1481
 stack$ -- 0
-substring$ -- 1586
-swap$ -- 221
+substring$ -- 1629
+swap$ -- 227
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 204
-width$ -- 78
-write$ -- 764
-(There were 4 warnings)
+while$ -- 209
+width$ -- 80
+write$ -- 784
+(There were 2 warnings)
