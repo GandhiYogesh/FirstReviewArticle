@@ -1,9 +1,13 @@
 \BOOKMARK [1][-]{section.1}{Introduction}{}% 1
-\BOOKMARK [1][-]{section.2}{Topology Optimization Formulation for continuum structure}{}% 2
-\BOOKMARK [2][-]{subsection.2.1}{Discrete Topology Optimization}{section.2}% 3
-\BOOKMARK [2][-]{subsection.2.2}{Continuum Topology Optimization}{section.2}% 4
-\BOOKMARK [2][-]{subsection.2.3}{Topology Optimization of FRC}{section.2}% 5
+\BOOKMARK [1][-]{section.2}{Topology Optimization for continuum structures}{}% 2
+\BOOKMARK [2][-]{subsection.2.1}{Problem Statement}{section.2}% 3
+\BOOKMARK [2][-]{subsection.2.2}{Discrete Topology Optimization}{section.2}% 4
+\BOOKMARK [2][-]{subsection.2.3}{Continuum Topology Optimization}{section.2}% 5
 \BOOKMARK [1][-]{section.3}{Paramterization schemes for fiber orientation}{}% 6
-\BOOKMARK [1][-]{section.4}{functionally graded anisotropic material}{}% 7
-\BOOKMARK [1][-]{section.5}{New articles}{}% 8
-\BOOKMARK [2][-]{subsection.5.1}{Formulation and optimization algorithm}{section.5}% 9
+\BOOKMARK [2][-]{subsection.3.1}{Continuous Parameterization}{section.3}% 7
+\BOOKMARK [2][-]{subsection.3.2}{Discrete Paramterization}{section.3}% 8
+\BOOKMARK [2][-]{subsection.3.3}{Hybrid Paramterization}{section.3}% 9
+\BOOKMARK [1][-]{section.4}{functionally graded anisotropic material}{}% 10
+\BOOKMARK [1][-]{section.5}{New articles}{}% 11
+\BOOKMARK [2][-]{subsection.5.1}{Formulation and optimization algorithm}{section.5}% 12
+\BOOKMARK [1][-]{section.6}{Discussion}{}% 13

@@ -8,30 +8,25 @@ can produce the structure, and it should also provide enough design
 freedom so that optimization algorithm can consider more candidate
 designs.
 
-\subsection*{Continuous Parameterization}
-The straightforward parametrization of fiber orientation design uses the
-angle itself as the design variable. The design variable is then the
-continuous and independent parameter at design points, for instance, at
-centers of finite elements. Handling the continuous fiber orientation
-design presents difficulties due to a fourth-order transform tensor,
-which rotates the tensor to a given angle composed of multivalued sine
-and cosine functions, rendering a non-convex optimization problem. Thus,
-optimizing the fiber orientation is susceptible to the initial fiber
-configuration and produces difficulties obtaining the optimized
-solution. In addition, the lack of fiber continuity in a large region
-puts a question mark on the realizability of the attained optimized
-solution. As illustrated in \cite{Stegmann2005}, suboptimal solutions
-\cite{Ghiasi2009, Xu2018} are the persistent outcome of a continuous
-fiber orientation design problem. Various modifications in
-parametrization schemes and different optimization algorithm methods
-have been considered to handle the sub-optimal design issue for the
-continuous fiber orientation problem --- one brute-force way to avoid it
-by relaxing the design space. For instance, free material optimization
-(FMO)\cite{Zowe1997, BenTal1999} further relaxed the design space by
-independently parameterizing each stiffness tensor element as the design
-variable. However, interpretation of the obtained stiffness tensor and
-linking it to the feasible physical design makes this approach
-challenging. Xia and Shi \cite{Xia2017}
+\subsection{Continuous Parameterization}
+The continuous parametrization of fiber orientation design uses the angle itself as the design variable \cite{Bruyneel2002, Lindgaard2011}. The design variable is the continuous and independent parameter that provides flexibility in changing the orientation across the design points, with the relaxation of orientation design space. However, handling the continuous fiber orientation design presents difficulties due to a fourth-order transform tensor, which rotates to a given angle composed of multivalued sine and cosine functions, rendering a non-convex optimization problem. Furthermore, optimizing the fiber orientation is susceptible to the initial fiber configuration, thus causing difficulties obtaining the optimized solution. As illustrated in \cite{Stegmann2005}, suboptimal solutions \cite{Ghiasi2009, Xu2018} are the persistent outcome of a continuous fiber orientation design problem---one brute-force way to avoid it by further relaxing the design space. For instance, free material optimization (FMO)\cite{Zowe1997, BenTal1999} parameterizing each stiffness tensor element independently as the design variable. Thus, securing the scheme from the complexity that stems from the design space's orientation design variable. However, as compensation, point-wise nonlinear constraints ensure the positive semi-definitiveness of the obtained stiffness tensor and link it to the feasible physical design, making this approach challenging. Nomura et al. \cite {Nomura2019} formulated orientation design variable as a tensor field to simplify the first tensor invariant constraint and remove nonlinear constraints successfully introduced due to the second tensor invariant. Still, as commented, the violation of these constraints is observed at the joint point of the structural members where the orientation shows the discontinuous distribution.
+
+Reasonably arranging the fiber orientation is critical to effectively handling an anisotropic material, which is vital in designing next-generation lightweight composite structures. Frequently, fiber orientation optimization creates difficulty associated with local optima and discontinuous functions. To address this, gradient
+-free algorithms, such as the genetic algorithm particle swarm algorithm and simulated annealing algorithm \cite{Hasancebi2010}, are more qualified because of their global searching ability \cite{Reuschel1999,Voelkl2018}. By allowing differentiable functions, mixed design variables, and discrete space, introduce a relaxed formulation that has the advantage of obtaining fewer local optima. The inefficiency of most gradient-free algorithms requiring numerous function evaluations is impractical for expensive finite element simulations; thus,  adoption of gradient-based algorithms, i.e., Optimality Criteria Method (OCM), Method of Moving Asymptotes (MMA) \cite{Svanberg1987}, and Sequential Linear Programming (SLP) \cite{Dunning2015}.
+
+% Gradient-based algorithms are efficient in finding local minima in spaces of any number of dimensions with nonlinear constraints. The method employs variational methods to form an unconstrained optimization problem to satisfy structure behavior's criteria resulting in two unknown design variables and Lagrange multipliers, which are iteratively updated to fulfill the optimality criteria at every iteration.
+
+
+% Frequent calculations of the objective function and constraints and their derivatives in nonlinear mathematical programming methods become expensive and time-consuming with the increase in the design variables. Moreover, they are proportional to the resolution of the discretized domain that represents a limiting factor for the capability of a structural optimization algorithm. Therefore, instead of directly optimizing the objective function, an alternative is the optimality criteria. This method employs variational methods to form an unconstrained optimization problem to satisfy structure behavior's criteria resulting in two unknown design variables and Lagrange multipliers, which are iteratively updated to fulfill the optimality criteria at every iteration.
+
+In particular, for orthotropic materials, early studies utilizing the analytical derived optimally criterion \cite{M.C.E1904} for optimizing fiber orientation dates back to the pioneering work of Pedersen on strain-based method \cite{Pedersen1989, Pedersen1990, Pedersen1991}.  In Pedersen's work, strain energy density transformed into principal strain and concluded that material orientation axes along principal strain axes always give stationary energy density. However, Cheng \cite{Cheng1994} argued that the discussion is limited to a unit cell case where the orientation variable is separated from the design domain to obtain extreme strain energy. After that, a similar deduction using iterative optimality criteria \cite{Zhou1992, Zhou1993} formulated the stress-based method \cite{Suzuki1991} by exercising invariant stress field for material orientation. Finally, Diaz and Bendsoe \cite{Diaz1992} extended the stress-based method for determining the optimal orientation optimization problem corresponding to multiple loads. Despite their similarity, the stress-based method produces a slightly stiffer structure than the strain method because strong couplings exist among the orientational variables when the strain field is used \cite{Cheng1994}. Conclusively, Gea and Luo \cite{Gea2004} demonstrated that the fiber orientation coincides with the principal stress/strain fields for relatively 'weak' shear and some shear 'strong' types of orthotropic materials. Further, the methods are highly dependent on the initial fiber configuration, and both approaches will fail for shear 'strong' type materials due to repeated global minimum solutions.
+Nevertheless, these methods form the basis for future research on material orientation optimization for fiber-reinforced composite materials. These methods' shortcomings coerced to formulate the energy-based method introduced by Luo and Gea \cite{Luo1998a, Luo1998}. The method uses an inclusion cell to estimates the strain fields' and stress fields' dependency on fiber orientation by introducing an approximate energy factor. Yet, the dependence of energy factors on the traction stress, material properties, and orientation of the inclusion cell and its surroundings make it challenging to formulate the framework for 3D and complex loading problems. Following the principles of the energy-based method, Yan et al. \cite{Yan2020} proposed a hybrid stress-strain method by weighting the mean compliance's optimality condition in the stress and strain form. Numerical examples demonstrate their method on the shear weak and strong materials and extended for a 3D problem. The assumption on the elemental strain and stress field invariant to the neighboring elemental orientation is considered; however, it may restrict to solve 3D problems and may result in a suboptimal solution.
+
+% Xia and Shi \cite{Xia2017} proposed constructing a continuous global function interpolating scattered design points to represent the fiber angle throughout the design domain. Furthermore, a cascading multilevel optimization \cite{Xia2018} problem was formulated, where coarse-level results serve as an initial design for a more refined level.
+
+On the other hand, Shen et al. \cite {Shen2020} questioned the lack of understanding about the orientation optimization algorithm to handle arbitrary constraints and loads. A step length scheme for orientation optimization is advised to achieve global descent by normalizing the gradient vector and introducing a parameter to control the magnitude of material orientation in each iteration. However, the verification lacks the effect of adding constraints in the orientation optimization problem on the update scheme, a critical factor for the optimality criteria method. Thus, a more generalized OCM for the topology optimization of transversely isotropic material is demanded from the perspective of scalability and multiloading situations. Recently, Kim et al. \cite{Kim2021} interpreted the work of Patnaik et al. \cite{Patnaik1993} on parametric optimization and proposed a generalized optimality criteria method for topology optimization problems. The approach eliminates the compulsion to satisfy the constraints during every optimization iteration but should be met upon convergence.
+
+
 
 An alternative is employing curvilinear parameterization schemes that define
 fiber paths as the graphs of analytical function, which guarantee continuity of
@@ -45,130 +40,16 @@ a level set function to represent curvilinear fiber paths \cite{Brampton2015,
 parallel to the neighboring fiber paths. Furthermore, the optimization result
 becomes highly dependent on the initial configuration, and local solutions often
 appear \cite{Tian2021}.
-\subsection*{Discrete Paramterization}
-The counter approach reduces the design search space to avoid multiple local
-minima issues where the optimized solution is highly sensitive to the initial
-fiber configuration. Thus,  Stegmann and  Lund \cite{Stegmann2005,
-    Lindgaard2011} stretched the design search space by choosing discrete fiber
-orientation candidates, define apriori, which parameterized the design space
-into the discrete material candidates. These transversely isotropic material
-models are defined for different fiber orientations for the same isotropic
-elasticity tensor and share some similarities with the multi-material
-optimization problem in \cite{Bendsoee1999, Yin2001}. The suggested approach
-assigned weighting functions to different candidates and employed gradient-based
-optimization and penalization coefficient to force the weighting functions
-towards either zero or one to seek fiber convergence, i.e., one discrete
-material at each design point. This method is known as Discrete Material
-optimization (DMO). DMO laid the foundation for SFP (Shape Function and with
-Penalization) \cite{Bruyneel2011}, BCP (Bi-value Coding Parameterization)
-\cite{Gao2012} to perform discrete fiber orientation optimization . A comparison
-using various numerical examples on these methodologies on discrete fiber
-orientation optimization drawn in \cite{Kiyono2017}. Contrarily to CFAO, it does
-not cover design problems for continuously varying orientation distributions.
-Thus, it permits a limited scope to fully exploit the potential of modern
-technology's continuously varying orientation in composites. \cite{ArianNik2012,
-    Malakhov2016, Sugiyama2020}. Secondly, these methods fail to address the fiber
-convergence even against the significant penalization factor; hence, their
-benefit relies on an optimization algorithm to circumvent impractical mixtures
-of fiber angles. Third, the discrete parameterization scheme should further
-minimize the number of design candidates for efficient optimization.
+\subsection{Discrete Paramterization}
+The counter scheme reduces the orientation design space to avoid multiple local optima issues where the optimized solution is highly sensitive to the initial fiber configuration. Therefore, Stegmann and  Lund \cite{Stegmann2005} stretched the orientation design space by choosing discrete fiber orientation candidates, which are defined apriori, to parametrize the orientation design space into the discrete material candidates. These transversely isotropic material models are defined for different fiber orientations for the same isotropic elasticity tensor. Thus the scheme share some similarities with the multi-material optimization problem in \cite{Bendsoee1999, Yin2001}. The suggested scheme assigned weighting functions to different candidates and employed gradient-based optimization with penalization coefficient, forcing the weighting functions to seek a binary design and fiber convergence, i.e., one discrete material at each design point. This method is known as Discrete Material optimization (DMO). DMO laid the foundation for SFP (Shape Function and with Penalization) \cite{Bruyneel2011}, BCP (Bi-value Coding parametrization) \cite{Gao2012} to perform discrete fiber orientation optimization. A comparison between these methodologies utilizing various numerical examples is drawn in \cite{Kiyono2017}.
 
-Kiyono et al. \cite{Kiyono2017} proposed a continuation of the
-computational approach suggested by Yin and Ananthasuresh \cite{Yin2001}
-by utilizing the normal distribution function to guarantee fiber
-convergence, low sensitivity to the initial fiber configuration, and the
-continuity of the fiber orientation Salas et al. \cite{Salas2018}
-proposed a Self-Penalization Interpolation Model for Fiber Orientation
-(SPIMFO) based on convergent Talyor series for sine and cosine functions
-and optimized the dynamic design of laminated piezo composite actuators
-combining SPIMFO with SIMP method. Nomura et al. \cite{Nomura2015}.
-proposed a general methodology for the simultaneous design of structural
-topology and continuous and discrete material orientation with the
-isoparametric projection method. In that study, the Cartesian components
-of the orientation vector were chosen as the orientation design
-variables. The 2$\pi$ ambiguity stems from the periodic nature of the
-angular representation is addressed to yields better control on
-manufacturability. However, the simultaneous design will significantly
-change the orientations with a change in topology, potentially causing
-LOSS.
+Contrarily to CFAO, it does not incorporate design problems for continuously varying orientation distributions. First, it is an imperative design consideration to circumvent stress constraint and degradation in the strength by order of magnitude lower than continuous fiber paths caused due to fiber discontinuity. Consequently, it permits a limited scope to fully exploit the potential of modern technology's continuously varying orientation in composites \cite{ArianNik2012, Malakhov2016, Sugiyama2020}. Secondly, these methods fail to address the fiber convergence even against the significant penalization factor; hence, their benefit relies on an optimization algorithm to circumvent impractical mixtures of fiber angles. Third, the discrete parametrization scheme should further minimize the number of design candidates for efficient optimization. Concerning these drawbacks, Kiyono et al. \cite{Kiyono2017} proposed a parametrizing scheme, which is a continuation of the computational approach suggested by Yin and Ananthasuresh \cite{Yin2001}. Introducing a normal distribution function as a weighting function in their parametrizing scheme guarantees fiber convergence, low sensitivity to the initial fiber configuration, and the continuity of the fiber orientation. Another different work proposed a Self-Penalization Interpolation Model for Fiber Orientation (SPIMFO)  based on convergent Talyor series for sine and cosine functions to optimized composite hyperelastic material \cite{Silva2021} and the dynamic design of laminated piezo-composite actuators \cite{Salas2018}.
+
+\subsection{Hybrid Paramterization}
+Utilizing continuous and discrete methodology benefits is another alternative to fiber orientation optimization. The key idea in the following approaches is to fill the gaps by acknowledging the beneficial characteristics of both strategies to improve computational efficiency and/or reduce local optima and/or resolve and/or fiber continuity manufacturability issues. Therefore, an approach to reduce the risk of falling into local optimal without sacrificing the fiber continuity can use both discrete and continuous parametrization as suggested by Luo et al. \cite{Luo2020}. Their work proposed a "coarse to fine" strategy, where the orientation design space is divided into discrete sub-intervals. After that, the CFAO searches for an optimized solution in a sub-interval, where the sub-interval selection problem is solved using the DMO approach. However, no criterion is defined to determine the number of sub-intervals required in advance.
+
+Nevertheless, the proposed strategy provides flexibility to integrate alternatives that are suggested for DMO and CFAO approaches. Nomura et al. \cite{Nomura2015}  studied the cartesian system for orientation design variables to improve initial design dependency and local optima issues encountered in the continuous parameterization approach. The parametrization scheme was further extended to yield an optimized discrete orientation design for a given discrete orientation set in their work. Moreover, the characteristics representing the orientation design variables into the vectorial form consider the 2$\pi$ ambiguity, which occurs due to the periodic nature of the orientation design variable. Introducing vectorial design variable as a point-wise quadratic inequality constraint yields more interpolated elasticity tensor than the single variable polar representation.
+
+Xia and Shi \cite{Xia2017}  develops a continuous global function by applying the shepherd interpolation method at scattered design points to represent the fiber orientation throughout the design domain. The benefit of the interpolation function is to ensure fiber continuity while considering reduced orientation design space in contrast with CFAO. Unfortunately, it suffers from the initial configuration and ends at the sub-optimal solution. In another work of Xia \cite{Xia2018} applied multilevel optimization for fiber orientation optimization and verified its efficiency against the single-level optimization. Still, the optimization results in different fiber arrangements for different initial fiber orientations. As a result, the efficiency of the multilevel approach relies on the attained fiber orientation field at a coarse level since the optimization at the successive refined level starts from an initial design computed at its neighboring coarser level.
 
 
-\section*{Optimization Algorithm}
-\subsection*{Analytical approaches}
-Analytical methods determined early studies of optimal fibre orientation
-that dates back to the pioneering work of Pedersen on strain-based
-method \cite{Pedersen1989, Pedersen1990, Pedersen1991} and followed by
-the stress-based method.  In the strain-based method, analytically
-derived equations study the sensitivity of strain energy with respect to
-material orientation for orthotropic material based on the assumption
-that the strain energy is invariant on material orientation. A similar
-analytical deduction can be derived for the stress-based method that
-except constant stress field with respect to material orientation. These
-methods eliminate the need for iteration during the design process and
-significantly increase computational efficiency compared with
-mathematical programming. In addition, the stress-based method produces
-a slightly stiffer structure than the strain method because strong
-couplings exist among the orientational variables when the strain field
-is used. In both scenarios, optimization proceeds towards convergence.
-The material orientation tends to coincide with the major principal
-stress/strain fields for relatively 'weak' shear and some shear 'strong'
-types of orthotropic materials. However, the methods are highly
-dependent on the initial fibre configuration, and the solution of both
-approaches will fail when the local and repeated global minima (more
-than one solution has the same global minimum value) occurs
-\cite{Gea2004}. Nevertheless, these methods form the basis for future
-research on material orientation optimization for fibre reinforced
-composite materials. These methods' shortcomings were due to the
-assumption of constant stress or strain fields that was removed by the
-energy-based method introduced by Luo and Gea \cite{Diaz1992,
-    Cheng1994}. The proposed hybrid framework estimates the strain fields'
-and stress fields' dependency on fibre orientation by introducing an
-approximate energy factor. Their research showed that an energy-based
-method produces numerically more optimal solutions to stress-based and
-strain-based methods. The method use inclusion model is used to analyze
-the variations of the strain and stress of one design cell due to the
-rotation of orthotropic material in that design cell. It assumes that
-the displacements are continuous at the interface of the design cell
-after the cell orientation changes. Thus, the strain of the design cell
-will not change because the cell is under the same displacement boundary
-condition. In contrast, the stress of the design cell will vary, suffer
-from stress discontinuity at the interface. Furthermore, the assumption
-to consider additional stress and strain fields for both the design cell
-and its surrounding resolves stress discontinuity caused at the
-interface. By introducing the concept of energy factor, Luo et al.
-evaluated additional stress and strain field.
-
-\subsection*{Gradient-based approaches}
-\cite{Lindgaard2011} gradient based optimization of the  buckling load of
-laminate composite structures considering fiber angle deisng variables. The
-optimization formualtion are based on either linear or geomterically nonlinear
-analysis and formulated as mathematical programming problems solved using
-gradient based techniques. Xia and Shi \cite{Xia2018} First, a hierarchy of
-parameterizations are constructed. At each level of the hierarchy, one has a
-distinct parameterization for the fiber angle arrangement. From the top level to
-the bottom level of the hierarchy, the number and density of design points for
-the Shepard interpolation increase, thus the design freedom and the resolution
-of parameterization increase as well. Second, at each level of the hierarchy, an
-optimization problem is formulated, and these optimization problems are solved
-successively. After the optimization problem at a coarse level is solved, one
-goes to its neighboring finer level, using the solution of the former one to
-compute an initial design for the latter one. Again, the Shepard interpolation
-is used for the computation of initial design.
-
-
-formulated cascadic multilevel optimization problem,
-where there results from coarse level serves as an initial design for finer
-level.
-\subsection*{Heurstic-based approaches}
-Another outlook on approaching the LOSS problem is using an optimization
-solver better at global searching ability, such as the genetic algorithm
-\cite{Wang2020} and simulated annealing algorithm \cite{Hasancebi2010}.
-The heuristic algorithm can find "global minimum" and allow handling a
-discrete variable, but this always sacrifices the computational cost.
-Sigmund \cite{Sigmund2011} questions the usefulness of non-gradient
-approaches in TO, showing the inefficiency of non-gradient
-algorithm-based optimization problems with many design variables and
-constraints. As a result, gradient-based solver i.e. Method of Moving
-Asymptotes (MMA) \cite{Svanberg1987} set the framework for the TO
-problem and has been pushed significantly to avoid the LOSS
-\cite{Shen2020}.

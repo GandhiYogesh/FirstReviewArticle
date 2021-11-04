@@ -200,12 +200,19 @@ Y.~Xu, J.~Zhu, Z.~Wu, Y.~Cao, Y.~Zhao, W.~Zhang, {A review on the design of
 \newblock \href {http://dx.doi.org/10.1007/s42114-018-0032-7}
   {\path{doi:10.1007/s42114-018-0032-7}}.
 
-\bibitem{Xia2018}
-Q.~Xia, T.~Shi, {A cascadic multilevel optimization algorithm for the design of
-  composite structures with curvilinear fiber based on Shepard interpolation},
-  Compos. Struct. 188 (2018) 209--219.
-\newblock \href {http://dx.doi.org/10.1016/j.compstruct.2018.01.013}
-  {\path{doi:10.1016/j.compstruct.2018.01.013}}.
+\bibitem{Munk2019}
+D.~J. Munk, A bidirectional evolutionary structural optimization algorithm for
+  mass minimization with multiple structural constraints, International Journal
+  for Numerical Methods in Engineering 118 (2019) 93--120.
+\newblock \href {http://dx.doi.org/10.1002/nme.6005}
+  {\path{doi:10.1002/nme.6005}}.
+
+\bibitem{Xia2018BESO}
+L.~Xia, Q.~Xia, X.~Huang, Y.~M. Xie, Bi-directional evolutionary structural
+  optimization on advanced structures and materials: A comprehensive review,
+  Archives of Computational Methods in Engineering 25 (2018) 437--478.
+\newblock \href {http://dx.doi.org/10.1007/s11831-016-9203-2}
+  {\path{doi:10.1007/s11831-016-9203-2}}.
 
 \bibitem{Wang2020}
 Z.~Wang, A.~Sobey, {A comparative review between {Genetic} {Algorithm} use in
@@ -219,6 +226,26 @@ O.~Sigmund, {On the usefulness of non-gradient approaches in topology
   optimization}, Struct. Multidiscip. Optim. 43 (2011) 589--596.
 \newblock \href {http://dx.doi.org/10.1007/s00158-011-0638-7}
   {\path{doi:10.1007/s00158-011-0638-7}}.
+
+\bibitem{Sivapuram2018}
+R.~Sivapuram, R.~Picelli, Y.~M. Xie, Topology optimization of binary
+  microstructures involving various non-volume constraints, Computational
+  Materials Science 154 (2018) 405--425.
+\newblock \href {http://dx.doi.org/10.1016/j.commatsci.2018.08.008}
+  {\path{doi:10.1016/j.commatsci.2018.08.008}}.
+
+\bibitem{Bruyneel2002}
+M.~Bruyneel, C.~Fleury, {Composite structures optimization using sequential
+  convex programming}, Adv. Eng. Softw. 33 (2002) 697--711.
+\newblock \href {http://dx.doi.org/10.1016/S0965-9978(02)00053-4}
+  {\path{doi:10.1016/S0965-9978(02)00053-4}}.
+
+\bibitem{Lindgaard2011}
+E.~Lindgaard, E.~Lund, {Optimization formulations for the maximum nonlinear
+  buckling load of composite structures}, Struct. Multidiscip. Optim. 43 (2011)
+  631--646.
+\newblock \href {http://dx.doi.org/10.1007/s00158-010-0593-8}
+  {\path{doi:10.1007/s00158-010-0593-8}}.
 
 \bibitem{Stegmann2005}
 J.~Stegmann, E.~Lund, {Discrete material optimization of general composite
@@ -239,12 +266,141 @@ A.~Ben-Tal, M.~Kocvara, A.~Nemirovski, J.~Zowe, {Free Material Design via
 \newblock \href {http://dx.doi.org/10.1137/s1052623497327994}
   {\path{doi:10.1137/s1052623497327994}}.
 
-\bibitem{Xia2017}
-Q.~Xia, T.~Shi, {Optimization of composite structures with continuous spatial
-  variation of fiber angle through Shepard interpolation}, Compos. Struct. 182
-  (2017) 273--282.
-\newblock \href {http://dx.doi.org/10.1016/j.compstruct.2017.09.052}
-  {\path{doi:10.1016/j.compstruct.2017.09.052}}.
+\bibitem{Nomura2019}
+T.~Nomura, A.~Kawamoto, T.~Kondoh, E.~M. Dede, J.~Lee, Y.~Song, N.~Kikuchi,
+  Inverse design of structure and fiber orientation by means of topology
+  optimization with tensor field variables, Composites Part B: Engineering 176
+  (2019) 107187.
+\newblock \href {http://dx.doi.org/10.1016/j.compositesb.2019.107187}
+  {\path{doi:10.1016/j.compositesb.2019.107187}}.
+
+\bibitem{Hasancebi2010}
+O.~Hasan{\c{c}}ebi, S.~{\c{C}}arbas, M.~P. Saka, {Improving the performance of
+  simulated annealing in structural optimization}, Struct. Multidiscip. Optim.
+  41 (2010) 189--203.
+\newblock \href {http://dx.doi.org/10.1007/s00158-009-0418-9}
+  {\path{doi:10.1007/s00158-009-0418-9}}.
+
+\bibitem{Reuschel1999}
+D.~Reuschel, C.~Mattheck, {Three-dimensional fibre optimisation with computer
+  aided internal optimisation}, Aeronaut. J. 103~(1027) (1999) 415--420.
+\newblock \href {http://dx.doi.org/10.1017/S0001924000027962}
+  {\path{doi:10.1017/S0001924000027962}}.
+
+\bibitem{Voelkl2018}
+H.~Voelkl, S.~Wartzack, {Design for composites: Tailor-made, bio-inspired
+  topology optimization for fiber-reinforced plastics}, Proc. Int. Des. Conf.
+  Des. 1 (2018) 499--510.
+\newblock \href {http://dx.doi.org/10.21278/idc.2018.0126}
+  {\path{doi:10.21278/idc.2018.0126}}.
+
+\bibitem{Svanberg1987}
+K.~Svanberg, {The method of moving asymptotes—a new method for structural
+  optimization}, Int. J. Numer. Methods Eng. 24 (1987) 359--373.
+\newblock \href {http://dx.doi.org/10.1002/nme.1620240207}
+  {\path{doi:10.1002/nme.1620240207}}.
+
+\bibitem{Dunning2015}
+P.~D. Dunning, H.~A. Kim, Introducing the sequential linear programming
+  level-set method for topology optimization, Structural and Multidisciplinary
+  Optimization 51 (2015) 631--643.
+\newblock \href {http://dx.doi.org/10.1007/s00158-014-1174-z}
+  {\path{doi:10.1007/s00158-014-1174-z}}.
+
+\bibitem{M.C.E1904}
+A.~G.~M. Michell, Lviii. the limits of economy of material in frame-structures,
+  The London, Edinburgh, and Dublin Philosophical Magazine and Journal of
+  Science 8~(47) (1904) 589--597.
+
+\bibitem{Pedersen1989}
+P.~Pedersen, {On optimal orientation of orthotropic materials}, Struct. Optim.
+  1 (1989) 101--106.
+\newblock \href {http://dx.doi.org/10.1007/BF01637666}
+  {\path{doi:10.1007/BF01637666}}.
+
+\bibitem{Pedersen1990}
+P.~Pedersen, {Bounds on elastic energy in solids of orthotropic materials},
+  Struct. Optim. 2 (1990) 55--63.
+\newblock \href {http://dx.doi.org/10.1007/BF01743521}
+  {\path{doi:10.1007/BF01743521}}.
+
+\bibitem{Pedersen1991}
+P.~Pedersen, {On thickness and orientational design with orthotropic
+  materials}, Struct. Optim. 3 (1991) 69--78.
+\newblock \href {http://dx.doi.org/10.1007/BF01743275}
+  {\path{doi:10.1007/BF01743275}}.
+
+\bibitem{Cheng1994}
+H.~C. Cheng, N.~Kikuchi, Z.~D. Ma, {An improved approach for determining the
+  optimal orientation of orthotropic material}, Struct. Optim. 8 (1994)
+  101--112.
+\newblock \href {http://dx.doi.org/10.1007/BF01743305}
+  {\path{doi:10.1007/BF01743305}}.
+
+\bibitem{Zhou1992}
+M.~Zhou, G.~I.~N. Rozvany, {DCOC}: An optimality criteria method for large
+  systems part i: theory, Structural optimization 5 (1992) 12--25.
+\newblock \href {http://dx.doi.org/10.1007/BF01744690}
+  {\path{doi:10.1007/BF01744690}}.
+
+\bibitem{Zhou1993}
+M.~Zhou, G.~I. Rozvany, {DCOC: An optimality criteria method for large systems
+  Part II: Algorithm}, Struct. Optim. 6 (1993) 250--262.
+\newblock \href {http://dx.doi.org/10.1007/BF01743384}
+  {\path{doi:10.1007/BF01743384}}.
+
+\bibitem{Suzuki1991}
+K.~Suzuki, N.~Kikuchi, {A homogenization method for shape and topology
+  optimization}, Comput. Methods Appl. Mech. Eng. 93~(3) (1991) 291--318.
+\newblock \href {http://dx.doi.org/10.1016/0045-7825(91)90245-2}
+  {\path{doi:10.1016/0045-7825(91)90245-2}}.
+
+\bibitem{Diaz1992}
+A.~R. D{\'{i}}az, M.~P. Bends{\o}e, {Shape optimization of structures for
+  multiple loading conditions using a homogenization method}, Struct Optim. 4
+  (1992) 17--22.
+\newblock \href {http://dx.doi.org/10.1007/BF01894077}
+  {\path{doi:10.1007/BF01894077}}.
+
+\bibitem{Gea2004}
+H.~C. Gea, J.~H. Luo, {On the stress-based and strain-based methods for
+  predicting optimal orientation of orthotropic materials}, Struct.
+  Multidiscip. Optim. 26 (2004) 229--234.
+\newblock \href {http://dx.doi.org/10.1007/s00158-003-0348-x}
+  {\path{doi:10.1007/s00158-003-0348-x}}.
+
+\bibitem{Luo1998a}
+J.~H. Luo, H.~C. Gea, {Optimal orientation of orthotropic materials using an
+  energy based method}, Struct. Optim. 15~(3-4) (1998) 230--236.
+\newblock \href {http://dx.doi.org/10.1007/BF01203536}
+  {\path{doi:10.1007/BF01203536}}.
+
+\bibitem{Luo1998}
+J.~H. Luo, H.~C. Gea, {Optimal bead orientation of {3D} shell/plate
+  structures}, Finite Elem. Anal. Des. 31 (1998) 55--71.
+\newblock \href {http://dx.doi.org/10.1016/S0168-874X(98)00048-1}
+  {\path{doi:10.1016/S0168-874X(98)00048-1}}.
+
+\bibitem{Yan2020}
+X.~Yan, Q.~Xu, H.~Hua, D.~Huang, X.~Huang,
+  \href{https://doi.org/0305215X.2019.1663186}{{Concurrent topology
+  optimization of structures and orientation of anisotropic materials}}, Eng.
+  Optim. 52~(9) (2020) 1598--1611.
+\newblock \href {http://dx.doi.org/10.1080/0305215X.2019.1663186}
+  {\path{doi:10.1080/0305215X.2019.1663186}}.
+\newline\urlprefix\url{https://doi.org/0305215X.2019.1663186}
+
+\bibitem{Shen2020}
+Y.~Shen, D.~Branscomb, {Orientation optimization in anisotropic materials using
+  gradient descent method}, Compos. Struct. 234 (2020) 111680.
+\newblock \href {http://dx.doi.org/10.1016/j.compstruct.2019.111680}
+  {\path{doi:10.1016/j.compstruct.2019.111680}}.
+
+\bibitem{Kim2021}
+N.~H. Kim, T.~Dong, D.~Weinberg, J.~Dalidd, {Generalized optimality criteria
+  method for topology optimization}, Appl. Sci. 11.
+\newblock \href {http://dx.doi.org/10.3390/app11073175}
+  {\path{doi:10.3390/app11073175}}.
 
 \bibitem{Bruyneel2013}
 M.~Bruyneel, S.~Zein, {A modified Fast Marching Method for defining fiber
@@ -293,13 +449,6 @@ Y.~Tian, S.~Pu, T.~Shi, Q.~Xia, {A parametric divergence-free vector field
 \newblock \href {http://dx.doi.org/10.1016/j.cma.2020.113574}
   {\path{doi:10.1016/j.cma.2020.113574}}.
 
-\bibitem{Lindgaard2011}
-E.~Lindgaard, E.~Lund, {Optimization formulations for the maximum nonlinear
-  buckling load of composite structures}, Struct. Multidiscip. Optim. 43 (2011)
-  631--646.
-\newblock \href {http://dx.doi.org/10.1007/s00158-010-0593-8}
-  {\path{doi:10.1007/s00158-010-0593-8}}.
-
 \bibitem{Bendsoee1999}
 M.~P. Bends{\o}e, O.~Sigmund, {Material interpolation schemes in topology
   optimization}, Arch. Appl. Mech. 69 (1999) 635--654.
@@ -341,6 +490,13 @@ M.~{Arian Nik}, K.~Fayazbakhsh, D.~Pasini, L.~Lessard, {Surrogate-based
 \newblock \href {http://dx.doi.org/10.1016/j.compstruct.2012.03.021}
   {\path{doi:10.1016/j.compstruct.2012.03.021}}.
 
+\bibitem{Silva2021}
+A.~L.~F. da~Silva, R.~A. Salas, E.~C.~N. Silva, {Topology optimization of
+  composite hyperelastic material using SPIMFO-method}, Meccanica 56~(2) (2021)
+  417--437.
+\newblock \href {http://dx.doi.org/10.1007/s11012-020-01277-0}
+  {\path{doi:10.1007/s11012-020-01277-0}}.
+
 \bibitem{Salas2018}
 R.~A. Salas, F.~J. Ram{\'{i}}rez-Gil, W.~Montealegre-Rubio, E.~C.~N. Silva,
   J.~N. Reddy, {Optimized dynamic design of laminated piezocomposite
@@ -348,6 +504,11 @@ R.~A. Salas, F.~J. Ram{\'{i}}rez-Gil, W.~Montealegre-Rubio, E.~C.~N. Silva,
   Mech. Eng. 335 (2018) 223--254.
 \newblock \href {http://dx.doi.org/10.1016/j.cma.2018.02.011}
   {\path{doi:10.1016/j.cma.2018.02.011}}.
+
+\bibitem{Luo2020}
+Y.~Luo, W.~Chen, S.~Liu, Q.~Li, Y.~Ma, A discrete-continuous parameterization
+  (dcp) for concurrent optimization of structural topologies and continuous
+  material orientations, Composite Structures 236 (2020) 111900.
 
 \bibitem{Nomura2015}
 T.~Nomura, E.~M. Dede, J.~Lee, S.~Yamasaki, T.~Matsumori, A.~Kawamoto,
@@ -357,75 +518,36 @@ T.~Nomura, E.~M. Dede, J.~Lee, S.~Yamasaki, T.~Matsumori, A.~Kawamoto,
 \newblock \href {http://dx.doi.org/https://doi.org/10.1002/nme.4799}
   {\path{doi:https://doi.org/10.1002/nme.4799}}.
 
-\bibitem{Pedersen1989}
-P.~Pedersen, {On optimal orientation of orthotropic materials}, Struct. Optim.
-  1 (1989) 101--106.
-\newblock \href {http://dx.doi.org/10.1007/BF01637666}
-  {\path{doi:10.1007/BF01637666}}.
+\bibitem{Xia2017}
+Q.~Xia, T.~Shi, {Optimization of composite structures with continuous spatial
+  variation of fiber angle through Shepard interpolation}, Compos. Struct. 182
+  (2017) 273--282.
+\newblock \href {http://dx.doi.org/10.1016/j.compstruct.2017.09.052}
+  {\path{doi:10.1016/j.compstruct.2017.09.052}}.
 
-\bibitem{Pedersen1990}
-P.~Pedersen, {Bounds on elastic energy in solids of orthotropic materials},
-  Struct. Optim. 2 (1990) 55--63.
-\newblock \href {http://dx.doi.org/10.1007/BF01743521}
-  {\path{doi:10.1007/BF01743521}}.
+\bibitem{Xia2018}
+Q.~Xia, T.~Shi, {A cascadic multilevel optimization algorithm for the design of
+  composite structures with curvilinear fiber based on Shepard interpolation},
+  Compos. Struct. 188 (2018) 209--219.
+\newblock \href {http://dx.doi.org/10.1016/j.compstruct.2018.01.013}
+  {\path{doi:10.1016/j.compstruct.2018.01.013}}.
 
-\bibitem{Pedersen1991}
-P.~Pedersen, {On thickness and orientational design with orthotropic
-  materials}, Struct. Optim. 3 (1991) 69--78.
-\newblock \href {http://dx.doi.org/10.1007/BF01743275}
-  {\path{doi:10.1007/BF01743275}}.
+\bibitem{Fernandez2019}
+F.~Fernandez, W.~S. Compel, J.~P. Lewicki, D.~A. Tortorelli, Optimal design of
+  fiber reinforced composite structures and their direct ink write fabrication,
+  Computer Methods in Applied Mechanics and Engineering 353 (2019) 277--307.
+\newblock \href {http://dx.doi.org/10.1016/j.cma.2019.05.010}
+  {\path{doi:10.1016/j.cma.2019.05.010}}.
 
-\bibitem{Gea2004}
-H.~C. Gea, J.~H. Luo, {On the stress-based and strain-based methods for
-  predicting optimal orientation of orthotropic materials}, Struct.
-  Multidiscip. Optim. 26 (2004) 229--234.
-\newblock \href {http://dx.doi.org/10.1007/s00158-003-0348-x}
-  {\path{doi:10.1007/s00158-003-0348-x}}.
+\bibitem{Jiang2019}
+D.~Jiang, R.~Hoglund, D.~E. Smith, Continuous fiber angle topology optimization
+  for polymer composite deposition additive manufacturing applications, Fibers
+  7~(2) (2019) 14.
 
-\bibitem{Diaz1992}
-A.~R. D{\'{i}}az, M.~P. Bends{\o}e, {Shape optimization of structures for
-  multiple loading conditions using a homogenization method}, Struct Optim. 4
-  (1992) 17--22.
-\newblock \href {http://dx.doi.org/10.1007/BF01894077}
-  {\path{doi:10.1007/BF01894077}}.
-
-\bibitem{Cheng1994}
-H.~C. Cheng, N.~Kikuchi, Z.~D. Ma, {An improved approach for determining the
-  optimal orientation of orthotropic material}, Struct. Optim. 8 (1994)
-  101--112.
-\newblock \href {http://dx.doi.org/10.1007/BF01743305}
-  {\path{doi:10.1007/BF01743305}}.
-
-\bibitem{Hasancebi2010}
-O.~Hasan{\c{c}}ebi, S.~{\c{C}}arbas, M.~P. Saka, {Improving the performance of
-  simulated annealing in structural optimization}, Struct. Multidiscip. Optim.
-  41 (2010) 189--203.
-\newblock \href {http://dx.doi.org/10.1007/s00158-009-0418-9}
-  {\path{doi:10.1007/s00158-009-0418-9}}.
-
-\bibitem{Svanberg1987}
-K.~Svanberg, {The method of moving asymptotes—a new method for structural
-  optimization}, Int. J. Numer. Methods Eng. 24 (1987) 359--373.
-\newblock \href {http://dx.doi.org/10.1002/nme.1620240207}
-  {\path{doi:10.1002/nme.1620240207}}.
-
-\bibitem{Shen2020}
-Y.~Shen, D.~Branscomb, {Orientation optimization in anisotropic materials using
-  gradient descent method}, Compos. Struct. 234 (2020) 111680.
-\newblock \href {http://dx.doi.org/10.1016/j.compstruct.2019.111680}
-  {\path{doi:10.1016/j.compstruct.2019.111680}}.
-
-\bibitem{Reuschel1999}
-D.~Reuschel, C.~Mattheck, {Three-dimensional fibre optimisation with computer
-  aided internal optimisation}, Aeronaut. J. 103~(1027) (1999) 415--420.
-\newblock \href {http://dx.doi.org/10.1017/S0001924000027962}
-  {\path{doi:10.1017/S0001924000027962}}.
-
-\bibitem{Luo1998}
-J.~H. Luo, H.~C. Gea, {Optimal bead orientation of {3D} shell/plate
-  structures}, Finite Elem. Anal. Des. 31 (1998) 55--71.
-\newblock \href {http://dx.doi.org/10.1016/S0168-874X(98)00048-1}
-  {\path{doi:10.1016/S0168-874X(98)00048-1}}.
+\bibitem{Chandrasekhar2020}
+A.~Chandrasekhar, T.~Kumar, K.~Suresh, Build optimization of fiber-reinforced
+  additively manufactured components, Structural and Multidisciplinary
+  Optimization 61~(1) (2020) 77--90.
 
 \bibitem{Desai2021}
 A.~Desai, M.~Mogra, S.~Sridhara, K.~Kumar, G.~Sesha, G.~K. Ananthasuresh,
@@ -435,12 +557,6 @@ A.~Desai, M.~Mogra, S.~Sridhara, K.~Kumar, G.~Sesha, G.~K. Ananthasuresh,
 \newblock \href {http://dx.doi.org/10.1007/s00158-020-02721-1}
   {\path{doi:10.1007/s00158-020-02721-1}}.
 
-\bibitem{Bruyneel2002}
-M.~Bruyneel, C.~Fleury, {Composite structures optimization using sequential
-  convex programming}, Adv. Eng. Softw. 33 (2002) 697--711.
-\newblock \href {http://dx.doi.org/10.1016/S0965-9978(02)00053-4}
-  {\path{doi:10.1016/S0965-9978(02)00053-4}}.
-
 \bibitem{Setoodeh2005}
 S.~Setoodeh, M.~M. Abdalla, Z.~G{\"{u}}rdal, {Combined topology and fiber path
   design of composite layers using cellular automata}, Struct. Multidiscip.
@@ -449,13 +565,11 @@ S.~Setoodeh, M.~M. Abdalla, Z.~G{\"{u}}rdal, {Combined topology and fiber path
   {\path{doi:10.1007/s00158-005-0528-y}}.
 
 \bibitem{Zhou2018}
-Y.~Zhou, T.~Nomura, K.~Saitou,
-  \href{https://doi.org/10.1016/j.cma.2018.07.039}{{Multi-component topology
-  and material orientation design of composite structures (MTO-C)}}, Comput.
-  Methods Appl. Mech. Eng. 342 (2018) 438--457.
+Y.~Zhou, T.~Nomura, K.~Saitou, {Multi-component topology and material
+  orientation design of composite structures (MTO-C)}, Comput. Methods Appl.
+  Mech. Eng. 342 (2018) 438--457.
 \newblock \href {http://dx.doi.org/10.1016/j.cma.2018.07.039}
   {\path{doi:10.1016/j.cma.2018.07.039}}.
-\newline\urlprefix\url{https://doi.org/10.1016/j.cma.2018.07.039}
 
 \bibitem{Liu2014}
 T.~Liu, S.~Wang, B.~Li, L.~Gao, {A level-set-based topology and shape
@@ -463,5 +577,55 @@ T.~Liu, S.~Wang, B.~Li, L.~Gao, {A level-set-based topology and shape
   Struct. Multidiscip. Optim. 50~(2) (2014) 253--273.
 \newblock \href {http://dx.doi.org/10.1007/s00158-014-1045-7}
   {\path{doi:10.1007/s00158-014-1045-7}}.
+
+\bibitem{Ferreira2019}
+I.~Ferreira, M.~Machado, F.~Alves, A.~Torres~Marques, A review on fibre
+  reinforced composite printing via {FFF}, Rapid Prototyping Journal 25 (2019)
+  972--988.
+\newblock \href {http://dx.doi.org/10.1108/RPJ-01-2019-0004}
+  {\path{doi:10.1108/RPJ-01-2019-0004}}.
+
+\bibitem{Chen2021}
+Y.~Chen, L.~Ye, {Topological design for {3D}-printing of carbon fibre
+  reinforced composite structural parts}, Compos. Sci. Technol. 204 (2021)
+  108644.
+\newblock \href {http://dx.doi.org/10.1016/j.compscitech.2020.108644}
+  {\path{doi:10.1016/j.compscitech.2020.108644}}.
+
+\bibitem{Wang2021pp}
+T.~Wang, N.~Li, G.~Link, J.~Jelonnek, J.~Fleischer, J.~Dittus, D.~Kupzik,
+  Load-dependent path planning method for 3d printing of continuous fiber
+  reinforced plastics, Composites Part A: Applied Science and Manufacturing 140
+  (2021) 106181.
+\newblock \href {http://dx.doi.org/10.1016/j.compositesa.2020.106181}
+  {\path{doi:10.1016/j.compositesa.2020.106181}}.
+
+\bibitem{Liu2017pp}
+J.~Liu, H.~Yu, Concurrent deposition path planning and structural topology
+  optimization for additive manufacturing, Rapid Prototyping Journal 23 (2017)
+  930--942.
+\newblock \href {http://dx.doi.org/10.1108/RPJ-05-2016-0087}
+  {\path{doi:10.1108/RPJ-05-2016-0087}}.
+
+\bibitem{Schmidt2020}
+M.~P. Schmidt, L.~Couret, C.~Gout, C.~B. Pedersen, {Structural topology
+  optimization with smoothly varying fiber orientations}, Struct. Multidiscip.
+  Optim. 62 (2020) 3105--3126.
+\newblock \href {http://dx.doi.org/10.1007/s00158-020-02657-6}
+  {\path{doi:10.1007/s00158-020-02657-6}}.
+
+\bibitem{Kubalak2020}
+J.~R. Kubalak, A.~L. Wicks, C.~B. Williams, Investigation of parameter spaces
+  for topology optimization with three-dimensional orientation fields for
+  multi-axis additive manufacturing, Journal of Mechanical Design 143.
+\newblock \href {http://dx.doi.org/10.1115/1.4048117}
+  {\path{doi:10.1115/1.4048117}}.
+
+\bibitem{Fedulov2021}
+B.~Fedulov, A.~Fedorenko, A.~Khaziev, F.~Antonov, Optimization of parts
+  manufactured using continuous fiber three-dimensional printing technology,
+  Composites Part B: Engineering 227 (2021) 109406.
+\newblock \href {http://dx.doi.org/10.1016/j.compositesb.2021.109406}
+  {\path{doi:10.1016/j.compositesb.2021.109406}}.
 
 \end{thebibliography}
