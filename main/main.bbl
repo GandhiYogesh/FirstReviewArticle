@@ -402,6 +402,13 @@ N.~H. Kim, T.~Dong, D.~Weinberg, J.~Dalidd, {Generalized optimality criteria
 \newblock \href {http://dx.doi.org/10.3390/app11073175}
   {\path{doi:10.3390/app11073175}}.
 
+\bibitem{Patnaik1995}
+S.~N. Patnaik, J.~D. Guptill, L.~Berke, {Merits and limitations of optimality
+  criteria method for structural optimization}, Int. J. Numer. Methods Eng. 38
+  (1995) 3087--3120.
+\newblock \href {http://dx.doi.org/10.1002/nme.1620381806}
+  {\path{doi:10.1002/nme.1620381806}}.
+
 \bibitem{Bruyneel2013}
 M.~Bruyneel, S.~Zein, {A modified Fast Marching Method for defining fiber
   placement trajectories over meshes}, Comput. \& Struct. 125 (2013) 45--52.
