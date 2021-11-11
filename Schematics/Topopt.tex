@@ -1,0 +1,69 @@
+\documentclass[border=10pt]{standalone} 
+%%%<
+\usepackage{verbatim}
+\usepackage{color}
+
+%%%>
+\begin{comment}
+:Title: Decision tree
+:Tags: Trees;Graphics;TikZ
+
+A horizontal tree, growing to the right.
+I created a basic style for tree nodes, and
+derived styles for specific kinds of nodes.
+\end{comment}
+\usepackage{tikz}
+\tikzset{
+  treenode/.style = {shape=rectangle, rounded corners,
+                     draw, align=center,
+                     top color=white, bottom color=blue!10},
+  treenodeD/.style = {shape=circle,
+                     draw, align=center,
+                     top color=white, bottom color=blue!10},
+  root/.style     = {treenode, bottom color=red!15},
+  env/.style      = {treenode, font=\ttfamily\normalsize},
+  equation/.style    = {rectangle,rounded corners, align=center,draw},
+  dummy/.style    = {circle,draw}
+}
+\begin{document}
+
+\begin{tikzpicture}
+  \node[inner sep=0pt] (DesignDomain) at (5,0)
+  {\includegraphics[width=.25\textwidth]{./../Images/DesignDomain.PNG}};
+
+
+  \node[equation] (Sensitivity) at (6,-3)
+  {$\frac{d \Phi}{d \rho_{e}}=\frac{\partial \Phi}{\partial \rho_{e}}+\mathbf{\lambda}^{T}\left(\frac{\partial \mathbf{K}}{\partial \rho_{e}} \mathbf{U}+\frac{\partial \mathbf{F}}{\partial \rho_{e}}\right)$ \\
+    $\mathbf{K}^{T} \mathbf{\lambda}=-\frac{\partial \mathbf{\Phi}}{\partial \mathbf{U}}$};
+
+  \node[inner sep=0pt] (Regularization) at (6,-5.9)
+  {\includegraphics[width=.35\textwidth]{./../Images/Regularization.png}};
+
+
+  [c
+  grow                    = down,
+  sibling distance        = 5em,
+  level distance          = 6em,
+  edge from parent/.style = {draw, -latex},
+  every node/.style       = {font=\footnotesize},
+  sloped
+  ]
+
+  \node [root] (P1){$\Omega^{m}=\Omega$\\ Design Domain Initialization}
+  child { node [env] (A) {FEM \\ $KU = F$ or \\ $ R(U)=0$ }
+      child { node [env] (B) {Sensitivity Analysis}
+          child { node [env] (C) {Regularization}
+              child{ node [env] (E) {Optimization}
+                  child{ node [env] (F) {$\rho_{e}$ converged?}
+                      child { node [dummy, color=red] (G) {STOP}
+                          edge from parent node [above] {}}}
+                  edge from parent node [above] {Yes}}}}
+      edge from parent node [above] {} };
+  % \draw[->] (D) edge[bend left] node[midway, color=blue, fill=white]{projection} (A);
+  \draw[->] (F) edge[ bend left] node[ color=blue, fill=white]{no} (A);
+  \draw[->,thick] (P1) -- (DesignDomain);
+  \draw[->,thick] (B) -- (Sensitivity);
+  \draw[->,thick] (C) -- (Regularization.north west);
+
+\end{tikzpicture}
+\end{document}

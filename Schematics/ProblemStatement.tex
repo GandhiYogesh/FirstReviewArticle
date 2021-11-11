@@ -1,0 +1,52 @@
+\documentclass[border=0.2cm]{standalone}
+ 
+\usepackage{tikz}
+\usetikzlibrary{trees}
+ 
+\begin{document}
+
+
+\begin{tikzpicture}
+    [
+        level 1/.style = {},
+        level 2/.style = {teal},
+        level 3/.style = {teal},
+        every node/.append style = {draw=none, anchor = west},
+        grow via three points={one child at (0.5,-0.8) and two children at (0.5,-0.8) and (0.5,-1.6)},
+        edge from parent path={(\tikzparentnode\tikzparentanchor) |- (\tikzchildnode\tikzchildanchor)}]
+    
+    \node[inner sep=0pt] (XShape) at (13,-2.4)
+        {\includegraphics[width=.25\textwidth]{./../Images/MMC_X_LS_Shape.png}};
+
+    \node[inner sep=0pt] (Plexus) at (13,-6.4)
+        {\includegraphics[width=.25\textwidth]{./../Images/Plexus.png}};
+    
+    \node {Problem Statement}
+    child {node {TopOpt Approach}
+            child {node (DV) {Design Variables $\downarrow$ \& Design Space $\uparrow$}}
+            child {node (MAT) {Transversely Isotropic \& Orthotropic material}}
+            child {node (MPI){Parallelization \& Scalablility (PLEXUS)}}
+            child {node {3D Multi-Load Concurrent TopOpt formulation}}
+            child {node  {Concurrent Optimization formulation} edge from parent [dashed] }
+            edge from parent node [draw = none, left] {};
+            % child {node [circle, fill, minimum size = 4pt, inner sep = 0] {}}
+            % edge from parent [dashed]
+        }
+    child [missing] {}
+    child [missing] {}
+    child {node at (0, -2.2) {Manufacturing Consideration}
+            child {node (LSC) {Lenght Scale Control}}
+            child {node (CAD)  {CAD-based design}}
+            child {node  {Overhanging constraints, $\cdots$ etc}}
+            child {node {Build direction} edge from parent [dashed]}
+            child {node {Path Planning} edge from parent [dashed]}
+            edge from parent node [draw = none, left] {}};
+    
+    \draw[->] (DV) edge[ bend left] (XShape);
+    \draw[->] (CAD) edge[ bend right] (XShape);
+    \draw[->,thick] (MAT) -- (XShape);
+    \draw[->] (LSC) edge[ bend right] (XShape);
+    \draw[->] (MPI) edge[ bend left, , color = green!50] (Plexus);
+\end{tikzpicture}
+
+\end{document}
