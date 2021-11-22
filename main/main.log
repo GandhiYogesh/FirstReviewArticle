@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2021.10.23)  11 NOV 2021 17:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2021.10.23)  22 NOV 2021 09:02
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2139,14 +2139,7 @@ File: ot1txss.fd 2000/12/15 v3.1
 LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
 (Font)              scaled to size 4.74998pt on input line 8.
  (./../Sections/Introduction.tex
-Underfull \hbox (badness 7415) in paragraph at lines 2--3
- []\OT1/txr/m/it/10 Additive Man-u-fac-tur-ing.[] \OT1/txr/m/n/10 The cost-effective com-mer-cially
- []
-
-
-Underfull \hbox (badness 4441) in paragraph at lines 2--3
-\OT1/txr/m/n/10 avail-able Ad-di-tive Man-u-fac-tur-ing (AM) or 3D Print-ing
- []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Overfull \hbox (1.90001pt too wide) has occurred while \output is active
@@ -2156,31 +2149,41 @@ Overfull \hbox (1.90001pt too wide) has occurred while \output is active
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.6 ...on of fiber-reinforced composite materials}
-                                                   [1
+l.6 
+     [1
 
 
 ]) (./../Sections/new.tex
-<./../Schematics/Topopt.pdf, id=131, 327.05185pt x 330.18958pt>
+<./../Schematics/Topopt.pdf, id=132, 327.05185pt x 330.18958pt>
 File: ./../Schematics/Topopt.pdf Graphic file (type pdf)
 <use ./../Schematics/Topopt.pdf>
 Package pdftex.def Info: ./../Schematics/Topopt.pdf  used on input line 5.
 (pdftex.def)             Requested size: 208.79681pt x 210.80165pt.
 
-Underfull \hbox (badness 3118) in paragraph at lines 18--20
+Underfull \hbox (badness 3118) in paragraph at lines 18--21
 \OT1/txr/m/n/10 i-mized or max-i-mized to max-i-mize the sys-tem's per-for-
  []
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.33 \end{equation}
-                    [2 <./../Schematics/Topopt.pdf>]) (./../Sections/FiberOrientationOptimization.tex [3] [4]) (/home/yoshi/FirstReviewArticle/main/./../Sections/FunctionalGraded.tex) (/home/yoshi/FirstReviewArticle/main/./../Sections/TO_Formulation.tex [5]) (/home/yoshi/FirstReviewArticle/main/./../Sections/Discussion.tex
+l.61 \end{equation}
+                    [2 <./../Schematics/Topopt.pdf>]
+Underfull \hbox (badness 1675) in paragraph at lines 64--65
+[]\OT1/txr/m/n/10 The well-known dis-crete topol-ogy op-ti-miza-tion method
+ []
+
+
+Underfull \hbox (badness 2134) in paragraph at lines 64--65
+\OT1/txr/m/n/10 is the Bi-directional Evo-lu-tion-ary Struc-tural Op-ti-miza-tion
+ []
+
+) (./../Sections/FiberOrientationOptimization.tex [3] [4]) (/home/yoshi/FirstReviewArticle/main/./../Sections/FunctionalGraded.tex) (/home/yoshi/FirstReviewArticle/main/./../Sections/TO_Formulation.tex [5]) (/home/yoshi/FirstReviewArticle/main/./../Sections/Discussion.tex [6]
 Underfull \hbox (badness 1365) in paragraph at lines 6--7
 []\OT1/txr/m/n/10 Continuous ori-en-ta-tion meth-ods ap-ply to man-u-fac-tur-ing
  []
 
-) [6] (/home/yoshi/FirstReviewArticle/main/main.bbl
+) (/home/yoshi/FirstReviewArticle/main/main.bbl
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [7]
@@ -2189,31 +2192,31 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [8])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 23.
- [9
+ [8]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-]
+) [9]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 23.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 23.
  (/home/yoshi/FirstReviewArticle/main/main.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 23.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 23.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: B6AE04067F6965E21886E258DFD3AADA;911.
+(rerunfilecheck)             Checksum: 12E2A3175B0DF2609E5F10273A0BC145;912.
  ) 
 Here is how much of TeX's memory you used:
- 31104 strings out of 492982
- 574758 string characters out of 6134895
- 763058 words of memory out of 5000000
- 33967 multiletter control sequences out of 15000+600000
+ 31124 strings out of 492982
+ 575128 string characters out of 6134895
+ 762134 words of memory out of 5000000
+ 33985 multiletter control sequences out of 15000+600000
  571835 words of font info for 120 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,15n,56p,10409b,871s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,15n,56p,10409b,839s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtcxr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txex.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on /home/yoshi/FirstReviewArticle/main/main.pdf (11 pages, 508407 bytes).
+Output written on /home/yoshi/FirstReviewArticle/main/main.pdf (11 pages, 511371 bytes).
 PDF statistics:
- 664 PDF objects out of 1000 (max. 8388607)
- 616 compressed objects within 7 object streams
- 140 named destinations out of 1000 (max. 500000)
+ 688 PDF objects out of 1000 (max. 8388607)
+ 640 compressed objects within 7 object streams
+ 142 named destinations out of 1000 (max. 500000)
  122 words of extra memory for PDF output out of 10000 (max. 10000000)
 

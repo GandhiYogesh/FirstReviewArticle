@@ -1,9 +1,23 @@
-\begin{thebibliography}{10}
+\begin{thebibliography}{100}
 \expandafter\ifx\csname url\endcsname\relax
   \def\url#1{\texttt{#1}}\fi
 \expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
 \expandafter\ifx\csname href\endcsname\relax
   \def\href#1#2{#2} \def\path#1{#1}\fi
+
+\bibitem{Ye2020}
+M.~Ye, L.~Gao, H.~Li, A design framework for gradually stiffer mechanical
+  metamaterial induced by negative poisson's ratio property, Materials \&
+  Design 192 (2020) 108751.
+\newblock \href {http://dx.doi.org/10.1016/j.matdes.2020.108751}
+  {\path{doi:10.1016/j.matdes.2020.108751}}.
+
+\bibitem{Luo2019_Multi}
+Y.~Luo, Q.~Li, S.~Liu, Topology optimization of shell–infill structures using
+  an erosion-based interface identification method, Computer Methods in Applied
+  Mechanics and Engineering 355 (2019) 94--112.
+\newblock \href {http://dx.doi.org/10.1016/j.cma.2019.05.017}
+  {\path{doi:10.1016/j.cma.2019.05.017}}.
 
 \bibitem{Kokkinis2015}
 D.~Kokkinis, M.~Schaffner, A.~R. Studart, {Multimaterial magnetically assisted
@@ -74,6 +88,42 @@ Y.~Sano, R.~Matsuzaki, M.~Ueda, A.~Todoroki, Y.~Hirano, {{3D} printing of
   Addit. Manuf. 24 (2018) 521--527.
 \newblock \href {http://dx.doi.org/10.1016/j.addma.2018.10.033}
   {\path{doi:10.1016/j.addma.2018.10.033}}.
+
+\bibitem{Ghiasi2009}
+H.~Ghiasi, D.~Pasini, L.~Lessard, {Optimum stacking sequence design of
+  composite materials {Part} {I}: {Constant} stiffness design}, Compos. Struct.
+  90 (2009) 1--11.
+\newblock \href {http://dx.doi.org/10.1016/j.compstruct.2009.01.006}
+  {\path{doi:10.1016/j.compstruct.2009.01.006}}.
+
+\bibitem{Sugiyama2020}
+K.~Sugiyama, R.~Matsuzaki, A.~V. Malakhov, A.~N. Polilov, M.~Ueda, A.~Todoroki,
+  Y.~Hirano, {{3D} printing of optimized composites with variable fiber volume
+  fraction and stiffness using continuous fiber}, Compos. Sci. Technol. 186
+  (2020) 107905.
+\newblock \href {http://dx.doi.org/10.1016/j.compscitech.2019.107905}
+  {\path{doi:10.1016/j.compscitech.2019.107905}}.
+
+\bibitem{Malakhov2016}
+A.~V. Malakhov, A.~N. Polilov, {Design of composite structures reinforced
+  curvilinear fibres using {FEM}}, Compos. Part A Appl. Sci. Manuf. 87 (2016)
+  23--28.
+\newblock \href {http://dx.doi.org/10.1016/j.compositesa.2016.04.005}
+  {\path{doi:10.1016/j.compositesa.2016.04.005}}.
+
+\bibitem{Zhang2011}
+J.~Zhang, W.-H. Zhang, J.-H. Zhu, {An extended stress-based method for
+  orientation angle optimization of laminated composite structures}, Acta Mech.
+  Sin. 27 (2011) 977--985.
+\newblock \href {http://dx.doi.org/10.1007/s10409-011-0506-0}
+  {\path{doi:10.1007/s10409-011-0506-0}}.
+
+\bibitem{Xu2018}
+Y.~Xu, J.~Zhu, Z.~Wu, Y.~Cao, Y.~Zhao, W.~Zhang, {A review on the design of
+  laminated composite structures: constant and variable stiffness design and
+  topology optimization}, Adv. Compos. Hybrid Mater. 1 (2018) 460--477.
+\newblock \href {http://dx.doi.org/10.1007/s42114-018-0032-7}
+  {\path{doi:10.1007/s42114-018-0032-7}}.
 
 \bibitem{Plocher2019}
 J.~Plocher, A.~Panesar, {Review on design and structural optimisation in
@@ -164,41 +214,12 @@ H.~Li, Z.~Luo, M.~Xiao, L.~Gao, J.~Gao, {A new multiscale topology optimization
 M.~P. Bendsoe, O.~Sigmund, {Topology optimization: theory, methods, and
   applications}, Springer Science \& Business Media, 2013.
 
-\bibitem{Ghiasi2009}
-H.~Ghiasi, D.~Pasini, L.~Lessard, {Optimum stacking sequence design of
-  composite materials {Part} {I}: {Constant} stiffness design}, Compos. Struct.
-  90 (2009) 1--11.
-\newblock \href {http://dx.doi.org/10.1016/j.compstruct.2009.01.006}
-  {\path{doi:10.1016/j.compstruct.2009.01.006}}.
-
-\bibitem{Sugiyama2020}
-K.~Sugiyama, R.~Matsuzaki, A.~V. Malakhov, A.~N. Polilov, M.~Ueda, A.~Todoroki,
-  Y.~Hirano, {{3D} printing of optimized composites with variable fiber volume
-  fraction and stiffness using continuous fiber}, Compos. Sci. Technol. 186
-  (2020) 107905.
-\newblock \href {http://dx.doi.org/10.1016/j.compscitech.2019.107905}
-  {\path{doi:10.1016/j.compscitech.2019.107905}}.
-
-\bibitem{Malakhov2016}
-A.~V. Malakhov, A.~N. Polilov, {Design of composite structures reinforced
-  curvilinear fibres using {FEM}}, Compos. Part A Appl. Sci. Manuf. 87 (2016)
-  23--28.
-\newblock \href {http://dx.doi.org/10.1016/j.compositesa.2016.04.005}
-  {\path{doi:10.1016/j.compositesa.2016.04.005}}.
-
-\bibitem{Zhang2011}
-J.~Zhang, W.-H. Zhang, J.-H. Zhu, {An extended stress-based method for
-  orientation angle optimization of laminated composite structures}, Acta Mech.
-  Sin. 27 (2011) 977--985.
-\newblock \href {http://dx.doi.org/10.1007/s10409-011-0506-0}
-  {\path{doi:10.1007/s10409-011-0506-0}}.
-
-\bibitem{Xu2018}
-Y.~Xu, J.~Zhu, Z.~Wu, Y.~Cao, Y.~Zhao, W.~Zhang, {A review on the design of
-  laminated composite structures: constant and variable stiffness design and
-  topology optimization}, Adv. Compos. Hybrid Mater. 1 (2018) 460--477.
-\newblock \href {http://dx.doi.org/10.1007/s42114-018-0032-7}
-  {\path{doi:10.1007/s42114-018-0032-7}}.
+\bibitem{Lazarov2011}
+B.~S. Lazarov, O.~Sigmund, Filters in topology optimization based on
+  helmholtz-type differential equations, International Journal for Numerical
+  Methods in Engineering 86 (2011) 765--781.
+\newblock \href {http://dx.doi.org/10.1002/nme.3072}
+  {\path{doi:10.1002/nme.3072}}.
 
 \bibitem{Munk2019}
 D.~J. Munk, A bidirectional evolutionary structural optimization algorithm for
@@ -233,6 +254,13 @@ R.~Sivapuram, R.~Picelli, Y.~M. Xie, Topology optimization of binary
   Materials Science 154 (2018) 405--425.
 \newblock \href {http://dx.doi.org/10.1016/j.commatsci.2018.08.008}
   {\path{doi:10.1016/j.commatsci.2018.08.008}}.
+
+\bibitem{Belytschko2003}
+T.~Belytschko, S.~P. Xiao, C.~Parimi, Topology optimization with implicit
+  functions and regularization, International Journal for Numerical Methods in
+  Engineering 57 (2003) 1177--1196.
+\newblock \href {http://dx.doi.org/10.1002/nme.824}
+  {\path{doi:10.1002/nme.824}}.
 
 \bibitem{Bruyneel2002}
 M.~Bruyneel, C.~Fleury, {Composite structures optimization using sequential
@@ -539,6 +567,12 @@ Q.~Xia, T.~Shi, {A cascadic multilevel optimization algorithm for the design of
 \newblock \href {http://dx.doi.org/10.1016/j.compstruct.2018.01.013}
   {\path{doi:10.1016/j.compstruct.2018.01.013}}.
 
+\bibitem{Udupa2014}
+G.~Udupa, S.~S. Rao, K.~V. Gangadharan, Functionally graded composite
+  materials: An overview, Procedia Materials Science 5 (2014) 1291--1299.
+\newblock \href {http://dx.doi.org/10.1016/j.mspro.2014.07.442}
+  {\path{doi:10.1016/j.mspro.2014.07.442}}.
+
 \bibitem{Fernandez2019}
 F.~Fernandez, W.~S. Compel, J.~P. Lewicki, D.~A. Tortorelli, Optimal design of
   fiber reinforced composite structures and their direct ink write fabrication,
@@ -555,6 +589,13 @@ D.~Jiang, R.~Hoglund, D.~E. Smith, Continuous fiber angle topology optimization
 A.~Chandrasekhar, T.~Kumar, K.~Suresh, Build optimization of fiber-reinforced
   additively manufactured components, Structural and Multidisciplinary
   Optimization 61~(1) (2020) 77--90.
+
+\bibitem{Li2021}
+H.~Li, L.~Gao, H.~Li, X.~Li, H.~Tong, {Full-scale topology optimization for
+  fiber-reinforced structures with continuous fiber paths}, Comput. Methods
+  Appl. Mech. Eng. 377 (2021) 113668.
+\newblock \href {http://dx.doi.org/10.1016/j.cma.2021.113668}
+  {\path{doi:10.1016/j.cma.2021.113668}}.
 
 \bibitem{Desai2021}
 A.~Desai, M.~Mogra, S.~Sridhara, K.~Kumar, G.~Sesha, G.~K. Ananthasuresh,
