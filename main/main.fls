@@ -471,15 +471,9 @@ INPUT ./../Sections/FiberOrientationOptimization.tex
 INPUT /home/yoshi/FirstReviewArticle/main/./../Sections/FunctionalGraded.tex
 INPUT /home/yoshi/FirstReviewArticle/main/./../Sections/FunctionalGraded.tex
 INPUT /home/yoshi/FirstReviewArticle/main/./../Sections/FunctionalGraded.tex
-INPUT /home/yoshi/FirstReviewArticle/main/./../Sections/TO_Formulation.tex
-INPUT /home/yoshi/FirstReviewArticle/main/./../Sections/TO_Formulation.tex
-INPUT /home/yoshi/FirstReviewArticle/main/./../Sections/TO_Formulation.tex
 INPUT /home/yoshi/FirstReviewArticle/main/./../Sections/Discussion.tex
 INPUT /home/yoshi/FirstReviewArticle/main/./../Sections/Discussion.tex
 INPUT /home/yoshi/FirstReviewArticle/main/./../Sections/Discussion.tex
-INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/txfonts/txr.vf
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/txfonts/rtxptmr.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/txfonts/rtxr.tfm
 INPUT /home/yoshi/FirstReviewArticle/main/main.bbl
 INPUT /home/yoshi/FirstReviewArticle/main/main.bbl
 INPUT /home/yoshi/FirstReviewArticle/main/main.aux
@@ -497,7 +491,6 @@ INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb
-INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtcxr.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb

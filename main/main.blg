@@ -4,45 +4,45 @@ The top-level auxiliary file: main.aux
 The style file: elsarticle-num.bst
 Database file #1: library.bib
 Warning--I didn't find a database entry for ""
-You've used 100 entries,
+You've used 101 entries,
             2937 wiz_defined-function locations,
-            1416 strings with 26158 characters,
-and the built_in function-call counts, 31942 in all, are:
-= -- 3370
-> -- 1066
+            1423 strings with 26499 characters,
+and the built_in function-call counts, 32317 in all, are:
+= -- 3405
+> -- 1082
 < -- 0
-+ -- 422
-- -- 322
-* -- 2683
-:= -- 4449
-add.period$ -- 195
-call.type$ -- 100
-change.case$ -- 99
++ -- 428
+- -- 327
+* -- 2720
+:= -- 4502
+add.period$ -- 197
+call.type$ -- 101
+change.case$ -- 100
 chr.to.int$ -- 0
-cite$ -- 100
-duplicate$ -- 779
-empty$ -- 3203
-format.name$ -- 412
-if$ -- 7959
+cite$ -- 101
+duplicate$ -- 787
+empty$ -- 3240
+format.name$ -- 418
+if$ -- 8050
 int.to.chr$ -- 0
-int.to.str$ -- 100
-missing$ -- 100
-newline$ -- 404
-num.names$ -- 100
-pop$ -- 408
+int.to.str$ -- 101
+missing$ -- 101
+newline$ -- 408
+num.names$ -- 101
+pop$ -- 412
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 1891
+skip$ -- 1910
 stack$ -- 0
-substring$ -- 2125
-swap$ -- 284
+substring$ -- 2155
+swap$ -- 287
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 271
-width$ -- 103
-write$ -- 996
+while$ -- 273
+width$ -- 104
+write$ -- 1006
 (There was 1 warning)

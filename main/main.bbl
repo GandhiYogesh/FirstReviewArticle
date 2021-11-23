@@ -590,12 +590,12 @@ A.~Chandrasekhar, T.~Kumar, K.~Suresh, Build optimization of fiber-reinforced
   additively manufactured components, Structural and Multidisciplinary
   Optimization 61~(1) (2020) 77--90.
 
-\bibitem{Li2021}
-H.~Li, L.~Gao, H.~Li, X.~Li, H.~Tong, {Full-scale topology optimization for
-  fiber-reinforced structures with continuous fiber paths}, Comput. Methods
-  Appl. Mech. Eng. 377 (2021) 113668.
-\newblock \href {http://dx.doi.org/10.1016/j.cma.2021.113668}
-  {\path{doi:10.1016/j.cma.2021.113668}}.
+\bibitem{Lee2018}
+J.~Lee, D.~Kim, T.~Nomura, E.~M. Dede, J.~Yoo, {Topology optimization for
+  continuous and discrete orientation design of functionally graded
+  fiber-reinforced composite structures}, Compos. Struct. 201 (2018) 217--233.
+\newblock \href {http://dx.doi.org/10.1016/j.compstruct.2018.06.020}
+  {\path{doi:10.1016/j.compstruct.2018.06.020}}.
 
 \bibitem{Desai2021}
 A.~Desai, M.~Mogra, S.~Sridhara, K.~Kumar, G.~Sesha, G.~K. Ananthasuresh,
@@ -605,26 +605,33 @@ A.~Desai, M.~Mogra, S.~Sridhara, K.~Kumar, G.~Sesha, G.~K. Ananthasuresh,
 \newblock \href {http://dx.doi.org/10.1007/s00158-020-02721-1}
   {\path{doi:10.1007/s00158-020-02721-1}}.
 
-\bibitem{Setoodeh2005}
-S.~Setoodeh, M.~M. Abdalla, Z.~G{\"{u}}rdal, {Combined topology and fiber path
-  design of composite layers using cellular automata}, Struct. Multidiscip.
-  Optim. 30 (2005) 413--421.
-\newblock \href {http://dx.doi.org/10.1007/s00158-005-0528-y}
-  {\path{doi:10.1007/s00158-005-0528-y}}.
+\bibitem{Wu2021}
+J.~Wu, O.~Sigmund, J.~P. Groen, {Topology optimization of multi-scale
+  structures: a review}, Struct. Multidiscip. Optim. 63~(3) (2021) 1455--1480.
+\newblock \href {http://dx.doi.org/10.1007/s00158-021-02881-8}
+  {\path{doi:10.1007/s00158-021-02881-8}}.
 
-\bibitem{Zhou2018}
-Y.~Zhou, T.~Nomura, K.~Saitou, {Multi-component topology and material
-  orientation design of composite structures (MTO-C)}, Comput. Methods Appl.
-  Mech. Eng. 342 (2018) 438--457.
-\newblock \href {http://dx.doi.org/10.1016/j.cma.2018.07.039}
-  {\path{doi:10.1016/j.cma.2018.07.039}}.
+\bibitem{Kim2020}
+D.~Kim, J.~Lee, T.~Nomura, E.~M. Dede, J.~Yoo, S.~Min, {Topology optimization
+  of functionally graded anisotropic composite structures using homogenization
+  design method}, Comput. Methods Appl. Mech. Eng. 369 (2020) 113220.
+\newblock \href {http://dx.doi.org/10.1016/j.cma.2020.113220}
+  {\path{doi:10.1016/j.cma.2020.113220}}.
 
-\bibitem{Liu2014}
-T.~Liu, S.~Wang, B.~Li, L.~Gao, {A level-set-based topology and shape
-  optimization method for continuum structure under geometric constraints},
-  Struct. Multidiscip. Optim. 50~(2) (2014) 253--273.
-\newblock \href {http://dx.doi.org/10.1007/s00158-014-1045-7}
-  {\path{doi:10.1007/s00158-014-1045-7}}.
+\bibitem{Groen2018}
+J.~P. Groen, O.~Sigmund, Homogenization-based topology optimization for
+  high-resolution manufacturable microstructures, International Journal for
+  Numerical Methods in Engineering 113~(8) (2018) 1148--1163.
+\newblock \href {http://dx.doi.org/10.1002/nme.5575}
+  {\path{doi:10.1002/nme.5575}}.
+
+\bibitem{Jung2022}
+T.~Jung, J.~Lee, T.~Nomura, E.~M. Dede, Inverse design of three-dimensional
+  fiber reinforced composites with spatially-varying fiber size and orientation
+  using multiscale topology optimization, Composite Structures 279 (2022)
+  114768.
+\newblock \href {http://dx.doi.org/10.1016/j.compstruct.2021.114768}
+  {\path{doi:10.1016/j.compstruct.2021.114768}}.
 
 \bibitem{Ferreira2019}
 I.~Ferreira, M.~Machado, F.~Alves, A.~Torres~Marques, A review on fibre
