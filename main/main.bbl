@@ -567,6 +567,12 @@ Q.~Xia, T.~Shi, {A cascadic multilevel optimization algorithm for the design of
 \newblock \href {http://dx.doi.org/10.1016/j.compstruct.2018.01.013}
   {\path{doi:10.1016/j.compstruct.2018.01.013}}.
 
+\bibitem{Wein2020}
+F.~Wein, P.~D. Dunning, J.~A. Norato, {A review on feature-mapping methods for
+  structural optimization}, Struct. Multidiscip. Optim. 62 (2020) 1597--1638.
+\newblock \href {http://dx.doi.org/10.1007/s00158-020-02649-6}
+  {\path{doi:10.1007/s00158-020-02649-6}}.
+
 \bibitem{Udupa2014}
 G.~Udupa, S.~S. Rao, K.~V. Gangadharan, Functionally graded composite
   materials: An overview, Procedia Materials Science 5 (2014) 1291--1299.
