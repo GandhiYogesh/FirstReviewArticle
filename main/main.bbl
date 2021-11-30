@@ -573,6 +573,18 @@ F.~Wein, P.~D. Dunning, J.~A. Norato, {A review on feature-mapping methods for
 \newblock \href {http://dx.doi.org/10.1007/s00158-020-02649-6}
   {\path{doi:10.1007/s00158-020-02649-6}}.
 
+\bibitem{Norato2015}
+J.~A. Norato, B.~K. Bell, D.~A. Tortorelli, {A geometry projection method for
+  continuum-based topology optimization with discrete elements}, Comput.
+  Methods Appl. Mech. Eng. 293 (2015) 306--327.
+\newblock \href {http://dx.doi.org/10.1016/j.cma.2015.05.005}
+  {\path{doi:10.1016/j.cma.2015.05.005}}.
+
+\bibitem{Smith2021}
+H.~Smith, J.~A. Norato, Comput. Methods Appl. Mech. Eng. 376 (2021) 113582.
+\newblock \href {http://dx.doi.org/10.1016/j.cma.2020.113582}
+  {\path{doi:10.1016/j.cma.2020.113582}}.
+
 \bibitem{Udupa2014}
 G.~Udupa, S.~S. Rao, K.~V. Gangadharan, Functionally graded composite
   materials: An overview, Procedia Materials Science 5 (2014) 1291--1299.

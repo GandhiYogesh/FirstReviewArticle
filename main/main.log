@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2021.10.23)  27 NOV 2021 20:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2021.10.23)  30 NOV 2021 10:05
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2179,6 +2179,9 @@ Underfull \hbox (badness 2134) in paragraph at lines 64--65
  []
 
 ) (./../Sections/FiberOrientationOptimization.tex [3] [4]) (/home/yoshi/FirstReviewArticle/main/./../Sections/FunctionalGraded.tex [5]) (/home/yoshi/FirstReviewArticle/main/./../Sections/Discussion.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 Underfull \hbox (badness 1365) in paragraph at lines 6--7
 []\OT1/txr/m/n/10 Continuous ori-en-ta-tion meth-ods ap-ply to man-u-fac-tur-ing
  []
@@ -2208,18 +2211,18 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 3FA8F054A9FADA17450625FBD80D0FAC;856.
  ) 
 Here is how much of TeX's memory you used:
- 31118 strings out of 492982
- 574970 string characters out of 6134895
- 764165 words of memory out of 5000000
- 33990 multiletter control sequences out of 15000+600000
+ 31126 strings out of 492982
+ 575104 string characters out of 6134895
+ 764199 words of memory out of 5000000
+ 33996 multiletter control sequences out of 15000+600000
  570519 words of font info for 118 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,15n,56p,10409b,911s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,15n,56p,10409b,895s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtcxr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txex.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on /home/yoshi/FirstReviewArticle/main/main.pdf (11 pages, 500503 bytes).
+Output written on /home/yoshi/FirstReviewArticle/main/main.pdf (11 pages, 501255 bytes).
 PDF statistics:
- 662 PDF objects out of 1000 (max. 8388607)
- 615 compressed objects within 7 object streams
- 136 named destinations out of 1000 (max. 500000)
+ 670 PDF objects out of 1000 (max. 8388607)
+ 623 compressed objects within 7 object streams
+ 138 named destinations out of 1000 (max. 500000)
  114 words of extra memory for PDF output out of 10000 (max. 10000000)
 

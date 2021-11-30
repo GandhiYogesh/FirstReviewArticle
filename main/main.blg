@@ -4,45 +4,46 @@ The top-level auxiliary file: main.aux
 The style file: elsarticle-num.bst
 Database file #1: library.bib
 Warning--I didn't find a database entry for ""
-You've used 102 entries,
+Warning--empty title in Smith2021
+You've used 104 entries,
             2937 wiz_defined-function locations,
-            1429 strings with 26678 characters,
-and the built_in function-call counts, 32665 in all, are:
-= -- 3443
-> -- 1092
+            1442 strings with 26973 characters,
+and the built_in function-call counts, 33280 in all, are:
+= -- 3507
+> -- 1109
 < -- 0
-+ -- 432
-- -- 330
-* -- 2750
-:= -- 4549
-add.period$ -- 199
-call.type$ -- 102
-change.case$ -- 101
++ -- 439
+- -- 335
+* -- 2804
+:= -- 4632
+add.period$ -- 203
+call.type$ -- 104
+change.case$ -- 102
 chr.to.int$ -- 0
-cite$ -- 102
-duplicate$ -- 795
-empty$ -- 3275
-format.name$ -- 422
-if$ -- 8136
+cite$ -- 105
+duplicate$ -- 811
+empty$ -- 3339
+format.name$ -- 429
+if$ -- 8289
 int.to.chr$ -- 0
-int.to.str$ -- 102
-missing$ -- 102
-newline$ -- 412
-num.names$ -- 102
-pop$ -- 416
+int.to.str$ -- 104
+missing$ -- 104
+newline$ -- 420
+num.names$ -- 104
+pop$ -- 425
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 1929
+skip$ -- 1965
 stack$ -- 0
-substring$ -- 2186
-swap$ -- 290
+substring$ -- 2229
+swap$ -- 296
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 0
-while$ -- 276
-width$ -- 105
-write$ -- 1016
-(There was 1 warning)
+warning$ -- 1
+while$ -- 281
+width$ -- 107
+write$ -- 1035
+(There were 2 warnings)

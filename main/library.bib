@@ -253,19 +253,12 @@ BibTeX export options can be customized via Options -> BibTeX in Mendeley Deskto
   year    = {2018}
 }
 @article{Smith2021,
-  abstract  = {We present a novel topology optimization (TO) method for the design of structures composed of bars that are made of an orthotropic, fiber-reinforced material. The designs generated under this framework tailor the layout of the fiber-reinforced bars to maximize the stiffness of the structure for a fixed amount of material. The proposed method extends the geometry projection method to represent the design via cylindrical bars that may be reinforced with continuous fibers and perform the analysis using a fixed finite element mesh. The interpolation of the material properties at the junction of multiple bars ensures that, out of the materials of the intersecting bars, the optimizer chooses the single best material. Numerical examples for the stiffness-based design of 2- and 3-dimensional frame structures are presented to demonstrate the efficacy of the proposed method.},
-  author    = {Smith, Hollis and Norato, Juli{\'{a}}n A.},
-  doi       = {10.1016/j.cma.2020.113582},
-  file      = {:C\:/Users/ygandhi1/Dropbox/FRC_TO_Article_Review/Papers/Recommended_bY_Alejandro/Julian Naruto/Topology optimization with discrete geometric components made of composite materials.pdf:pdf},
-  issn      = {00457825},
-  journal   = {Comput. Methods Appl. Mech. Eng.},
-  keywords  = {Composite materials,Geometry projection,Topology optimization},
-  pages     = {113582},
-  publisher = {Elsevier B.V.},
-  title     = {{Topology optimization with discrete geometric components made of composite materials}},
-  url       = {https://doi.org/10.1016/j.cma.2020.113582},
-  volume    = {376},
-  year      = {2021}
+  author  = {Smith, Hollis and Norato, Juli{\'{a}}n A.},
+  doi     = {10.1016/j.cma.2020.113582},
+  journal = {Comput. Methods Appl. Mech. Eng.},
+  pages   = {113582},
+  volume  = {376},
+  year    = {2021}
 }
 @book{Bendsoe1995,
   title     = {Optimization of structural topology, shape, and material},
@@ -604,19 +597,13 @@ BibTeX export options can be customized via Options -> BibTeX in Mendeley Deskto
   year    = {2015}
 }
 @article{Norato2015,
-  abstract  = {This article describes a method for the continuum-based topology optimization of structures made of discrete elements. In particular, we examine the optimization of linearly elastic planar structures made of bars of fixed width and semicircular ends. The design space for the optimization consists of the endpoint locations of the bar's medial axes and their out-of-plane thicknesses. To circumvent re-meshing upon design changes, we project the design onto a fixed analysis grid using a differentiable geometry projection that results in a density field indicating the fraction of solid material anywhere in the design space, as in density-based topology optimization methods. The out-of-plane thickness is penalized so that the optimizer is capable of removing bars during the optimization. The differentiability of the projection allows for the computation via the chain rule of design sensitivities of responses of interest, and therefore it allows for the use of robust and efficient gradient-based optimization methods. Notably, this approach makes it easier to fabricate optimal designs by using off-the-shelf stock material. Furthermore, the method considers the case where bars overlap at their joints (i.e. their thicknesses are added at the joint) and when they do not. Finally, our proposed method naturally accommodates the imposition of several fixed length scales. We demonstrate the proposed approach on classical problems of compliance-based topology optimization and identify its benefits as well as research directions to be addressed in the future.},
-  author    = {Norato, J. A. and Bell, B. K. and Tortorelli, D. A.},
-  doi       = {10.1016/j.cma.2015.05.005},
-  file      = {:C\:/Users/ygandhi1/Dropbox/FRC_TO_Article_Review/Papers/Recommended_bY_Alejandro/Julian Naruto/A geometry projection method for continuum-based topology optimization with discrete elements.pdf:pdf},
-  issn      = {00457825},
-  journal   = {Comput. Methods Appl. Mech. Eng.},
-  keywords  = {Geometry projection,Manufacturability,Multiscale topology optimization,Topology optimization},
-  pages     = {306--327},
-  publisher = {Elsevier B.V.},
-  title     = {{A geometry projection method for continuum-based topology optimization with discrete elements}},
-  url       = {http://dx.doi.org/10.1016/j.cma.2015.05.005},
-  volume    = {293},
-  year      = {2015}
+  author  = {Norato, J. A. and Bell, B. K. and Tortorelli, D. A.},
+  doi     = {10.1016/j.cma.2015.05.005},
+  journal = {Comput. Methods Appl. Mech. Eng.},
+  pages   = {306--327},
+  title   = {{A geometry projection method for continuum-based topology optimization with discrete elements}},
+  volume  = {293},
+  year    = {2015}
 }
 @article{Stegmann2005,
   author  = {Stegmann, J. and Lund, E.},
@@ -1636,12 +1623,6 @@ BibTeX export options can be customized via Options -> BibTeX in Mendeley Deskto
   volume    = {140},
   year      = {2021}
 }
-@article{Smith2019a,
-  author = {Smith, Hollis and Norato, A},
-  file   = {:C\:/Users/ygandhi1/Dropbox/FRC_TO_Article_Review/Papers/Recommended_bY_Alejandro/Julian Naruto/PyGPTO/PyGPTO_refman.pdf:pdf},
-  title  = {{GPTO : Topology Optimization using Geometry Projection}},
-  year   = {2019}
-}
 @article{Qiao2008,
   author  = {Qiao, Pizhong and Yang, Mijia and Bobaru, Florin},
   doi     = {10.1061/(ASCE)0893-1321(2008)21:4(235)},
@@ -1847,17 +1828,13 @@ BibTeX export options can be customized via Options -> BibTeX in Mendeley Deskto
   year      = {2018}
 }
 @article{Kazemi2018,
-  abstract = {We present a new method for the simultaneous topology optimization and material selection of structures made by the union of discrete geometric components, where each component is made of one of multiple available materials. Our approach is based on the geometry projection method, whereby an analytical description of the geometric components is smoothly mapped onto a density field on a fixed analysis grid. In addition to the parameters that dictate the dimensions, position, and orientation of the component, a size variable per available material is ascribed to each component. A size variable value of unity indicates that the component is made of the corresponding material. Moreover, all size variables can be zero, signifying the component is entirely removed from the design. We penalize intermediate values of the size variables via an aggregate constraint in the optimization. We also introduce a mutual material exclusion constraint that ensures that at most one material has a unity size variable in each geometric component. In addition to these constraints, we propose a novel aggregation scheme to perform the union of geometric components with dissimilar materials. These ingredients facilitate treatment of the multi-material case. Our formulation can be readily extended to any number of materials. We demonstrate our method with several numerical examples.},
-  author   = {Kazemi, Hesaneh and Vaziri, Ashkan and Norato, Juli{\'{a}}n A.},
-  doi      = {10.1115/1.4040624},
-  file     = {:C\:/Users/ygandhi1/Dropbox/FRC_TO_Article_Review/Papers/Recommended_bY_Alejandro/Julian Naruto/Topology Optimization of structures made of discrete geometric components with different material.pdf:pdf},
-  issn     = {10500472},
-  journal  = {J. Mech. Des. Trans. ASME},
-  number   = {11},
-  pages    = {1--11},
-  title    = {{Topology Optimization of Structures Made of Discrete Geometric Components with Different Materials}},
-  volume   = {140},
-  year     = {2018}
+  author  = {Kazemi, Hesaneh and Vaziri, Ashkan and Norato, Juli{\'{a}}n A.},
+  doi     = {10.1115/1.4040624},
+  journal = {J. Mech. Des. Trans. ASME},
+  pages   = {1--11},
+  title   = {{Topology Optimization of Structures Made of Discrete Geometric Components with Different Materials}},
+  volume  = {140},
+  year    = {2018}
 }
 @article{Birman2007,
   author  = {Birman, Victor and Byrd, Larry W},
