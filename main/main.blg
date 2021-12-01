@@ -3,47 +3,47 @@ Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: main.aux
 The style file: elsarticle-num.bst
 Database file #1: library.bib
-Warning--I didn't find a database entry for ""
-Warning--empty title in Smith2021
-You've used 104 entries,
+Warning--empty booktitle in Tsai1968
+Warning--empty pages in Tsai1968
+You've used 112 entries,
             2937 wiz_defined-function locations,
-            1442 strings with 26973 characters,
-and the built_in function-call counts, 33280 in all, are:
-= -- 3507
-> -- 1109
+            1495 strings with 28579 characters,
+and the built_in function-call counts, 35744 in all, are:
+= -- 3759
+> -- 1186
 < -- 0
-+ -- 439
-- -- 335
-* -- 2804
-:= -- 4632
-add.period$ -- 203
-call.type$ -- 104
-change.case$ -- 102
++ -- 470
+- -- 358
+* -- 2996
+:= -- 4967
+add.period$ -- 215
+call.type$ -- 112
+change.case$ -- 111
 chr.to.int$ -- 0
-cite$ -- 105
-duplicate$ -- 811
-empty$ -- 3339
-format.name$ -- 429
-if$ -- 8289
+cite$ -- 114
+duplicate$ -- 877
+empty$ -- 3605
+format.name$ -- 459
+if$ -- 8912
 int.to.chr$ -- 0
-int.to.str$ -- 104
-missing$ -- 104
-newline$ -- 420
-num.names$ -- 104
-pop$ -- 425
+int.to.str$ -- 112
+missing$ -- 112
+newline$ -- 448
+num.names$ -- 112
+pop$ -- 466
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 1965
+skip$ -- 2113
 stack$ -- 0
-substring$ -- 2229
-swap$ -- 296
+substring$ -- 2401
+swap$ -- 311
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 1
-while$ -- 281
-width$ -- 107
-write$ -- 1035
+warning$ -- 2
+while$ -- 303
+width$ -- 115
+write$ -- 1107
 (There were 2 warnings)

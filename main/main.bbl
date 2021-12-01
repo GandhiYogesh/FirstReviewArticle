@@ -33,6 +33,13 @@ L.~Berrocal, R.~Fern{\'{a}}ndez, S.~Gonz{\'{a}}lez, A.~Peri{\~{n}}{\'{a}}n,
 \newblock \href {http://dx.doi.org/10.1007/s40964-018-0061-3}
   {\path{doi:10.1007/s40964-018-0061-3}}.
 
+\bibitem{Wu2017}
+C.~Wu, Y.~Gao, J.~Fang, E.~Lund, Q.~Li, {Discrete topology optimization of ply
+  orientation for a carbon fiber reinforced plastic (CFRP) laminate vehicle
+  door}, Mater. Des. 128 (2017) 9--19.
+\newblock \href {http://dx.doi.org/10.1016/j.matdes.2017.04.089}
+  {\path{doi:10.1016/j.matdes.2017.04.089}}.
+
 \bibitem{Cramer2017}
 A.~D. Cramer, V.~J. Challis, A.~P. Roberts, {Physically Realizable
   Three-Dimensional Bone Prosthesis Design With Interpolated Microstructures},
@@ -484,6 +491,23 @@ Y.~Tian, S.~Pu, T.~Shi, Q.~Xia, {A parametric divergence-free vector field
 \newblock \href {http://dx.doi.org/10.1016/j.cma.2020.113574}
   {\path{doi:10.1016/j.cma.2020.113574}}.
 
+\bibitem{Riche1993}
+R.~L. Riche, R.~T. Haftka, Optimization of laminate stacking sequence for
+  buckling load maximization by genetic algorithm, AIAA journal 31~(5) (1993)
+  951--956.
+
+\bibitem{Nagendra1996}
+S.~Nagendra, D.~Jestin, Z.~Gürdal, R.~T. Haftka, L.~T. Watson, Improved
+  genetic algorithm for the design of stiffened composite panels, Computers \&
+  Structures 58 (1996) 543--555.
+\newblock \href {http://dx.doi.org/10.1016/0045-7949(95)00160-I}
+  {\path{doi:10.1016/0045-7949(95)00160-I}}.
+
+\bibitem{Liu2000_haftka}
+B.~Liu, R.~T. Haftka, M.~A. Akg{\"u}n, A.~Todoroki, Permutation genetic
+  algorithm for stacking sequence design of composite laminates, Computer
+  methods in applied mechanics and engineering 186~(2-4) (2000) 357--372.
+
 \bibitem{Bendsoee1999}
 M.~P. Bends{\o}e, O.~Sigmund, {Material interpolation schemes in topology
   optimization}, Arch. Appl. Mech. 69 (1999) 635--654.
@@ -581,7 +605,9 @@ J.~A. Norato, B.~K. Bell, D.~A. Tortorelli, {A geometry projection method for
   {\path{doi:10.1016/j.cma.2015.05.005}}.
 
 \bibitem{Smith2021}
-H.~Smith, J.~A. Norato, Comput. Methods Appl. Mech. Eng. 376 (2021) 113582.
+H.~Smith, J.~A. Norato, Topology optimization with discrete geometric
+  components made of composite materials, Computer Methods in Applied Mechanics
+  and Engineering 376 (2021) 113582.
 \newblock \href {http://dx.doi.org/10.1016/j.cma.2020.113582}
   {\path{doi:10.1016/j.cma.2020.113582}}.
 
@@ -657,6 +683,28 @@ I.~Ferreira, M.~Machado, F.~Alves, A.~Torres~Marques, A review on fibre
   972--988.
 \newblock \href {http://dx.doi.org/10.1108/RPJ-01-2019-0004}
   {\path{doi:10.1108/RPJ-01-2019-0004}}.
+
+\bibitem{Hvejsel2011}
+C.~F. Hvejsel, E.~Lund, {Material interpolation schemes for unified topology
+  and multi-material optimization}, Struct. Multidiscip. Optim. 43 (2011)
+  811--825.
+\newblock \href {http://dx.doi.org/10.1007/s00158-011-0625-z}
+  {\path{doi:10.1007/s00158-011-0625-z}}.
+
+\bibitem{Kennedy2013}
+G.~J. Kennedy, J.~R. Martins, A laminate parametrization technique for discrete
+  ply-angle problems with manufacturing constraints, Structural and
+  Multidisciplinary Optimization 48 (2013) 379--393.
+
+\bibitem{Lund2018}
+E.~Lund, Discrete material and thickness optimization of laminated composite
+  structures including failure criteria, Structural and Multidisciplinary
+  Optimization 57 (2018) 2357--2375.
+\newblock \href {http://dx.doi.org/10.1007/s00158-017-1866-2}
+  {\path{doi:10.1007/s00158-017-1866-2}}.
+
+\bibitem{Tsai1968}
+S.~W. Tsai, N.~J. Pagano, Invariant properties of composite materials., 1968.
 
 \bibitem{Chen2021}
 Y.~Chen, L.~Ye, {Topological design for {3D}-printing of carbon fibre
