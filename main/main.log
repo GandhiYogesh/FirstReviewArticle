@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2021.10.23)  1 DEC 2021 15:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2021.10.23)  15 DEC 2021 12:27
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2097,14 +2097,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 LaTeX Font Info:    Try loading font information for U+txsyc on input line 61.
  (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsyc.fd
 File: utxsyc.fd 2000/12/15 v3.1
-))
-LaTeX Font Info:    Try loading font information for OT1+txss on input line 8.
- (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ot1txss.fd
-File: ot1txss.fd 2000/12/15 v3.1
-)
-LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
-(Font)              scaled to size 4.74998pt on input line 8.
- (./../Sections/Introduction.tex
+)) (./../Sections/Introduction.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -2132,7 +2125,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 
 
 ]) (./../Sections/new.tex
-<./../Schematics/Topopt.pdf, id=122, 327.05185pt x 330.18958pt>
+<./../Schematics/Topopt.pdf, id=121, 327.05185pt x 330.18958pt>
 File: ./../Schematics/Topopt.pdf Graphic file (type pdf)
 <use ./../Schematics/Topopt.pdf>
 Package pdftex.def Info: ./../Schematics/Topopt.pdf  used on input line 5.
@@ -2155,7 +2148,7 @@ Underfull \hbox (badness 2134) in paragraph at lines 64--65
 ) (./../Sections/FiberOrientationOptimization.tex [3] [4]) (/home/yoshi/FirstReviewArticle/main/./../Sections/FunctionalGraded.tex [5]) (/home/yoshi/FirstReviewArticle/main/./../Sections/Discussion.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-) (/home/yoshi/FirstReviewArticle/main/main.bbl [6]
+ [6]) (/home/yoshi/FirstReviewArticle/main/main.bbl
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [7]
@@ -2167,28 +2160,34 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [8]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-) [9]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 23.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 23.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [9])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 22.
+ [10
+
+]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 22.
  (/home/yoshi/FirstReviewArticle/main/main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 23.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 23.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 22.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 22.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 3FA8F054A9FADA17450625FBD80D0FAC;856.
  ) 
 Here is how much of TeX's memory you used:
- 31126 strings out of 492982
- 575222 string characters out of 6134895
- 764335 words of memory out of 5000000
- 33994 multiletter control sequences out of 15000+600000
- 569858 words of font info for 116 fonts, out of 8000000 for 9000
+ 31107 strings out of 492982
+ 574908 string characters out of 6134895
+ 754386 words of memory out of 5000000
+ 33977 multiletter control sequences out of 15000+600000
+ 567802 words of font info for 113 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,15n,56p,10409b,883s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txex.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on /home/yoshi/FirstReviewArticle/main/main.pdf (9 pages, 501665 bytes).
+ 62i,15n,56p,10409b,975s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txex.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on /home/yoshi/FirstReviewArticle/main/main.pdf (10 pages, 497446 bytes).
 PDF statistics:
- 690 PDF objects out of 1000 (max. 8388607)
- 646 compressed objects within 7 object streams
- 145 named destinations out of 1000 (max. 500000)
+ 653 PDF objects out of 1000 (max. 8388607)
+ 609 compressed objects within 7 object streams
+ 149 named destinations out of 1000 (max. 500000)
  114 words of extra memory for PDF output out of 10000 (max. 10000000)
 

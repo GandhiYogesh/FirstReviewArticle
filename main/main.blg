@@ -4,45 +4,45 @@ The top-level auxiliary file: main.aux
 The style file: elsarticle-num.bst
 Database file #1: library.bib
 Warning--empty booktitle in Tsai1968
-You've used 112 entries,
+You've used 115 entries,
             2937 wiz_defined-function locations,
-            1496 strings with 28587 characters,
-and the built_in function-call counts, 35927 in all, are:
-= -- 3785
-> -- 1186
+            1516 strings with 29140 characters,
+and the built_in function-call counts, 36873 in all, are:
+= -- 3891
+> -- 1210
 < -- 1
-+ -- 470
-- -- 358
-* -- 3004
-:= -- 4984
-add.period$ -- 215
-call.type$ -- 112
-change.case$ -- 111
++ -- 480
+- -- 365
+* -- 3082
+:= -- 5111
+add.period$ -- 221
+call.type$ -- 115
+change.case$ -- 114
 chr.to.int$ -- 0
-cite$ -- 113
-duplicate$ -- 886
-empty$ -- 3619
-format.name$ -- 459
-if$ -- 8962
+cite$ -- 116
+duplicate$ -- 910
+empty$ -- 3716
+format.name$ -- 469
+if$ -- 9200
 int.to.chr$ -- 0
-int.to.str$ -- 112
-missing$ -- 112
-newline$ -- 448
-num.names$ -- 112
-pop$ -- 465
+int.to.str$ -- 115
+missing$ -- 115
+newline$ -- 460
+num.names$ -- 115
+pop$ -- 477
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 2128
+skip$ -- 2185
 stack$ -- 0
-substring$ -- 2433
-swap$ -- 320
+substring$ -- 2502
+swap$ -- 329
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 1
-while$ -- 306
-width$ -- 115
-write$ -- 1108
+while$ -- 315
+width$ -- 118
+write$ -- 1138
 (There was 1 warning)

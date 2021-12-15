@@ -750,4 +750,25 @@ B.~Fedulov, A.~Fedorenko, A.~Khaziev, F.~Antonov, Optimization of parts
 \newblock \href {http://dx.doi.org/10.1016/j.compositesb.2021.109406}
   {\path{doi:10.1016/j.compositesb.2021.109406}}.
 
+\bibitem{Lyu2005}
+N.~Lyu, K.~Saitou, Topology optimization of multicomponent beam structure via
+  decomposition-based assembly synthesis, Journal of Mechanical Design 127
+  (2005) 170--183.
+\newblock \href {http://dx.doi.org/10.1115/1.1814671}
+  {\path{doi:10.1115/1.1814671}}.
+
+\bibitem{Zhou2018_MTO}
+Y.~Zhou, K.~Saitou, Gradient-based multi-component topology optimization for
+  stamped sheet metal assemblies ({MTO}-s), Structural and Multidisciplinary
+  Optimization 58 (2018) 83--94.
+\newblock \href {http://dx.doi.org/10.1007/s00158-017-1878-y}
+  {\path{doi:10.1007/s00158-017-1878-y}}.
+
+\bibitem{Zhou2018}
+Y.~Zhou, T.~Nomura, K.~Saitou, {Multi-component topology and material
+  orientation design of composite structures (MTO-C)}, Comput. Methods Appl.
+  Mech. Eng. 342 (2018) 438--457.
+\newblock \href {http://dx.doi.org/10.1016/j.cma.2018.07.039}
+  {\path{doi:10.1016/j.cma.2018.07.039}}.
+
 \end{thebibliography}
