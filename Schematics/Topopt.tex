@@ -28,42 +28,40 @@ derived styles for specific kinds of nodes.
 \begin{document}
 
 \begin{tikzpicture}
-  \node[inner sep=0pt] (DesignDomain) at (5,0)
-  {\includegraphics[width=.25\textwidth]{./../Images/DesignDomain.PNG}};
+    \node[inner sep=0pt] (DesignDomain) at (5,0)
+    {\includegraphics[width=.25\textwidth]{./../Images/DesignDomain.PNG}};
 
+    \node[equation] (Sensitivity) at (6,-3)
+    {$\frac{d \Phi}{d \rho_{e}}=\frac{\partial \Phi}{\partial \rho_{e}}+\mathbf{\lambda}^{T}\left(\frac{\partial \mathbf{K}}{\partial \rho_{e}} \mathbf{U}+\frac{\partial \mathbf{F}}{\partial \rho_{e}}\right)$ \\
+        $\mathbf{K}^{T} \mathbf{\lambda}=-\frac{\partial \mathbf{\Phi}}{\partial \mathbf{U}}$};
 
-  \node[equation] (Sensitivity) at (6,-3)
-  {$\frac{d \Phi}{d \rho_{e}}=\frac{\partial \Phi}{\partial \rho_{e}}+\mathbf{\lambda}^{T}\left(\frac{\partial \mathbf{K}}{\partial \rho_{e}} \mathbf{U}+\frac{\partial \mathbf{F}}{\partial \rho_{e}}\right)$ \\
-    $\mathbf{K}^{T} \mathbf{\lambda}=-\frac{\partial \mathbf{\Phi}}{\partial \mathbf{U}}$};
+    \node[inner sep=0pt] (Regularization) at (6,-5.9)
+    {\includegraphics[width=.35\textwidth]{./../Images/Regularization.png}};
 
-  \node[inner sep=0pt] (Regularization) at (6,-5.9)
-  {\includegraphics[width=.35\textwidth]{./../Images/Regularization.png}};
+    [c
+    grow                    = down,
+    sibling distance        = 5em,
+    level distance          = 6em,
+    edge from parent/.style = {draw, -latex},
+    every node/.style       = {font=\footnotesize},
+    sloped
+    ]
 
-
-  [c
-  grow                    = down,
-  sibling distance        = 5em,
-  level distance          = 6em,
-  edge from parent/.style = {draw, -latex},
-  every node/.style       = {font=\footnotesize},
-  sloped
-  ]
-
-  \node [root] (P1){$\Omega^{m}=\Omega$\\ Design Domain Initialization}
-  child { node [env] (A) {FEM \\ $KU = F$ or \\ $ R(U)=0$ }
-      child { node [env] (B) {Sensitivity Analysis}
-          child { node [env] (C) {Regularization}
-              child{ node [env] (E) {Optimization}
-                  child{ node [env] (F) {$\rho_{e}$ converged?}
-                      child { node [dummy, color=red] (G) {STOP}
-                          edge from parent node [above] {}}}
-                  edge from parent node [above] {Yes}}}}
-      edge from parent node [above] {} };
-  % \draw[->] (D) edge[bend left] node[midway, color=blue, fill=white]{projection} (A);
-  \draw[->] (F) edge[ bend left] node[ color=blue, fill=white]{no} (A);
-  \draw[->,thick] (P1) -- (DesignDomain);
-  \draw[->,thick] (B) -- (Sensitivity);
-  \draw[->,thick] (C) -- (Regularization.north west);
+    \node [root] (P1){$\Omega^{m}=\Omega$\\ Design Domain Initialization}
+    child { node [env] (A) {FEM \\ $KU = F$ or \\ $ R(U)=0$ }
+            child { node [env] (B) {Sensitivity Analysis}
+                    child { node [env] (C) {Regularization}
+                            child{ node [env] (E) {Optimization}
+                                    child{ node [env] (F) {$\rho_{e}$ converged?}
+                                            child { node [dummy, color=red] (G) {STOP}
+                                                    edge from parent node [above] {}}}
+                                    edge from parent node [above] {Yes}}}}
+            edge from parent node [above] {} };
+    % \draw[->] (D) edge[bend left] node[midway, color=blue, fill=white]{projection} (A);
+    \draw[->] (F) edge[ bend left] node[ color=blue, fill=white]{no} (A);
+    \draw[->,thick] (P1) -- (DesignDomain);
+    \draw[->,thick] (B) -- (Sensitivity);
+    \draw[->,thick] (C) -- (Regularization.north west);
 
 \end{tikzpicture}
 \end{document}
