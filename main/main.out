@@ -3,10 +3,11 @@
 \BOOKMARK [2][-]{subsection.2.1}{Problem Statement}{section.2}% 3
 \BOOKMARK [2][-]{subsection.2.2}{Discrete Topology Optimization}{section.2}% 4
 \BOOKMARK [2][-]{subsection.2.3}{Continuous Topology Optimization}{section.2}% 5
-\BOOKMARK [1][-]{section.3}{Paramterization schemes for fiber orientation}{}% 6
-\BOOKMARK [2][-]{subsection.3.1}{Continuous parameterization}{section.3}% 7
-\BOOKMARK [2][-]{subsection.3.2}{Discrete paramterization}{section.3}% 8
-\BOOKMARK [2][-]{subsection.3.3}{Hybrid paramterization}{section.3}% 9
-\BOOKMARK [2][-]{subsection.3.4}{Feature-based parameterization}{section.3}% 10
-\BOOKMARK [1][-]{section.4}{Functionally graded anisotropic material}{}% 11
-\BOOKMARK [1][-]{section.5}{Discussion}{}% 12
+\BOOKMARK [1][-]{section.3}{A brief note on optimization algorithms in TO}{}% 6
+\BOOKMARK [1][-]{section.4}{Paramterization schemes for fiber orientation}{}% 7
+\BOOKMARK [2][-]{subsection.4.1}{Continuous parameterization}{section.4}% 8
+\BOOKMARK [2][-]{subsection.4.2}{Discrete paramterization}{section.4}% 9
+\BOOKMARK [2][-]{subsection.4.3}{Hybrid paramterization}{section.4}% 10
+\BOOKMARK [2][-]{subsection.4.4}{Feature-based parameterization}{section.4}% 11
+\BOOKMARK [1][-]{section.5}{Functionally graded anisotropic material}{}% 12
+\BOOKMARK [1][-]{section.6}{Discussion and future trends}{}% 13

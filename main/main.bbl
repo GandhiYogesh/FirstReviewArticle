@@ -96,6 +96,13 @@ Y.~Sano, R.~Matsuzaki, M.~Ueda, A.~Todoroki, Y.~Hirano, {{3D} printing of
 \newblock \href {http://dx.doi.org/10.1016/j.addma.2018.10.033}
   {\path{doi:10.1016/j.addma.2018.10.033}}.
 
+\bibitem{Ghiasi2010}
+H.~Ghiasi, K.~Fayazbakhsh, D.~Pasini, L.~Lessard, {Optimum stacking sequence
+  design of composite materials {Part} {II}: {Variable} stiffness design},
+  Compos. Struct. 93 (2010) 1--13.
+\newblock \href {http://dx.doi.org/10.1016/j.compstruct.2010.06.001}
+  {\path{doi:10.1016/j.compstruct.2010.06.001}}.
+
 \bibitem{Ghiasi2009}
 H.~Ghiasi, D.~Pasini, L.~Lessard, {Optimum stacking sequence design of
   composite materials {Part} {I}: {Constant} stiffness design}, Compos. Struct.
@@ -269,6 +276,74 @@ T.~Belytschko, S.~P. Xiao, C.~Parimi, Topology optimization with implicit
 \newblock \href {http://dx.doi.org/10.1002/nme.824}
   {\path{doi:10.1002/nme.824}}.
 
+\bibitem{Hasancebi2010}
+O.~Hasan{\c{c}}ebi, S.~{\c{C}}arbas, M.~P. Saka, {Improving the performance of
+  simulated annealing in structural optimization}, Struct. Multidiscip. Optim.
+  41 (2010) 189--203.
+\newblock \href {http://dx.doi.org/10.1007/s00158-009-0418-9}
+  {\path{doi:10.1007/s00158-009-0418-9}}.
+
+\bibitem{Reuschel1999}
+D.~Reuschel, C.~Mattheck, {Three-dimensional fibre optimisation with computer
+  aided internal optimisation}, Aeronaut. J. 103~(1027) (1999) 415--420.
+\newblock \href {http://dx.doi.org/10.1017/S0001924000027962}
+  {\path{doi:10.1017/S0001924000027962}}.
+
+\bibitem{Voelkl2018}
+H.~Voelkl, S.~Wartzack, {Design for composites: Tailor-made, bio-inspired
+  topology optimization for fiber-reinforced plastics}, Proc. Int. Des. Conf.
+  Des. 1 (2018) 499--510.
+\newblock \href {http://dx.doi.org/10.21278/idc.2018.0126}
+  {\path{doi:10.21278/idc.2018.0126}}.
+
+\bibitem{Svanberg1987}
+K.~Svanberg, {The method of moving asymptotes—a new method for structural
+  optimization}, Int. J. Numer. Methods Eng. 24 (1987) 359--373.
+\newblock \href {http://dx.doi.org/10.1002/nme.1620240207}
+  {\path{doi:10.1002/nme.1620240207}}.
+
+\bibitem{Dunning2015}
+P.~D. Dunning, H.~A. Kim, Introducing the sequential linear programming
+  level-set method for topology optimization, Structural and Multidisciplinary
+  Optimization 51 (2015) 631--643.
+\newblock \href {http://dx.doi.org/10.1007/s00158-014-1174-z}
+  {\path{doi:10.1007/s00158-014-1174-z}}.
+
+\bibitem{Shen2020}
+Y.~Shen, D.~Branscomb, {Orientation optimization in anisotropic materials using
+  gradient descent method}, Compos. Struct. 234 (2020) 111680.
+\newblock \href {http://dx.doi.org/10.1016/j.compstruct.2019.111680}
+  {\path{doi:10.1016/j.compstruct.2019.111680}}.
+
+\bibitem{Kim2021}
+N.~H. Kim, T.~Dong, D.~Weinberg, J.~Dalidd, {Generalized optimality criteria
+  method for topology optimization}, Appl. Sci. 11.
+\newblock \href {http://dx.doi.org/10.3390/app11073175}
+  {\path{doi:10.3390/app11073175}}.
+
+\bibitem{Patnaik1995}
+S.~N. Patnaik, J.~D. Guptill, L.~Berke, {Merits and limitations of optimality
+  criteria method for structural optimization}, Int. J. Numer. Methods Eng. 38
+  (1995) 3087--3120.
+\newblock \href {http://dx.doi.org/10.1002/nme.1620381806}
+  {\path{doi:10.1002/nme.1620381806}}.
+
+\bibitem{Fuchs1990}
+M.~Fuchs, R.~H. Ali, A family of homogeneous analysis models for the design of
+  scalable structures, Structural optimization 2~(3) (1990) 143--152.
+
+\bibitem{Fleury_1989CONLIN}
+C.~Fleury, {CONLIN}: An efficient dual optimizer based on convex approximation
+  concepts, Structural optimization 1 (1989) 81--89.
+\newblock \href {http://dx.doi.org/10.1007/BF01637664}
+  {\path{doi:10.1007/BF01637664}}.
+
+\bibitem{Barthelemy1993}
+J.~F.~M. Barthelemy, R.~T. Haftka, Approximation concepts for optimum
+  structural design — a review, Structural optimization 5 (1993) 129--144.
+\newblock \href {http://dx.doi.org/10.1007/BF01743349}
+  {\path{doi:10.1007/BF01743349}}.
+
 \bibitem{Bruyneel2002}
 M.~Bruyneel, C.~Fleury, {Composite structures optimization using sequential
   convex programming}, Adv. Eng. Softw. 33 (2002) 697--711.
@@ -308,39 +383,6 @@ T.~Nomura, A.~Kawamoto, T.~Kondoh, E.~M. Dede, J.~Lee, Y.~Song, N.~Kikuchi,
   (2019) 107187.
 \newblock \href {http://dx.doi.org/10.1016/j.compositesb.2019.107187}
   {\path{doi:10.1016/j.compositesb.2019.107187}}.
-
-\bibitem{Hasancebi2010}
-O.~Hasan{\c{c}}ebi, S.~{\c{C}}arbas, M.~P. Saka, {Improving the performance of
-  simulated annealing in structural optimization}, Struct. Multidiscip. Optim.
-  41 (2010) 189--203.
-\newblock \href {http://dx.doi.org/10.1007/s00158-009-0418-9}
-  {\path{doi:10.1007/s00158-009-0418-9}}.
-
-\bibitem{Reuschel1999}
-D.~Reuschel, C.~Mattheck, {Three-dimensional fibre optimisation with computer
-  aided internal optimisation}, Aeronaut. J. 103~(1027) (1999) 415--420.
-\newblock \href {http://dx.doi.org/10.1017/S0001924000027962}
-  {\path{doi:10.1017/S0001924000027962}}.
-
-\bibitem{Voelkl2018}
-H.~Voelkl, S.~Wartzack, {Design for composites: Tailor-made, bio-inspired
-  topology optimization for fiber-reinforced plastics}, Proc. Int. Des. Conf.
-  Des. 1 (2018) 499--510.
-\newblock \href {http://dx.doi.org/10.21278/idc.2018.0126}
-  {\path{doi:10.21278/idc.2018.0126}}.
-
-\bibitem{Svanberg1987}
-K.~Svanberg, {The method of moving asymptotes—a new method for structural
-  optimization}, Int. J. Numer. Methods Eng. 24 (1987) 359--373.
-\newblock \href {http://dx.doi.org/10.1002/nme.1620240207}
-  {\path{doi:10.1002/nme.1620240207}}.
-
-\bibitem{Dunning2015}
-P.~D. Dunning, H.~A. Kim, Introducing the sequential linear programming
-  level-set method for topology optimization, Structural and Multidisciplinary
-  Optimization 51 (2015) 631--643.
-\newblock \href {http://dx.doi.org/10.1007/s00158-014-1174-z}
-  {\path{doi:10.1007/s00158-014-1174-z}}.
 
 \bibitem{M.C.E1904}
 A.~G.~M. Michell, Lviii. the limits of economy of material in frame-structures,
@@ -425,25 +467,6 @@ X.~Yan, Q.~Xu, H.~Hua, D.~Huang, X.~Huang,
   {\path{doi:10.1080/0305215X.2019.1663186}}.
 \newline\urlprefix\url{https://doi.org/0305215X.2019.1663186}
 
-\bibitem{Shen2020}
-Y.~Shen, D.~Branscomb, {Orientation optimization in anisotropic materials using
-  gradient descent method}, Compos. Struct. 234 (2020) 111680.
-\newblock \href {http://dx.doi.org/10.1016/j.compstruct.2019.111680}
-  {\path{doi:10.1016/j.compstruct.2019.111680}}.
-
-\bibitem{Kim2021}
-N.~H. Kim, T.~Dong, D.~Weinberg, J.~Dalidd, {Generalized optimality criteria
-  method for topology optimization}, Appl. Sci. 11.
-\newblock \href {http://dx.doi.org/10.3390/app11073175}
-  {\path{doi:10.3390/app11073175}}.
-
-\bibitem{Patnaik1995}
-S.~N. Patnaik, J.~D. Guptill, L.~Berke, {Merits and limitations of optimality
-  criteria method for structural optimization}, Int. J. Numer. Methods Eng. 38
-  (1995) 3087--3120.
-\newblock \href {http://dx.doi.org/10.1002/nme.1620381806}
-  {\path{doi:10.1002/nme.1620381806}}.
-
 \bibitem{Bruyneel2013}
 M.~Bruyneel, S.~Zein, {A modified Fast Marching Method for defining fiber
   placement trajectories over meshes}, Comput. \& Struct. 125 (2013) 45--52.
@@ -462,13 +485,6 @@ P.~Hao, C.~Liu, X.~Liu, X.~Yuan, B.~Wang, G.~Li, M.~Dong, L.~Chen,
   multiple cutouts by level set method}, Compos. Struct. 206 (2018) 888--902.
 \newblock \href {http://dx.doi.org/10.1016/j.compstruct.2018.08.086}
   {\path{doi:10.1016/j.compstruct.2018.08.086}}.
-
-\bibitem{Ghiasi2010}
-H.~Ghiasi, K.~Fayazbakhsh, D.~Pasini, L.~Lessard, {Optimum stacking sequence
-  design of composite materials {Part} {II}: {Variable} stiffness design},
-  Compos. Struct. 93 (2010) 1--13.
-\newblock \href {http://dx.doi.org/10.1016/j.compstruct.2010.06.001}
-  {\path{doi:10.1016/j.compstruct.2010.06.001}}.
 
 \bibitem{Brampton2015}
 C.~J. Brampton, K.~C. Wu, H.~A. Kim, {New optimization method for steered fiber
