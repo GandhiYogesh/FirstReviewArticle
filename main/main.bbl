@@ -183,6 +183,10 @@ Y.~M. Xie, G.~P. Steven, {A simple evolutionary procedure for structural
 \newblock \href {http://dx.doi.org/10.1016/0045-7949(93)90035-C}
   {\path{doi:10.1016/0045-7949(93)90035-C}}.
 
+\bibitem{Bourdin2003}
+B.~Bourdin, A.~Chambolle, Design-dependent loads in topology optimization,
+  ESAIM: Control, Optimisation and Calculus of Variations 9 (2003) 19--48.
+
 \bibitem{Rozvany2009}
 G.~I.~N. Rozvany, {A critical review of established methods of structural
   topology optimization}, Struct. Multidiscip. Optim. 37 (2009) 217--237.

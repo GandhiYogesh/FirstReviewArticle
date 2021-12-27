@@ -478,6 +478,9 @@ INPUT /home/yoshi/FirstReviewArticle/main/./../Sections/Discussion.tex
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/txfonts/txss.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/txfonts/rtxphvr.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/txfonts/rtxss.tfm
+INPUT /home/yoshi/FirstReviewArticle/Sections/Closuer.tex
+INPUT /home/yoshi/FirstReviewArticle/Sections/Closuer.tex
+INPUT /home/yoshi/FirstReviewArticle/Sections/Closuer.tex
 INPUT /home/yoshi/FirstReviewArticle/main/main.bbl
 INPUT /home/yoshi/FirstReviewArticle/main/main.bbl
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/txfonts/txss.tfm
