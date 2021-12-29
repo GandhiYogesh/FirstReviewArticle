@@ -15,7 +15,8 @@
         edge from parent path={(\tikzparentnode\tikzparentanchor) |- (\tikzchildnode\tikzchildanchor)}]
     
     \node {Fiber Orientation Parameterization}
-    child {node {Discrete Material Optimization}
+    child {node {Discrete Fiber Optimization}
+            child {node {Discrete Material Optimization}}
             child {node {Shape Function with Penalization}}
             child {node {Bi-Value Coding Parameterization}}
             child {node {Normal Distribution Fiber Optimization}}
@@ -26,7 +27,7 @@
         }
     child [missing] {}
     child [missing] {}
-    child {node at (0, -1.3) {Continuous Fiber Angle Optimization}
+    child {node at (0, -2) {Continuous Fiber Optimization}
             child {node {Analytical}
                     child {node {Strain-Based }}
                     child {node {Stress-Based}}
