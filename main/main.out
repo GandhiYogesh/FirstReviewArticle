@@ -1,14 +1,15 @@
 \BOOKMARK [1][-]{section.1}{Introduction}{}% 1
-\BOOKMARK [1][-]{section.2}{Topology Optimization for continuum structures}{}% 2
-\BOOKMARK [2][-]{subsection.2.1}{Problem Statement}{section.2}% 3
-\BOOKMARK [2][-]{subsection.2.2}{Discrete Topology Optimization}{section.2}% 4
-\BOOKMARK [2][-]{subsection.2.3}{Continuous Topology Optimization}{section.2}% 5
-\BOOKMARK [1][-]{section.3}{A brief note on optimization algorithms in TO}{}% 6
-\BOOKMARK [1][-]{section.4}{Paramterization schemes for fiber orientation}{}% 7
-\BOOKMARK [2][-]{subsection.4.1}{Continuous parameterization}{section.4}% 8
-\BOOKMARK [2][-]{subsection.4.2}{Discrete paramterization}{section.4}% 9
-\BOOKMARK [2][-]{subsection.4.3}{Hybrid paramterization}{section.4}% 10
-\BOOKMARK [2][-]{subsection.4.4}{Feature-based parameterization}{section.4}% 11
-\BOOKMARK [1][-]{section.5}{Functionally graded anisotropic material}{}% 12
-\BOOKMARK [1][-]{section.6}{Discussion and future trends}{}% 13
-\BOOKMARK [1][-]{section.7}{Closure}{}% 14
+\BOOKMARK [1][-]{section.2}{Introduction}{}% 2
+\BOOKMARK [1][-]{section.3}{Topology Optimization for continuum structures}{}% 3
+\BOOKMARK [2][-]{subsection.3.1}{Problem Statement}{section.3}% 4
+\BOOKMARK [2][-]{subsection.3.2}{Discrete Topology Optimization}{section.3}% 5
+\BOOKMARK [2][-]{subsection.3.3}{Continuous Topology Optimization}{section.3}% 6
+\BOOKMARK [1][-]{section.4}{A brief note on optimization algorithms in TO}{}% 7
+\BOOKMARK [1][-]{section.5}{Paramterization schemes for fiber orientation}{}% 8
+\BOOKMARK [2][-]{subsection.5.1}{Continuous parameterization}{section.5}% 9
+\BOOKMARK [2][-]{subsection.5.2}{Discrete paramterization}{section.5}% 10
+\BOOKMARK [2][-]{subsection.5.3}{Hybrid paramterization}{section.5}% 11
+\BOOKMARK [2][-]{subsection.5.4}{Feature-based parameterization}{section.5}% 12
+\BOOKMARK [1][-]{section.6}{Functionally graded anisotropic material}{}% 13
+\BOOKMARK [1][-]{section.7}{Discussion and future trends}{}% 14
+\BOOKMARK [1][-]{section.8}{Closure}{}% 15
